@@ -1,0 +1,98 @@
+{
+  "description": "T5 output immediately before T6 manual authoring; top N is filtered to characters in each IM table before slicing.",
+  "frequencySha256": "530ad756c308033798467f3586fa74e9e275ad131882783cbb897ae8ba25a6e3",
+  "byIm": {
+    "boshiamy": {
+      "overall": 2169,
+      "frequency": {
+        "100": {
+          "verified": 45,
+          "total": 100,
+          "coveredWeight": 17.246459999999992,
+          "totalWeight": 34.56474
+        },
+        "500": {
+          "verified": 215,
+          "total": 500,
+          "coveredWeight": 34.19192999999998,
+          "totalWeight": 73.15062999999995
+        },
+        "1000": {
+          "verified": 420,
+          "total": 1000,
+          "coveredWeight": 40.37649999999998,
+          "totalWeight": 88.17847999999994
+        }
+      }
+    },
+    "cangjie": {
+      "overall": 2351,
+      "frequency": {
+        "100": {
+          "verified": 53,
+          "total": 100,
+          "coveredWeight": 20.050120000000003,
+          "totalWeight": 34.56474
+        },
+        "500": {
+          "verified": 241,
+          "total": 500,
+          "coveredWeight": 38.54278,
+          "totalWeight": 73.15062999999995
+        },
+        "1000": {
+          "verified": 475,
+          "total": 1000,
+          "coveredWeight": 45.48673999999996,
+          "totalWeight": 88.17847999999994
+        }
+      }
+    },
+    "dayi": {
+      "overall": 2308,
+      "frequency": {
+        "100": {
+          "verified": 49,
+          "total": 100,
+          "coveredWeight": 18.04969999999999,
+          "totalWeight": 34.56474
+        },
+        "500": {
+          "verified": 251,
+          "total": 500,
+          "coveredWeight": 37.27955999999999,
+          "totalWeight": 73.15062999999995
+        },
+        "1000": {
+          "verified": 479,
+          "total": 1000,
+          "coveredWeight": 44.13485999999999,
+          "totalWeight": 88.17847999999994
+        }
+      }
+    },
+    "array": {
+      "overall": 1926,
+      "frequency": {
+        "100": {
+          "verified": 47,
+          "total": 100,
+          "coveredWeight": 17.443969999999993,
+          "totalWeight": 34.56474
+        },
+        "500": {
+          "verified": 231,
+          "total": 500,
+          "coveredWeight": 35.301509999999986,
+          "totalWeight": 73.15062999999995
+        },
+        "1000": {
+          "verified": 436,
+          "total": 1000,
+          "coveredWeight": 41.47071000000001,
+          "totalWeight": 88.17847999999994
+        }
+      }
+    }
+  }
+}

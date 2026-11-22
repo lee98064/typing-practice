@@ -6,3 +6,8 @@ dev-dist
 test-results
 playwright-report
 data-raw/cache
+__pycache__/
+*.pyc
+# user's private reference files (not redistributed; site uses McBopomofo for 注音)
+data-raw/boshiamy/index.js
+data-raw/boshiamy/bopomofo.cin

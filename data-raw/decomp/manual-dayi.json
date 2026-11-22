@@ -1,0 +1,2217 @@
+{
+  "本": [
+    {
+      "code": "ie",
+      "parts": [
+        {
+          "component": "木",
+          "key": "i"
+        },
+        {
+          "component": "一",
+          "key": "e"
+        }
+      ],
+      "picked": [
+        0,
+        1
+      ],
+      "roles": [
+        "首",
+        "次"
+      ]
+    }
+  ],
+  "生": [
+    {
+      "code": "2e",
+      "parts": [
+        {
+          "component": "牛",
+          "key": "2"
+        },
+        {
+          "component": "一",
+          "key": "e"
+        }
+      ],
+      "picked": [
+        0,
+        1
+      ],
+      "roles": [
+        "首",
+        "次"
+      ]
+    }
+  ],
+  "星": [
+    {
+      "code": "d2e",
+      "parts": [
+        {
+          "component": "日",
+          "key": "d"
+        },
+        {
+          "component": "牛",
+          "key": "2"
+        },
+        {
+          "component": "一",
+          "key": "e"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "定": [
+    {
+      "code": "me9",
+      "parts": [
+        {
+          "component": "宀",
+          "key": "m"
+        },
+        {
+          "component": "一",
+          "key": "e"
+        },
+        {
+          "component": "止",
+          "key": "9"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "科": [
+    {
+      "code": "v.s",
+      "parts": [
+        {
+          "component": "禾",
+          "key": "v"
+        },
+        {
+          "component": "丶",
+          "key": "."
+        },
+        {
+          "component": "丶",
+          "key": "."
+        },
+        {
+          "component": "十",
+          "key": "s"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "東": [
+    {
+      "code": "id",
+      "parts": [
+        {
+          "component": "木",
+          "key": "i"
+        },
+        {
+          "component": "日",
+          "key": "d"
+        }
+      ],
+      "picked": [
+        0,
+        1
+      ],
+      "roles": [
+        "首",
+        "次"
+      ]
+    }
+  ],
+  "裡": [
+    {
+      "code": "kdf",
+      "parts": [
+        {
+          "component": "衤",
+          "key": "k"
+        },
+        {
+          "component": "日",
+          "key": "d"
+        },
+        {
+          "component": "土",
+          "key": "f"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "北": [
+    {
+      "code": "9ec",
+      "parts": [
+        {
+          "component": "卜",
+          "key": "9"
+        },
+        {
+          "component": "一",
+          "key": "e"
+        },
+        {
+          "component": "匕",
+          "key": "c"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "路": [
+    {
+      "code": "9xo",
+      "parts": [
+        {
+          "component": "足",
+          "key": "9"
+        },
+        {
+          "component": "夂",
+          "key": "x"
+        },
+        {
+          "component": "口",
+          "key": "o"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "由": [
+    {
+      "code": "7s",
+      "parts": [
+        {
+          "component": "囗",
+          "key": "7"
+        },
+        {
+          "component": "十",
+          "key": "s"
+        }
+      ],
+      "picked": [
+        0,
+        1
+      ],
+      "roles": [
+        "首",
+        "次"
+      ]
+    }
+  ],
+  "他": [
+    {
+      "code": "abc",
+      "parts": [
+        {
+          "component": "亻",
+          "key": "a"
+        },
+        {
+          "component": "乛",
+          "key": "b"
+        },
+        {
+          "component": "丨",
+          "key": "1"
+        },
+        {
+          "component": "乚",
+          "key": "c"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "可": [
+    {
+      "code": "eoj",
+      "parts": [
+        {
+          "component": "一",
+          "key": "e"
+        },
+        {
+          "component": "口",
+          "key": "o"
+        },
+        {
+          "component": "亅",
+          "key": "j"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "州": [
+    {
+      "code": ".11",
+      "parts": [
+        {
+          "component": "丶",
+          "key": "."
+        },
+        {
+          "component": "丨",
+          "key": "1"
+        },
+        {
+          "component": "丶",
+          "key": "."
+        },
+        {
+          "component": "丨",
+          "key": "1"
+        },
+        {
+          "component": "丶",
+          "key": "."
+        },
+        {
+          "component": "丨",
+          "key": "1"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        5
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "建": [
+    {
+      "code": "rf0",
+      "parts": [
+        {
+          "component": "彐",
+          "key": "r"
+        },
+        {
+          "component": "土",
+          "key": "f"
+        },
+        {
+          "component": "廴",
+          "key": "0"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "最": [
+    {
+      "code": "dpx",
+      "parts": [
+        {
+          "component": "日",
+          "key": "d"
+        },
+        {
+          "component": "耳",
+          "key": "p"
+        },
+        {
+          "component": "又",
+          "key": "x"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "要": [
+    {
+      "code": "4l",
+      "parts": [
+        {
+          "component": "西",
+          "key": "4"
+        },
+        {
+          "component": "女",
+          "key": "l"
+        }
+      ],
+      "picked": [
+        0,
+        1
+      ],
+      "roles": [
+        "首",
+        "次"
+      ]
+    }
+  ],
+  "戰": [
+    {
+      "code": "oo5",
+      "parts": [
+        {
+          "component": "口",
+          "key": "o"
+        },
+        {
+          "component": "口",
+          "key": "o"
+        },
+        {
+          "component": "日",
+          "key": "d"
+        },
+        {
+          "component": "十",
+          "key": "s"
+        },
+        {
+          "component": "戈",
+          "key": "5"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        4
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "使": [
+    {
+      "code": "aex",
+      "parts": [
+        {
+          "component": "亻",
+          "key": "a"
+        },
+        {
+          "component": "一",
+          "key": "e"
+        },
+        {
+          "component": "口",
+          "key": "o"
+        },
+        {
+          "component": "乂",
+          "key": "x"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "巴": [
+    {
+      "code": "r1c",
+      "parts": [
+        {
+          "component": "コ",
+          "key": "r"
+        },
+        {
+          "component": "丨",
+          "key": "1"
+        },
+        {
+          "component": "乚",
+          "key": "c"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "提": [
+    {
+      "code": "gd9",
+      "parts": [
+        {
+          "component": "扌",
+          "key": "g"
+        },
+        {
+          "component": "日",
+          "key": "d"
+        },
+        {
+          "component": "一",
+          "key": "e"
+        },
+        {
+          "component": "止",
+          "key": "9"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "也": [
+    {
+      "code": "b1c",
+      "parts": [
+        {
+          "component": "乛",
+          "key": "b"
+        },
+        {
+          "component": "丨",
+          "key": "1"
+        },
+        {
+          "component": "乚",
+          "key": "c"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "阿": [
+    {
+      "code": "pej",
+      "parts": [
+        {
+          "component": "阝",
+          "key": "p"
+        },
+        {
+          "component": "一",
+          "key": "e"
+        },
+        {
+          "component": "口",
+          "key": "o"
+        },
+        {
+          "component": "亅",
+          "key": "j"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "次": [
+    {
+      "code": ".na",
+      "parts": [
+        {
+          "component": "冫",
+          "key": "."
+        },
+        {
+          "component": "𠂊",
+          "key": "n"
+        },
+        {
+          "component": "人",
+          "key": "a"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "比": [
+    {
+      "code": "cc",
+      "parts": [
+        {
+          "component": "匕",
+          "key": "c"
+        },
+        {
+          "component": "匕",
+          "key": "c"
+        }
+      ],
+      "picked": [
+        0,
+        1
+      ],
+      "roles": [
+        "首",
+        "次"
+      ]
+    }
+  ],
+  "書": [
+    {
+      "code": "rfd",
+      "parts": [
+        {
+          "component": "彐",
+          "key": "r"
+        },
+        {
+          "component": "土",
+          "key": "f"
+        },
+        {
+          "component": "日",
+          "key": "d"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "資": [
+    {
+      "code": ".n8",
+      "parts": [
+        {
+          "component": "冫",
+          "key": "."
+        },
+        {
+          "component": "𠂊",
+          "key": "n"
+        },
+        {
+          "component": "人",
+          "key": "a"
+        },
+        {
+          "component": "目",
+          "key": "3"
+        },
+        {
+          "component": "八",
+          "key": "8"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        4
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "色": [
+    {
+      "code": "nrc",
+      "parts": [
+        {
+          "component": "𠂊",
+          "key": "n"
+        },
+        {
+          "component": "コ",
+          "key": "r"
+        },
+        {
+          "component": "丨",
+          "key": "1"
+        },
+        {
+          "component": "乚",
+          "key": "c"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "已": [
+    {
+      "code": "rc",
+      "parts": [
+        {
+          "component": "コ",
+          "key": "r"
+        },
+        {
+          "component": "乚",
+          "key": "c"
+        }
+      ],
+      "picked": [
+        0,
+        1
+      ],
+      "roles": [
+        "首",
+        "次"
+      ]
+    }
+  ],
+  "設": [
+    {
+      "code": "1qx",
+      "parts": [
+        {
+          "component": "言",
+          "key": "1"
+        },
+        {
+          "component": "几",
+          "key": "q"
+        },
+        {
+          "component": "又",
+          "key": "x"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "單": [
+    {
+      "code": "oos",
+      "parts": [
+        {
+          "component": "口",
+          "key": "o"
+        },
+        {
+          "component": "口",
+          "key": "o"
+        },
+        {
+          "component": "日",
+          "key": "d"
+        },
+        {
+          "component": "十",
+          "key": "s"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "洲": [
+    {
+      "code": "x.1",
+      "parts": [
+        {
+          "component": "氵",
+          "key": "x"
+        },
+        {
+          "component": "丶",
+          "key": "."
+        },
+        {
+          "component": "丨",
+          "key": "1"
+        },
+        {
+          "component": "丶",
+          "key": "."
+        },
+        {
+          "component": "丨",
+          "key": "1"
+        },
+        {
+          "component": "丶",
+          "key": "."
+        },
+        {
+          "component": "丨",
+          "key": "1"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        6
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "曲": [
+    {
+      "code": "7u",
+      "parts": [
+        {
+          "component": "囗",
+          "key": "7"
+        },
+        {
+          "component": "廾",
+          "key": "u"
+        }
+      ],
+      "picked": [
+        0,
+        1
+      ],
+      "roles": [
+        "首",
+        "次"
+      ]
+    }
+  ],
+  "字": [
+    {
+      "code": "mbg",
+      "parts": [
+        {
+          "component": "宀",
+          "key": "m"
+        },
+        {
+          "component": "乛",
+          "key": "b"
+        },
+        {
+          "component": "十",
+          "key": "g"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "河": [
+    {
+      "code": "xej",
+      "parts": [
+        {
+          "component": "氵",
+          "key": "x"
+        },
+        {
+          "component": "一",
+          "key": "e"
+        },
+        {
+          "component": "口",
+          "key": "o"
+        },
+        {
+          "component": "亅",
+          "key": "j"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "標": [
+    {
+      "code": "i4t",
+      "parts": [
+        {
+          "component": "木",
+          "key": "i"
+        },
+        {
+          "component": "西",
+          "key": "4"
+        },
+        {
+          "component": "一",
+          "key": "e"
+        },
+        {
+          "component": "一",
+          "key": "e"
+        },
+        {
+          "component": "小",
+          "key": "t"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        4
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "李": [
+    {
+      "code": "ibg",
+      "parts": [
+        {
+          "component": "木",
+          "key": "i"
+        },
+        {
+          "component": "乛",
+          "key": "b"
+        },
+        {
+          "component": "十",
+          "key": "g"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "百": [
+    {
+      "code": "hd",
+      "parts": [
+        {
+          "component": "厂",
+          "key": "h"
+        },
+        {
+          "component": "日",
+          "key": "d"
+        }
+      ],
+      "picked": [
+        0,
+        1
+      ],
+      "roles": [
+        "首",
+        "次"
+      ]
+    }
+  ],
+  "近": [
+    {
+      "code": "he0",
+      "parts": [
+        {
+          "component": "厂",
+          "key": "h"
+        },
+        {
+          "component": "一",
+          "key": "e"
+        },
+        {
+          "component": "丨",
+          "key": "1"
+        },
+        {
+          "component": "辶",
+          "key": "0"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "改": [
+    {
+      "code": "rcx",
+      "parts": [
+        {
+          "component": "コ",
+          "key": "r"
+        },
+        {
+          "component": "乚",
+          "key": "c"
+        },
+        {
+          "component": "攵",
+          "key": "x"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "常": [
+    {
+      "code": "tm1",
+      "parts": [
+        {
+          "component": "小",
+          "key": "t"
+        },
+        {
+          "component": "冖",
+          "key": "m"
+        },
+        {
+          "component": "口",
+          "key": "o"
+        },
+        {
+          "component": "冂",
+          "key": "m"
+        },
+        {
+          "component": "丨",
+          "key": "1"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        4
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "劃": [
+    {
+      "code": "rfn",
+      "parts": [
+        {
+          "component": "彐",
+          "key": "r"
+        },
+        {
+          "component": "土",
+          "key": "f"
+        },
+        {
+          "component": "田",
+          "key": "7"
+        },
+        {
+          "component": "一",
+          "key": "e"
+        },
+        {
+          "component": "刂",
+          "key": "n"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        4
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "官": [
+    {
+      "code": "mhr",
+      "parts": [
+        {
+          "component": "宀",
+          "key": "m"
+        },
+        {
+          "component": "尸",
+          "key": "h"
+        },
+        {
+          "component": "コ",
+          "key": "r"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "起": [
+    {
+      "code": "f9c",
+      "parts": [
+        {
+          "component": "土",
+          "key": "f"
+        },
+        {
+          "component": "止",
+          "key": "9"
+        },
+        {
+          "component": "コ",
+          "key": "r"
+        },
+        {
+          "component": "乚",
+          "key": "c"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "程": [
+    {
+      "code": "vo5",
+      "parts": [
+        {
+          "component": "禾",
+          "key": "v"
+        },
+        {
+          "component": "口",
+          "key": "o"
+        },
+        {
+          "component": "王",
+          "key": "5"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "記": [
+    {
+      "code": "1rc",
+      "parts": [
+        {
+          "component": "言",
+          "key": "1"
+        },
+        {
+          "component": "コ",
+          "key": "r"
+        },
+        {
+          "component": "乚",
+          "key": "c"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "紀": [
+    {
+      "code": "trc",
+      "parts": [
+        {
+          "component": "糸",
+          "key": "t"
+        },
+        {
+          "component": "コ",
+          "key": "r"
+        },
+        {
+          "component": "乚",
+          "key": "c"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "季": [
+    {
+      "code": "vbg",
+      "parts": [
+        {
+          "component": "禾",
+          "key": "v"
+        },
+        {
+          "component": "乛",
+          "key": "b"
+        },
+        {
+          "component": "十",
+          "key": "g"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "容": [
+    {
+      "code": "m8o",
+      "parts": [
+        {
+          "component": "宀",
+          "key": "m"
+        },
+        {
+          "component": "八",
+          "key": "8"
+        },
+        {
+          "component": "人",
+          "key": "a"
+        },
+        {
+          "component": "口",
+          "key": "o"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "然": [
+    {
+      "code": "jvy",
+      "parts": [
+        {
+          "component": "月",
+          "key": "j"
+        },
+        {
+          "component": "大",
+          "key": "v"
+        },
+        {
+          "component": "丶",
+          "key": "."
+        },
+        {
+          "component": "灬",
+          "key": "y"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "料": [
+    {
+      "code": "8.s",
+      "parts": [
+        {
+          "component": "米",
+          "key": "8"
+        },
+        {
+          "component": "丶",
+          "key": "."
+        },
+        {
+          "component": "丶",
+          "key": "."
+        },
+        {
+          "component": "十",
+          "key": "s"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "陳": [
+    {
+      "code": "pid",
+      "parts": [
+        {
+          "component": "阝",
+          "key": "p"
+        },
+        {
+          "component": "木",
+          "key": "i"
+        },
+        {
+          "component": "日",
+          "key": "d"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "從": [
+    {
+      "code": "eaa9",
+      "parts": [
+        {
+          "component": "彳",
+          "key": "e"
+        },
+        {
+          "component": "人",
+          "key": "a"
+        },
+        {
+          "component": "人",
+          "key": "a"
+        },
+        {
+          "component": "止",
+          "key": "9"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "三",
+        "尾"
+      ]
+    }
+  ],
+  "別": [
+    {
+      "code": "o,n",
+      "parts": [
+        {
+          "component": "口",
+          "key": "o"
+        },
+        {
+          "component": "力",
+          "key": ","
+        },
+        {
+          "component": "刂",
+          "key": "n"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "畫": [
+    {
+      "code": "rfe",
+      "parts": [
+        {
+          "component": "彐",
+          "key": "r"
+        },
+        {
+          "component": "土",
+          "key": "f"
+        },
+        {
+          "component": "田",
+          "key": "7"
+        },
+        {
+          "component": "一",
+          "key": "e"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "川": [
+    {
+      "code": "111",
+      "parts": [
+        {
+          "component": "丨",
+          "key": "1"
+        },
+        {
+          "component": "丨",
+          "key": "1"
+        },
+        {
+          "component": "丨",
+          "key": "1"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "自": [
+    {
+      "code": "/3",
+      "parts": [
+        {
+          "component": "丿",
+          "key": "/"
+        },
+        {
+          "component": "目",
+          "key": "3"
+        }
+      ],
+      "picked": [
+        0,
+        1
+      ],
+      "roles": [
+        "首",
+        "次"
+      ]
+    }
+  ],
+  "究": [
+    {
+      "code": "m8c",
+      "parts": [
+        {
+          "component": "宀",
+          "key": "m"
+        },
+        {
+          "component": "八",
+          "key": "8"
+        },
+        {
+          "component": "丿",
+          "key": "/"
+        },
+        {
+          "component": "乙",
+          "key": "c"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "著": [
+    {
+      "code": "ufd",
+      "parts": [
+        {
+          "component": "艹",
+          "key": "u"
+        },
+        {
+          "component": "土",
+          "key": "f"
+        },
+        {
+          "component": "丿",
+          "key": "/"
+        },
+        {
+          "component": "日",
+          "key": "d"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "管": [
+    {
+      "code": "/mr",
+      "parts": [
+        {
+          "component": "竹",
+          "key": "/"
+        },
+        {
+          "component": "宀",
+          "key": "m"
+        },
+        {
+          "component": "尸",
+          "key": "h"
+        },
+        {
+          "component": "コ",
+          "key": "r"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "聖": [
+    {
+      "code": "po5",
+      "parts": [
+        {
+          "component": "耳",
+          "key": "p"
+        },
+        {
+          "component": "口",
+          "key": "o"
+        },
+        {
+          "component": "王",
+          "key": "5"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "夏": [
+    {
+      "code": "h3x",
+      "parts": [
+        {
+          "component": "厂",
+          "key": "h"
+        },
+        {
+          "component": "目",
+          "key": "3"
+        },
+        {
+          "component": "夂",
+          "key": "x"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "座": [
+    {
+      "code": "caf",
+      "parts": [
+        {
+          "component": "广",
+          "key": "c"
+        },
+        {
+          "component": "人",
+          "key": "a"
+        },
+        {
+          "component": "人",
+          "key": "a"
+        },
+        {
+          "component": "土",
+          "key": "f"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "未": [
+    {
+      "code": "ei",
+      "parts": [
+        {
+          "component": "一",
+          "key": "e"
+        },
+        {
+          "component": "木",
+          "key": "i"
+        }
+      ],
+      "picked": [
+        0,
+        1
+      ],
+      "roles": [
+        "首",
+        "次"
+      ]
+    }
+  ],
+  "擊": [
+    {
+      "code": "6wg",
+      "parts": [
+        {
+          "component": "車",
+          "key": "6"
+        },
+        {
+          "component": "凵",
+          "key": "w"
+        },
+        {
+          "component": "几",
+          "key": "q"
+        },
+        {
+          "component": "又",
+          "key": "x"
+        },
+        {
+          "component": "手",
+          "key": "g"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        4
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "帝": [
+    {
+      "code": "k81",
+      "parts": [
+        {
+          "component": "亠",
+          "key": "k"
+        },
+        {
+          "component": "丷",
+          "key": "8"
+        },
+        {
+          "component": "冖",
+          "key": "m"
+        },
+        {
+          "component": "冂",
+          "key": "m"
+        },
+        {
+          "component": "丨",
+          "key": "1"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        4
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "速": [
+    {
+      "code": "io0",
+      "parts": [
+        {
+          "component": "木",
+          "key": "i"
+        },
+        {
+          "component": "口",
+          "key": "o"
+        },
+        {
+          "component": "辶",
+          "key": "0"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "超": [
+    {
+      "code": "f9o",
+      "parts": [
+        {
+          "component": "土",
+          "key": "f"
+        },
+        {
+          "component": "止",
+          "key": "9"
+        },
+        {
+          "component": "刀",
+          "key": "n"
+        },
+        {
+          "component": "口",
+          "key": "o"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "好": [
+    {
+      "code": "lbg",
+      "parts": [
+        {
+          "component": "女",
+          "key": "l"
+        },
+        {
+          "component": "乛",
+          "key": "b"
+        },
+        {
+          "component": "十",
+          "key": "g"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "造": [
+    {
+      "code": "2o0",
+      "parts": [
+        {
+          "component": "牛",
+          "key": "2"
+        },
+        {
+          "component": "口",
+          "key": "o"
+        },
+        {
+          "component": "辶",
+          "key": "0"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "先": [
+    {
+      "code": "2q",
+      "parts": [
+        {
+          "component": "牛",
+          "key": "2"
+        },
+        {
+          "component": "儿",
+          "key": "q"
+        }
+      ],
+      "picked": [
+        0,
+        1
+      ],
+      "roles": [
+        "首",
+        "次"
+      ]
+    }
+  ],
+  "引": [
+    {
+      "code": "rb1",
+      "parts": [
+        {
+          "component": "コ",
+          "key": "r"
+        },
+        {
+          "component": "㇆",
+          "key": "b"
+        },
+        {
+          "component": "丨",
+          "key": "1"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "決": [
+    {
+      "code": "xra",
+      "parts": [
+        {
+          "component": "氵",
+          "key": "x"
+        },
+        {
+          "component": "コ",
+          "key": "r"
+        },
+        {
+          "component": "人",
+          "key": "a"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ],
+  "存": [
+    {
+      "code": "s1g",
+      "parts": [
+        {
+          "component": "十",
+          "key": "s"
+        },
+        {
+          "component": "丨",
+          "key": "1"
+        },
+        {
+          "component": "乛",
+          "key": "b"
+        },
+        {
+          "component": "十",
+          "key": "g"
+        }
+      ],
+      "picked": [
+        0,
+        1,
+        3
+      ],
+      "roles": [
+        "首",
+        "次",
+        "尾"
+      ]
+    }
+  ]
+}

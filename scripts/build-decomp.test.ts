@@ -124,6 +124,34 @@ describe('generated decomposition integrity', () => {
   })
 })
 
+describe('T6 hand-authored golden cases', () => {
+  it.each([
+    ['boshiamy', '圖', 'oojo', '囗口十囗口', [0, 1, 2, 4]],
+    ['cangjie', '斯', 'tchml', '廿一一八竹一中', [0, 3, 4, 5, 6]],
+    ['cangjie', '從', 'hoooo', '竹人人人卜人', [0, 1, 2, 3, 5]],
+    ['dayi', '洲', 'x.1', '氵丶丨丶丨丶丨', [0, 1, 6]],
+    ['dayi', '資', '.n8', '冫𠂊人目八', [0, 1, 4]],
+    ['array', '學', 'o..f', '臼乂乂冖乛十', [0, 1, 2, 5]],
+    ['array', '屬', 'bc//', '尸氺罒勹虫', [0, 1, 2, 4]],
+  ] as const)('%s %s preserves the full manual roots and omitted middle parts', (im, char, code, components, picked) => {
+    expect(read<DecompFile>(`data-raw/decomp/manual-${im}.json`)[char]?.[0]?.code).toBe(code)
+    const entry = golden(im, char, code)
+    expect(entry.parts.map(p => p.component).join('')).toBe(components)
+    expect(entry.picked).toEqual(picked)
+    if (im === 'cangjie') expect(entry.roles).toEqual(['字首首', '字首尾', '字身首', '字身次', '字身尾'])
+    else expect(entry.roles.at(-1)).toBe('尾')
+  })
+
+  it('backs manually authored 布 with the CNS terminal vertical, retaining the supplement role', () => {
+    const entry = golden('boshiamy', '布', 'xni')
+    expect(read<DecompFile>('data-raw/decomp/manual-boshiamy.json')['布']?.[0]?.code).toBe('xni')
+    expect(entry.parts.map(p => p.component).join('')).toBe('ナ巾丨')
+    expect(entry.roles).toEqual(['首', '次', '補'])
+    expect(strokes['布']?.at(-1)).toBe('2')
+    expect(strokeSupplement(strokes['布'])).toEqual(entry.parts[2])
+  })
+})
+
 describe('CNS stroke evidence', () => {
   it('rebuilds the compact map from the retained, hashed CNS source', async () => {
     const { cnsChars, relevant } = await loadDecompSources()

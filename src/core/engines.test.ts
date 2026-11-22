@@ -11,9 +11,8 @@ import { readingLabel, ZhuyinReading } from './zhuyin-reading'
 const boshiamy = cinToTableFile(readFileSync(new URL('../../data-raw/boshiamy/boshiamy.cin', import.meta.url), 'utf8'), {
   id: 'boshiamy', maxCodeLength: 5, selKeys: '0123456789', selLabels: '0123456789', rule: '依字形、字音、字義取碼。',
 })
-const zhuyin = cinToTableFile(readFileSync(new URL('../../data-raw/boshiamy/bopomofo.cin', import.meta.url), 'utf8'), {
-  id: 'zhuyin', maxCodeLength: 4, commitKeys: ' 3467',
-})
+// Zhuyin = the shipped McBopomofo-based table (scripts/build-data.ts).
+const zhuyin = JSON.parse(readFileSync(new URL('../../public/data/im/zhuyin.json', import.meta.url), 'utf8')) as ImTableFile
 function rootsFor(file: ImTableFile): RootsFile {
   return { im: file.meta.id, rules: [], keys: Object.entries(file.keynames).map(([key, label]) => ({ key, label, roots: [label], mnemonic: `${label} 的記憶法` })) }
 }

@@ -6,6 +6,8 @@ import { rootIndex, resolve, SPLIT, takingPlans, validEntry } from './lib/decomp
 import type { Aliases, Atom, Cut, Node, Pick, RootIndex } from './lib/decomp'
 import { loadDecompSources } from './lib/decomp-sources'
 import { compareLargeRoots, strokeMap, strokeSupplement, surroundOrder } from './lib/cns-strokes'
+import { manualDecompReport } from './lib/manual-decomp-report'
+import type { ManualSummary } from './lib/manual-decomp-report'
 
 const ROOT = new URL('../', import.meta.url)
 const read = (p: string) => readFile(new URL(p, ROOT), 'utf8')
@@ -161,8 +163,9 @@ function manualCut(im: ImId, ch: string, entry: DecompEntry): Cut | null {
   }
   return { parts, split: h, ...(bodySplit ? { bodySplit } : {}) }
 }
-const report: string[] = ['# 拆字對齊報告', '', '範圍：教育部常用 4808 字 ∪ 文章漢字；分母為該輸入法字表內的目標字。Before 固定為 T5 開始前的 T4 實測產物，重跑不會移動。', '', '| 輸入法 | Before (T4) | After (T5) | 演算法／人工（字） | 大小 |', '|---|---:|---:|---:|---:|']
+const report: string[] = ['# 拆字對齊報告', '', '範圍：教育部常用 4808 字 ∪ 文章漢字；分母為該輸入法字表內的目標字。上表 Before 固定為 T4 實測產物；T6 人工拆解的 T5 → T6 比較另列下節，重跑不會移動。', '', '| 輸入法 | Before (T4) | After (T6) | 演算法／人工（字） | 大小 |', '|---|---:|---:|---:|---:|']
 const samples: string[] = []
+const manualSummaries: ManualSummary[] = []
 await mkdir(new URL('public/data/decomp/', ROOT), { recursive: true })
 for (const im of ['boshiamy', 'array', 'dayi', 'cangjie'] as const) {
   const table = await json<ImTableFile>(`public/data/im/${im}.json`)
@@ -238,6 +241,8 @@ for (const im of ['boshiamy', 'array', 'dayi', 'cangjie'] as const) {
   const out: DecompFile = {}
   let algorithm = 0
   let manual = 0
+  let manualRejected = 0
+  const manualAccepted: string[] = []
   for (const ch of targets) {
     const match = aligned.get(ch)
     if (!match) continue
@@ -254,17 +259,20 @@ for (const im of ['boshiamy', 'array', 'dayi', 'cangjie'] as const) {
       const paths = matches(im, ch, [entry.code], [...search(ch), ...(cut ? [cut] : [])], ix, aliases, table.table)
       const path = paths.find(p => JSON.stringify(p.entry.parts.map(x => [x.component, x.key])) === JSON.stringify(entry.parts.map(x => [x.component, x.key])))
       if (out[ch] || !targets.has(ch) || !top600.has(ch) || !path || !validEntry(entry, im, ch, table.table, ix, [path.plan])) {
+        manualRejected++
         console.warn(`reject manual ${im} ${ch}/${entry.code}: scope, roots, code or taking rule`)
         continue
       }
       const ids = idsOf.get(ch)
       out[ch] = [{ ...path.entry, ...(ids && ids !== ch ? { ids } : {}) }]
       manual++
+      manualAccepted.push(ch)
       break
     }
   }
   const text = JSON.stringify(out) + '\n'
   const denominator = [...targets].filter(c => rev.has(c)).length
+  manualSummaries.push({ im, denominator, accepted: manualAccepted, rejected: manualRejected })
   const before = `${BEFORE[im]}/${denominator} (${(BEFORE[im] / denominator * 100).toFixed(1)}%)`
   const after = `${Object.keys(out).length}/${denominator} (${(Object.keys(out).length / denominator * 100).toFixed(1)}%)`
   const bytes = Buffer.byteLength(text)
@@ -284,7 +292,7 @@ for (const im of ['boshiamy', 'array', 'dayi', 'cangjie'] as const) {
   }
   samples.push('', ...[...`明崩謝這想`].filter(c => out[c]).map(ch => `- ${ch}：${decompositionLines(im, ch, out[ch]![0]!).join('')}`), '')
 }
-report.push('', '## CNS 證據與重現', '',
+report.push('', await manualDecompReport(manualSummaries), '', '## CNS 證據與重現', '',
   `- 來源：[全字庫屬性資料集](https://data.gov.tw/dataset/5961)，選用 OGDL-1.0；下載 URL、日期、原 ZIP／原筆順檔／保留子集 SHA-256 及 Unicode 對照檔 SHA-256 見 [LICENSE-SOURCE.txt](../data-raw/cns/LICENSE-SOURCE.txt)。上游檔名實為 CNS_strokes_sequence.txt。原檔約 2.14 MB，僅保留目標及遞迴 IDS／CNS 部件的原始列，其餘不進 repo。`,
   `- 範圍 ${targets.size} 個目標字、${relevant.size} 個含部件的相關字形；精簡 [char → 筆順碼](../data-raw/decomp/strokes-cns.json) 有 ${Object.keys(strokes).length} 字，其中 ${[...targets].filter(c => strokes[c]).length} 個目標字。衝突 Unicode 序列 ${conflicts.length} 字；衝突或含 0／6 的資料不作筆畫證據，沒有對無資料字形補造筆畫數。`,
   '- 筆型 1→橫 E、2→豎 I、3→撇 P；4 合併點／捺，只有既有 aliases 的末筆形狀證據可分出點 A、捺 N，否則拒絕；5 為折筆族，不硬套鍵。補短先從 CNS 與形狀證據導出鍵，再核對字表最後一鍵，部件記 group／role「補」。既有俞的明示末形規定另標「規定補」，不冒稱 CNS 末筆。',
@@ -293,7 +301,7 @@ report.push('', '## CNS 證據與重現', '',
   '- 證據鏈：保留 CNS 原始列＋既有 CNS→Unicode 對照 → 排除衝突的字形筆序 → 末筆鍵／大根排序／唯一部件順序 → roots、takingPlans、resolve、validEntry → compact JSON 與本報告。原表只作最終驗證，不能作補碼來源。',
   '- 重現：`node --import tsx scripts/fetch-cns-strokes.ts` 更新來源；`node --import tsx scripts/build-decomp.ts` 離線重建精簡筆序、四種拆字及本報告；`pnpm test`、`pnpm exec vue-tsc -b --noEmit` 驗證。五組補短 golden、全檔根／索引／角色／碼表一致性、拒絕歧義筆型及包圍順序皆有測試；所有新增／重建檔案小於 1 MB。',
   '', '## 驗證與界線', '',
-  '- 每個根（含未取根與補碼）均須出現在該鍵字根清單或有來源的別形；逐筆核對 picked 串接碼、真實字表及取碼索引／角色。人工檔亦通過相同驗證；本次未加入人工逐字拆解。',
+  '- 每個根（含未取根與補碼）均須出現在該鍵字根清單或有來源的別形；逐筆核對 picked 串接碼、真實字表及取碼索引／角色。人工檔亦通過相同驗證；T6 接受／拒絕數與人工抽樣另列上節。',
   '- IDS 依臺灣 T 標記優先；按複雜度處理目標與其遞迴部件，完整根序列（排除補碼）反覆展開至無新增。倉頡只額外採用 aliases-cangjie.json 明列的完整部件根序列，須先與原表及根表核對，從不直接把目標字自身的碼當拆解。',
   '- 倉頡：字首首尾；字身不超過三根全取；超過時，不可再分字身取首次尾，可分字身取其首部首尾＋餘部尾（首部僅一根則餘部取首尾）。⿸⿹⿺ 及四面包圍按外內分體；未實作須減筆的包含省略。X 僅允許明列的身／臼／齊難形。',
   '- 嘸蝦米：前三尾；一兩根補短須有末筆或圖表明示規定碼證據。行列：前三尾。大易：三碼首次尾，四碼原表採前三尾。',

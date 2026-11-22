@@ -171,7 +171,7 @@ describe('TypingSession', () => {
   })
 
   it('stores per-code-point expected readings and accepts smart Zhuyin commits', () => {
-    const zhuyin = cinToTableFile(readFileSync(new URL('../../data-raw/boshiamy/bopomofo.cin', import.meta.url), 'utf8'), { id: 'zhuyin' })
+    const zhuyin = JSON.parse(readFileSync(new URL('../../public/data/im/zhuyin.json', import.meta.url), 'utf8')) as ImTableFile
     const phonetic = createInputMethod({ table: zhuyin, roots: rootsFor(zhuyin), zhuyin: { table: zhuyin, phrases: { phrases: { 銀行: ['up6', 'c;6'] } } } })
     const target = session('銀行', { im: phonetic })
     expect(target.state.cells.map((cell) => cell.expected)).toEqual(['up6', 'c;6'])
