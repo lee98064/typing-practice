@@ -3,7 +3,7 @@ import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import { X, Upload, RotateCcw } from 'lucide-vue-next'
 import ImSwitcher from './ImSwitcher.vue'
-import { useSettings, type KeyboardHint, type TextSize, type ThemePref } from '@/stores/settings'
+import { useSettings, type KeyboardHint, type TextSize, type ThemePref, type TouchPref } from '@/stores/settings'
 import { useImStore } from '@/stores/im'
 import { IM_CATALOG, IM_ORDER } from '@/lib/imCatalog'
 import { cinToTableFile } from '@/core/cin'
@@ -29,6 +29,11 @@ const THEMES: { v: ThemePref; t: string }[] = [
   { v: 'system', t: '跟隨系統' },
   { v: 'light', t: '宣紙' },
   { v: 'dark', t: '墨夜' },
+]
+const TOUCH: { v: TouchPref; t: string }[] = [
+  { v: 'auto', t: '自動' },
+  { v: 'on', t: '開啟' },
+  { v: 'off', t: '關閉' },
 ]
 const SIZES: { v: TextSize; t: string }[] = [
   { v: 's', t: '小' },
@@ -97,6 +102,17 @@ async function resetCin(id: ImId) {
           <span class="lab">顯示字根鍵盤</span>
           <input v-model="settings.showKeyboard" type="checkbox" class="sw" />
         </label>
+      </section>
+
+      <section>
+        <h3>平板模式</h3>
+        <div class="seg-row">
+          <span class="lab">螢幕鍵盤</span>
+          <div class="segs">
+            <button v-for="t in TOUCH" :key="t.v" class="seg" :class="{ on: settings.touchKeyboard === t.v }" @click="settings.touchKeyboard = t.v">{{ t.t }}</button>
+          </div>
+        </div>
+        <p class="hint">自動：在平板、手機等觸控裝置上，直接點畫面上的字根鍵盤打字。{{ settings.touchMode ? '目前已開啟。' : '' }}</p>
       </section>
 
       <section>

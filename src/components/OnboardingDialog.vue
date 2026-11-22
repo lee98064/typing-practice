@@ -22,7 +22,7 @@ const lastRoot = computed(() => {
 })
 
 watch(step, (s) => {
-  if (s === 1) nextTick(() => probe.value?.focus())
+  if (s === 1 && !settings.touchMode) nextTick(() => probe.value?.focus())
 })
 
 function onProbe(e: KeyboardEvent) {
@@ -73,6 +73,16 @@ function finish() {
           </div>
         </div>
 
+        <div v-else-if="step === 1 && settings.touchMode" key="1t" class="pane">
+          <span class="icon"><Keyboard :size="26" /></span>
+          <h2 class="serif">直接點螢幕上的字根鍵盤</h2>
+          <p class="lead">
+            平板模式下，練習畫面下方會出現{{ IM_CATALOG[settings.im].name }}字根鍵盤，點鍵就能組字；
+            最下排有「退格」「空白送字」「清除」。接上實體鍵盤也可以直接打，系統輸入法記得切成英文。
+          </p>
+          <p class="lead muted">可以在設定的「平板模式」切換。也能把墨打加入主畫面，當成 App 離線使用。</p>
+        </div>
+
         <div v-else-if="step === 1" key="1" class="pane">
           <span class="icon"><Keyboard :size="26" /></span>
           <h2 class="serif">把系統輸入法切成英文</h2>
@@ -98,7 +108,8 @@ function finish() {
           <h2 class="serif">練習時會發生的事</h2>
           <ul class="how">
             <li><strong>按鍵即時變字根</strong>文章下方會出現像真的輸入法一樣的組字窗和候選字。</li>
-            <li><strong>錯三次出現字根卡</strong>同一個字打錯 {{ settings.hintThreshold }} 次，右側會告訴你字根、簡碼和拆法，也可以隨時按 <span class="kbd">Ctrl</span><span class="kbd">/</span> 偷看。</li>
+            <li v-if="settings.touchMode"><strong>錯三次出現字根卡</strong>同一個字打錯 {{ settings.hintThreshold }} 次，會跳出字根、簡碼和拆法，也可以隨時點「提示」偷看。</li>
+            <li v-else><strong>錯三次出現字根卡</strong>同一個字打錯 {{ settings.hintThreshold }} 次，右側會告訴你字根、簡碼和拆法，也可以隨時按 <span class="kbd">Ctrl</span><span class="kbd">/</span> 偷看。</li>
             <li><strong>字根鍵盤會發光</strong>打錯時，下方鍵盤會亮出下一個該按的鍵。</li>
             <li><strong>測驗與紀錄</strong>計時測驗會給成績單，常錯的字可以一鍵特訓。</li>
           </ul>

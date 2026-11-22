@@ -12,6 +12,6 @@ touch "$TMP/.nojekyll"   # Vite emits files starting with "_" — keep Jekyll aw
 cd "$TMP"
 git init -q -b gh-pages
 git add -A
-git commit -q -m "Deploy $(git -C "$OLDPWD" rev-parse --short HEAD)"
+git commit -q -m "Deploy $(git -C "$OLDPWD" rev-parse --short HEAD)" -m "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 git push -q -f "$REPO_URL" gh-pages
 echo "Deployed to gh-pages"

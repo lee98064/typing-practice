@@ -1,11 +1,12 @@
 import { defineStore } from 'pinia'
-import { useLocalStorage, usePreferredDark } from '@vueuse/core'
+import { useLocalStorage, useMediaQuery, usePreferredDark } from '@vueuse/core'
 import { computed, watchEffect } from 'vue'
 import type { ImId, PunctMode } from '@/core/types'
 
 export type ThemePref = 'system' | 'light' | 'dark'
 export type KeyboardHint = 'always' | 'after-error' | 'never'
 export type TextSize = 's' | 'm' | 'l'
+export type TouchPref = 'auto' | 'on' | 'off'
 
 /** Per-viewer conveniences only (localStorage, wrapped by VueUse with try/catch). */
 export const useSettings = defineStore('settings', () => {
@@ -20,6 +21,12 @@ export const useSettings = defineStore('settings', () => {
   const testHints = useLocalStorage<boolean>('modaa:test-hints', false)
   const onboarded = useLocalStorage<boolean>('modaa:onboarded', false)
   const lastArticle = useLocalStorage<string>('modaa:last-article', '')
+  /** 平板模式: on-screen tappable root keyboard. 'auto' = touch-only device (no hover). */
+  const touchKeyboard = useLocalStorage<TouchPref>('modaa:touch-kbd', 'auto')
+  const touchDevice = useMediaQuery('(hover: none) and (pointer: coarse)')
+  const touchMode = computed(() =>
+    touchKeyboard.value === 'on' || (touchKeyboard.value === 'auto' && touchDevice.value),
+  )
 
   const prefersDark = usePreferredDark()
   const isDark = computed(() =>
@@ -48,6 +55,9 @@ export const useSettings = defineStore('settings', () => {
     testHints,
     onboarded,
     lastArticle,
+    touchKeyboard,
+    touchDevice,
+    touchMode,
     isDark,
     cycleTheme,
   }

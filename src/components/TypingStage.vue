@@ -5,8 +5,8 @@
  */
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRouter } from 'vue-router'
-import { useEventListener, useMediaQuery, useResizeObserver } from '@vueuse/core'
-import { RotateCcw, BookOpen, Keyboard, Pause, Play } from 'lucide-vue-next'
+import { useEventListener, useMediaQuery, useResizeObserver, useWindowSize } from '@vueuse/core'
+import { RotateCcw, BookOpen, Keyboard, Pause, Play, Lightbulb } from 'lucide-vue-next'
 import ArticleScroll from './ArticleScroll.vue'
 import ImePopover from './ImePopover.vue'
 import StatsBar from './StatsBar.vue'
@@ -33,8 +33,53 @@ const focused = ref(false)
 const caret = ref({ x: 0, y: 0, w: 0, h: 0 })
 const frameWidth = ref(600)
 const wide = useMediaQuery('(min-width: 900px)')
-const coarse = useMediaQuery('(pointer: coarse)')
 const sawKey = ref(false)
+/** 平板模式: on-screen keyboard, never focus the hidden textarea (no OS keyboard pop-up). */
+const touch = computed(() => settings.touchMode)
+const { height: winH } = useWindowSize()
+/*
+ * 平板模式 layout: measure the real chrome so article + keyboard fill exactly one screen.
+ * The keyboard gets what is left after ≥3 article lines (capped at 46% of the screen);
+ * the article then takes every remaining line.
+ */
+const stageEl = ref<HTMLElement | null>(null)
+const paperEl = ref<HTMLElement | null>(null)
+const kbWrapEl = ref<HTMLElement | null>(null)
+const layout = ref({ top: 96, chrome: 190, kb: 260, bottom: 54 })
+function measureLayout() {
+  if (!touch.value) return
+  const top = stageEl.value ? stageEl.value.getBoundingClientRect().top + window.scrollY : 96
+  const chrome = paperEl.value && scrollWrap.value ? paperEl.value.offsetHeight - scrollWrap.value.offsetHeight : 190
+  const kb = kbWrapEl.value?.offsetHeight ?? 260
+  // page bottom padding + the gap(s) between paper / hint / keyboard
+  const pagePad = stageEl.value?.parentElement ? parseFloat(getComputedStyle(stageEl.value.parentElement).paddingBottom) || 0 : 40
+  layout.value = { top, chrome, kb, bottom: pagePad + 16 }
+}
+/** Portrait tablet: the 字根卡 sits between article and keyboard instead of covering the text. */
+const hintInline = computed(() => touch.value && !wide.value && hintOpen.value)
+const hintInlineMax = computed(() => {
+  const { top, chrome, kb, bottom } = layout.value
+  return Math.max(220, Math.round(winH.value - top - chrome - 3 * lineH.value - kb - bottom - 14))
+})
+useResizeObserver(paperEl, measureLayout)
+useResizeObserver(kbWrapEl, measureLayout)
+watch(winH, () => nextTick(measureLayout))
+const lineH = computed(() => fontSize.value * 2.15)
+const kbMaxHeight = computed(() => {
+  if (!touch.value) return 0
+  const { top, chrome, bottom } = layout.value
+  return Math.round(Math.min(winH.value * 0.46, winH.value - top - chrome - 3 * lineH.value - bottom))
+})
+const lines = computed(() => {
+  if (!touch.value) return wide.value ? 5 : 4
+  if (hintInline.value) return 3
+  const { top, chrome, kb, bottom } = layout.value
+  return Math.max(3, Math.min(9, Math.floor((winH.value - top - chrome - kb - bottom) / lineH.value)))
+})
+const canHint = computed(() => !isTestMode() || settings.testHints)
+function isTestMode() {
+  return session.mode === 'test'
+}
 
 useResizeObserver(scrollWrap, (e) => (frameWidth.value = e[0]?.contentRect.width ?? 600))
 
@@ -84,8 +129,18 @@ const keyColors = computed<Record<ImKey, number>>(() => {
 })
 
 function focusSink() {
-  if (props.locked) return
+  if (props.locked || touch.value) return
   sink.value?.focus({ preventScroll: true })
+}
+
+/** A tap on the on-screen keyboard. */
+function onVirtual(key: string) {
+  sawKey.value = true
+  if (key === 'Escape' && !st.value?.composer.buffer) {
+    if (st.value?.hint.open) session.session?.closeHint()
+    return
+  }
+  session.handleVirtualKey(key)
 }
 
 function onKeydown(e: KeyboardEvent) {
@@ -131,7 +186,7 @@ useEventListener(window, 'keydown', (e: KeyboardEvent) => {
   const t = e.target as HTMLElement | null
   if (t && (t.closest('input, textarea, select, [contenteditable="true"], [role="dialog"]'))) return
   if (e.ctrlKey || e.metaKey || e.altKey || e.key === 'Tab') return
-  focusSink()
+  focusSink() // no-op in 平板模式; a hardware keyboard on a tablet still types via onKeydown
   onKeydown(e)
 })
 
@@ -147,16 +202,19 @@ watch(
   },
 )
 
-onMounted(() => nextTick(focusSink))
+onMounted(() => nextTick(() => {
+  focusSink()
+  measureLayout()
+}))
 onBeforeUnmount(() => session.stopTimer())
 
-const veil = computed(() => !focused.value && !props.locked && !session.imeWarning && !st.value?.paused && !session.result)
+const veil = computed(() => !touch.value && !focused.value && !props.locked && !session.imeWarning && !st.value?.paused && !session.result)
 </script>
 
 <template>
-  <section class="stage" :class="{ 'hint-open': hintOpen && wide }" :style="{ '--fs': `${fontSize}px` }">
+  <section ref="stageEl" class="stage" :class="{ 'hint-open': hintOpen && wide, touch }" :style="{ '--fs': `${fontSize}px` }">
     <div class="main-col">
-      <div class="paper">
+      <div ref="paperEl" class="paper">
         <header class="art-head">
           <div class="art-title">
             <span v-if="art" class="chip">{{ art.category }}</span>
@@ -176,7 +234,7 @@ const veil = computed(() => !focused.value && !props.locked && !session.imeWarni
             :cursor="st.cursor"
             :error-pulse="session.errorPulse"
             :correct-pulse="session.correctPulse"
-            :lines="wide ? 5 : 4"
+            :lines="lines"
             :blurred="veil || st.paused || !!locked"
             @caret="caret = $event"
           />
@@ -197,8 +255,7 @@ const veil = computed(() => !focused.value && !props.locked && !session.imeWarni
           <Transition name="fade">
             <button v-if="veil && st" class="veil" @click="focusSink">
               <Keyboard :size="18" />
-              <span v-if="coarse && !sawKey">需要實體鍵盤才能練習；可以先到「字根」頁查碼</span>
-              <span v-else>點一下或直接按鍵開始</span>
+              <span>點一下或直接按鍵開始</span>
             </button>
           </Transition>
           <Transition name="fade">
@@ -223,12 +280,16 @@ const veil = computed(() => !focused.value && !props.locked && !session.imeWarni
         </div>
 
         <footer class="foot">
-          <div class="shortcuts">
+          <p v-if="touch" class="touch-tip">點下方鍵盤打字 · 接實體鍵盤也可以直接打</p>
+          <div v-else class="shortcuts">
             <span><span class="kbd">Esc</span> 暫停</span>
             <span v-if="!isTest || settings.testHints"><span class="kbd">Ctrl</span><span class="kbd">/</span> 看提示</span>
             <span><span class="kbd">Ctrl</span><span class="kbd">K</span> 文章庫</span>
           </div>
           <div class="actions">
+            <button v-if="touch && canHint" class="btn btn-ghost btn-sm" @click="session.peekHint()">
+              <Lightbulb :size="15" /> 提示
+            </button>
             <button v-if="session.started && !session.finished" class="btn btn-ghost btn-sm" @click="session.togglePause()">
               <Pause :size="15" /> 暫停
             </button>
@@ -238,20 +299,42 @@ const veil = computed(() => !focused.value && !props.locked && !session.imeWarni
         </footer>
       </div>
 
+      <Transition name="fade">
+        <aside v-if="hintInline && st?.hint.card" class="hint-inline" :style="{ maxHeight: `${hintInlineMax}px` }">
+          <HintCard
+            :card="st.hint.card"
+            :errors="st.cells[st.hint.cellIndex]?.errors"
+            :reason="st.hint.reason"
+            closable
+            dense
+            @close="session.session?.closeHint()"
+          />
+        </aside>
+      </Transition>
+
       <Transition name="kb">
-        <div v-if="settings.showKeyboard && im" class="kb-wrap">
+        <div v-if="(settings.showKeyboard || touch) && im" ref="kbWrapEl" class="kb-wrap" :class="{ touch }">
           <RootKeyboard
             :keys="im.keys"
             :next="nextKeys"
             :colors="keyColors"
             :pressed="session.pressedKey"
+            :touch="touch"
+            :max-unit="touch ? 84 : 58"
+            :max-height="kbMaxHeight"
+            @press="onVirtual"
           />
         </div>
       </Transition>
     </div>
 
     <Transition name="drawer">
-      <aside v-if="hintOpen && st?.hint.card" class="hint-col" :class="{ sheet: !wide }">
+      <aside
+        v-if="hintOpen && !hintInline && st?.hint.card"
+        class="hint-col"
+        :class="{ sheet: !wide }"
+        :style="touch && wide ? { maxHeight: `${Math.round(winH - layout.top - layout.bottom + 14)}px` } : undefined"
+      >
         <HintCard
           :card="st.hint.card"
           :errors="st.cells[st.hint.cellIndex]?.errors"
@@ -266,6 +349,7 @@ const veil = computed(() => !focused.value && !props.locked && !session.imeWarni
     <textarea
       ref="sink"
       class="sink"
+      :inputmode="touch ? 'none' : undefined"
       aria-label="打字輸入區"
       autocomplete="off"
       autocorrect="off"
@@ -469,6 +553,37 @@ const veil = computed(() => !focused.value && !props.locked && !session.imeWarni
   bottom: 12px;
   z-index: 40;
   max-height: 48dvh;
+}
+/* ── 平板模式 ── */
+.stage.touch {
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+}
+.stage.touch .main-col {
+  gap: 14px;
+}
+.stage.touch .paper {
+  padding: 16px 24px 10px;
+}
+.touch-tip {
+  font-size: 12px;
+  color: var(--ink-3);
+  letter-spacing: 0.08em;
+}
+.kb-wrap.touch {
+  max-width: 1180px;
+  padding: 0 0 env(safe-area-inset-bottom);
+}
+.hint-inline {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border-radius: var(--r-xl);
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-2);
+  -webkit-user-select: text;
+  user-select: text;
 }
 .sink {
   position: fixed;

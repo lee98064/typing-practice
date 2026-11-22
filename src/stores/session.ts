@@ -139,6 +139,30 @@ export const useSession = defineStore('session', () => {
     return k !== null || e.key === 'Backspace' || e.key === 'Escape' || e.key === 'Enter' || e.key === 'Tab'
   }
 
+  /** Physical-key code for an IM key (so on-screen taps go through the exact same engine). */
+  function codeOf(key: string): string {
+    if (/^[a-z]$/.test(key)) return `Key${key.toUpperCase()}`
+    if (/^[0-9]$/.test(key)) return `Digit${key}`
+    const map: Record<string, string> = {
+      ' ': 'Space', ',': 'Comma', '.': 'Period', '/': 'Slash', ';': 'Semicolon', "'": 'Quote',
+      '[': 'BracketLeft', ']': 'BracketRight', '-': 'Minus', '=': 'Equal', '\\': 'Backslash', '`': 'Backquote',
+    }
+    return map[key] ?? key // 'Backspace' | 'Escape'
+  }
+
+  /** 平板模式: a tap on the on-screen keyboard. `key` is an IM key, 'Backspace' or 'Escape'. */
+  function handleVirtualKey(key: string) {
+    const s = session.value
+    if (!s || !armed.value || result.value || s.state.paused) return
+    if (key !== ' ' && key.length === 1) {
+      pressedKey.key = key
+      pressedKey.wrong = false
+      pressedKey.seq++
+    }
+    const input: KeyInput = { code: codeOf(key), key, shiftKey: false, ctrlKey: false, metaKey: false, altKey: false }
+    apply(s.handle(input, Date.now()))
+  }
+
   function peekHint() {
     const s = session.value
     if (!s) return
@@ -176,6 +200,7 @@ export const useSession = defineStore('session', () => {
     finished,
     reset,
     handleKeydown,
+    handleVirtualKey,
     peekHint,
     togglePause,
     arm,
