@@ -1,0 +1,36 @@
+CNS11643 全字庫 — 筆順屬性資料
+提供機關：數位發展部
+Source: https://data.cns11643.gov.tw/opendata/Properties.zip
+Dataset: https://data.gov.tw/dataset/5961
+Downloaded (UTC): 2026-11-22T15:38:41.835Z
+License selected: 政府資料開放授權條款第1版 (OGDL-1.0)
+License: https://data.gov.tw/license
+The dataset offers OGDL-1.0 or OFL-1.1; this copy selects OGDL-1.0.
+
+SHA-256 Properties.zip: d20fb0ee58a2602b2d9dc1f7a50ef573d33e8fbf52607bc9a30a4fdc3401fb76
+SHA-256 original CNS_strokes_sequence.txt: 5f102b174d4119db13dde11bb8370a186b7716695c68042c3d2d34758ce93115
+Original bytes: 2137639
+SHA-256 retained CNS_strokes_sequence.txt: 975184fad217b1cd30d3b84277c8be358fc20666823f2fe7598e6127201f659a
+Retained bytes / rows: 112412 / 5685
+
+The upstream member is named CNS_strokes_sequence.txt (plural strokes).
+To keep every added file under 1 MB, retain verbatim rows whose CNS codes map
+to MOE 4808 / article characters or their recursive IDS/CNS components and
+exact CNS single-component equivalents. Row order and values are unchanged.
+The original archive/member (>1 MB) and all other members are not retained.
+This scoped selection and the derived Unicode map are modifications.
+No endorsement by the provider is implied.
+
+CNS codes: 1 horizontal, 2 vertical, 3 left-falling, 4 dot/right-falling,
+5 turning. Type 4 does not distinguish 點 from 捺; type 5 is not a unique shape.
+0/6 and conflicting Unicode sequences are excluded from derived evidence.
+Reference: https://www.cns11643.gov.tw/search.jsp?ID=8&la=1
+
+Existing Unicode maps (SHA-256):
+data-raw/charlists/CNS2UNICODE_Unicode BMP.txt: 9f0d89dc002f0848e4ab88704b4940c5b74d9321eb4ccf1a1283d440cf73b782
+data-raw/charlists/CNS2UNICODE_Unicode 2.txt: 6b8964063c651d2caea30d03e1bee1e4b3df87f3ebee435ac16a4aa856020eaf
+data-raw/charlists/CNS2UNICODE_Unicode 3.txt: 3afc7842d2a21d6bd2de586f1b63966a92feb6541d44cfaa011f0bec8638512a
+data-raw/charlists/CNS2UNICODE_Unicode 15.txt: 70895f73b6605731a256b616bbb1c0c1bd51d74c105c2f108fcae0896411dbc3
+
+Refresh: node --import tsx scripts/fetch-cns-strokes.ts
+Derive compact map / decompositions: node --import tsx scripts/build-decomp.ts

@@ -1,14 +1,19 @@
 import { readFileSync } from 'node:fs'
+import { createHash } from 'node:crypto'
 import { describe, expect, it } from 'vitest'
 import { decompositionLines } from '../src/core/decomp-text'
 import { loadInputMethod } from '../src/core/load'
 import type { DecompEntry, DecompFile, ImTableFile, RootsFile } from '../src/core/types'
 import { parse, resolve, rootIndex, takingPlans, validEntry } from './lib/decomp'
 import type { Aliases, Cut } from './lib/decomp'
+import { compareLargeRoots, strokeMap, strokeSupplement, surroundOrder } from './lib/cns-strokes'
+import type { StrokeMap } from './lib/cns-strokes'
+import { loadDecompSources } from './lib/decomp-sources'
 
 const read = <T>(path: string) => JSON.parse(readFileSync(new URL(`../${path}`, import.meta.url), 'utf8')) as T
 const ims = ['boshiamy', 'array', 'dayi', 'cangjie'] as const
 const files = Object.fromEntries(ims.map(im => [im, read<DecompFile>(`public/data/decomp/${im}.json`)])) as Record<typeof ims[number], DecompFile>
+const strokes = read<StrokeMap>('data-raw/decomp/strokes-cns.json')
 const golden = (im: typeof ims[number], char: string, code: string): DecompEntry => {
   const e = files[im][char]?.find(e => e.code === code)
   expect(e, `${im} ${char}=${code}`).toBeDefined()
@@ -29,7 +34,7 @@ describe('generated decomposition integrity', () => {
       for (const p of e.parts) expect(ix.keysOf.get(p.component)?.has(p.key), `${label}: ${p.component}/${p.key}`).toBe(true)
       expect(e.parts.every(p => !/[\uE000-\uF8FF\u{F0000}-\u{10FFFF}]/u.test(p.component)), label).toBe(true)
     }
-    expect(readFileSync(new URL(`../public/data/decomp/${im}.json`, import.meta.url)).length).toBeLessThan(1_500_000)
+    expect(readFileSync(new URL(`../public/data/decomp/${im}.json`, import.meta.url)).length).toBeLessThan(1_000_000)
   })
 
   it('keeps the cangjie head/body boundaries and difficult shape in 謝', () => {
@@ -55,12 +60,49 @@ describe('generated decomposition integrity', () => {
     expect(decompositionLines('boshiamy', '明', ming).join('')).toContain('補碼 E')
   })
 
+  it.each([
+    ['明', 'due', '日月', '一', '1'],
+    ['休', 'ptn', '亻木', '㇏', '4'],
+    ['林', 'ttn', '木木', '㇏', '4'],
+    ['仁', 'pre', '亻二', '一', '1'],
+    ['山', 'ei', '山', '丨', '2'],
+  ])('verifies 補短 %s=%s with CNS evidence', (ch, code, roots, stroke, type) => {
+    const entry = golden('boshiamy', ch, code)
+    const extra = entry.roles.indexOf('補')
+    expect(extra).toBe(entry.roles.length - 1)
+    expect(entry.parts.filter((_, i) => i !== entry.picked[extra]).map(p => p.component).join('')).toBe(roots)
+    expect(entry.parts[entry.picked[extra]!]!).toMatchObject({ component: stroke, key: code.at(-1), group: '補' })
+    expect(strokes[ch]?.at(-1)).toBe(type)
+    expect(strokeSupplement(strokes[ch], stroke)?.key).toBe(code.at(-1))
+    expect(decompositionLines('boshiamy', ch, entry).join('')).toContain(`末筆「${stroke}」補碼`)
+  })
+
+  it('backs every ordinary boshiamy supplement with the character’s CNS last type', () => {
+    for (const [ch, entries] of Object.entries(files.boshiamy)) for (const entry of entries) {
+      const pos = entry.roles.indexOf('補')
+      if (pos < 0) continue
+      const part = entry.parts[entry.picked[pos]!]!
+      if (part.group === '規定補') {
+        expect(ch).toBe('俞') // Existing explicitly documented last-shape exception.
+        continue
+      }
+      expect(strokeSupplement(strokes[ch], part.component), `${ch}/${entry.code}`).toEqual(part)
+      expect(pos).toBe(entry.code.length - 1)
+      expect(entry.parts.length - 1).toBeLessThanOrEqual(2)
+    }
+  })
+
   it('expands 相 for 想 without taking a component supplement', () => {
     for (const [im, code] of [['array', 'vjn'], ['dayi', 'i3z']] as const) {
       const e = golden(im, '想', code)
       expect(e.parts.map(p => p.component).join('')).toBe('木目心')
       expect(e.picked).toEqual([0, 1, 2])
     }
+  })
+
+  it('retains Dayi large-root cuts that cross the CNS writing order', () => {
+    expect(golden('dayi', '覺', 'wmq').parts[0]!.component).toBe('𦥑')
+    expect(golden('dayi', '攪', 'gwmq').parts[1]!.component).toBe('𦥑')
   })
 
   it('loads compact enrichment and shows generated explanations in the actual hint-card path', async () => {
@@ -79,6 +121,46 @@ describe('generated decomposition integrity', () => {
     expect(card.decomposition?.parts.every(p => !!p.root)).toBe(true)
     expect(card.decomposition?.explanation.join('')).toContain('字首')
     expect(card.decomposition?.explanation.join('')).toContain('字身')
+  })
+})
+
+describe('CNS stroke evidence', () => {
+  it('rebuilds the compact map from the retained, hashed CNS source', async () => {
+    const { cnsChars, relevant } = await loadDecompSources()
+    const raw = readFileSync(new URL('../data-raw/cns/CNS_strokes_sequence.txt', import.meta.url), 'utf8')
+    const note = readFileSync(new URL('../data-raw/cns/LICENSE-SOURCE.txt', import.meta.url), 'utf8')
+    expect(strokeMap(raw, cnsChars, relevant).sequences).toEqual(strokes)
+    expect(note).toContain(`SHA-256 retained CNS_strokes_sequence.txt: ${createHash('sha256').update(raw).digest('hex')}`)
+    expect(Buffer.byteLength(raw)).toBeLessThan(1_000_000)
+    expect(Buffer.byteLength(JSON.stringify(strokes))).toBeLessThan(1_000_000)
+  })
+
+  it('omits conflicting glyphs, unknown characters and nonstroke codes', () => {
+    const chars = new Map([['1-a', '明'], ['1-b', '明'], ['1-c', '林'], ['1-d', '休'], ['1-e', '仁']])
+    const result = strokeMap('1-a\t25113511\n1-b\t25113512\n1-c\t12341234\n1-d\t06\n1-e\t3211\n', chars, new Set('明林休'))
+    expect(result).toEqual({ sequences: { 林: '12341234' }, conflicts: ['明'] })
+    expect(strokeSupplement(undefined, '一')).toBeUndefined()
+    expect(strokeSupplement('4')).toBeUndefined() // CNS alone cannot choose A/N.
+    expect(strokeSupplement('5', '丨')).toBeUndefined() // Fold is not vertical.
+    expect(strokeSupplement('4', '㇏')?.key).toBe('n')
+    expect(strokeSupplement('4', '丶')?.key).toBe('a')
+    expect(strokeSupplement('1', '㇏')?.key).toBe('e') // CNS overrides a contradictory hint.
+  })
+
+  it('prefers larger roots using stroke counts only as a precision tie-break', () => {
+    const cut = (...components: string[]): Cut => ({ parts: components.map(component => ({ component })) })
+    expect(compareLargeRoots(cut('林'), cut('木', '木'), strokes)).toBeLessThan(0)
+    expect(compareLargeRoots(cut('木', '木'), cut('林'), strokes)).toBeGreaterThan(0)
+    expect(compareLargeRoots(cut('無資料'), cut('也無資料'), strokes)).toBe(0)
+  })
+
+  it('orders surrounds only when counted component spans uniquely reproduce CNS strokes', () => {
+    const xiong = parse('⿶凵乂')!
+    expect(surroundOrder(xiong, strokes['凶'], strokes)).toEqual([1, 0])
+    expect(surroundOrder(parse('⿺辶言')!, strokes['這'], strokes)).toEqual([1, 0])
+    expect(surroundOrder(parse('⿴囗口')!, strokes['回'], strokes)).toBeUndefined() // Closing stroke interleaves.
+    expect(surroundOrder(xiong, '52', strokes)).toBeUndefined() // Counts do not cover parent.
+    expect(surroundOrder(parse('⿴一一')!, '11', { 一: '1' })).toBeUndefined() // Both orders match.
   })
 })
 

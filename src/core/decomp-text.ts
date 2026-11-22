@@ -7,7 +7,7 @@ export function decompositionLines(im: ImId, char: string, entry: DecompEntry): 
   const groups: { name: string; start: number; end: number }[] = []
   for (let i = 0; i < parts.length; i++) {
     const name = parts[i]!.group
-    if (!name) continue
+    if (!name || name === '補' || name === '規定補') continue
     const previous = groups.at(-1)
     if (previous?.name === name && previous.end === i) previous.end++
     else groups.push({ name, start: i, end: i + 1 })
@@ -31,7 +31,8 @@ export function decompositionLines(im: ImId, char: string, entry: DecompEntry): 
     const extra = roles.indexOf('補')
     const skipped = parts.length - picked.length
     const rule = skipped > 0 ? (im === 'dayi' && entry.code.length <= 3 ? '，取首、次、尾' : '，取首、次、三、尾') : ''
-    lines.push(`「${char}」取${taken}${rule}${extra >= 0 ? `，末筆「${parts[picked[extra]!]!.component}」補碼 ${entry.code[extra]!.toUpperCase()}` : ''}，合為 ${entry.code.toUpperCase()}。`)
+    const supplement = extra >= 0 ? parts[picked[extra]!] : undefined
+    lines.push(`「${char}」取${taken}${rule}${supplement ? `，${supplement.group === '規定補' ? '規定末形' : '末筆'}「${supplement.component}」補碼 ${entry.code[extra]!.toUpperCase()}` : ''}，合為 ${entry.code.toUpperCase()}。`)
   }
   return lines
 }

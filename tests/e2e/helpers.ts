@@ -5,8 +5,8 @@ import type { ImId } from '../../src/core/types'
 
 const data = (p: string) => JSON.parse(readFileSync(new URL(`../../public/data/${p}`, import.meta.url), 'utf8'))
 
-/** Key strokes that type `text` correctly with the given IM (punctuation skipped). */
-export function keysFor(im: ImId, text: string): string[] {
+/** Key strokes that type `text` correctly with the given IM. */
+export function keysFor(im: ImId, text: string, punct: 'skip' | 'any-key' | 'ime' = 'skip'): string[] {
   const method = createInputMethod({
     table: data(`im/${im}.json`),
     roots: data(`roots/${im}.json`),
@@ -15,8 +15,14 @@ export function keysFor(im: ImId, text: string): string[] {
   const expected = method.annotate?.(text)
   const out: string[] = []
   ;[...text].forEach((ch, index) => {
-    if (!/\p{Unified_Ideograph}/u.test(ch)) return
+    if (/\s/.test(ch)) return
+    const cjk = /\p{Unified_Ideograph}/u.test(ch)
+    if (!cjk && punct === 'skip') return
     const opt = method.codesFor(ch, { text, index, expected: expected?.[index] })[0]
+    if (!cjk && (punct === 'any-key' || !opt)) {
+      out.push('q') // any key skips punctuation
+      return
+    }
     if (!opt) return
     out.push(...opt.code)
     if (opt.selectionKey) out.push(opt.selectionKey)

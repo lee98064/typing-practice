@@ -2,8 +2,10 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { decompositionLines } from '../src/core/decomp-text'
 import type { DecompEntry, DecompFile, ImId, ImTableFile, RootsFile } from '../src/core/types'
-import { parse, rootIndex, resolve, SPLIT, takingPlans, validEntry } from './lib/decomp'
+import { rootIndex, resolve, SPLIT, takingPlans, validEntry } from './lib/decomp'
 import type { Aliases, Atom, Cut, Node, Pick, RootIndex } from './lib/decomp'
+import { loadDecompSources } from './lib/decomp-sources'
+import { compareLargeRoots, strokeMap, strokeSupplement, surroundOrder } from './lib/cns-strokes'
 
 const ROOT = new URL('../', import.meta.url)
 const read = (p: string) => readFile(new URL(p, ROOT), 'utf8')
@@ -11,55 +13,10 @@ const json = async <T>(p: string) => JSON.parse(await read(p)) as T
 const optional = async <T>(p: string): Promise<T | undefined> => {
   try { return await json<T>(p) } catch (e) { if ((e as NodeJS.ErrnoException).code === 'ENOENT') return; throw e }
 }
-const idsOf = new Map<string, string>()
-const trees = new Map<string, Node>()
-for (const line of (await read('data-raw/ids/ids.txt')).split('\n')) {
-  if (line.startsWith('#')) continue
-  const [_, ch, ...alts] = line.split('\t')
-  if (!ch || !alts.length) continue
-  const seq = (alts.find(s => /\[[^\]]*T/.test(s)) ?? alts.find(s => !s.includes('[')) ?? alts[0]!).replace(/\[[^\]]*\]/g, '')
-  idsOf.set(ch, seq)
-  const tree = parse(seq)
-  if (tree && tree !== ch) trees.set(ch, tree)
-}
-for (const [ch, seq] of Object.entries((await json<{ structures: Record<string, string> }>('data-raw/decomp/structures.json')).structures)) {
-  if (!trees.has(ch)) { const tree = parse(seq); if (tree) trees.set(ch, tree) }
-}
-
-// CNS's PUA components may be matched only when a CNS character consists of that
-// single component, establishing an exact identity. Unknown PUA shapes stay unknown.
-const cnsChars = new Map<string, string>()
-for (const file of ['BMP', '2', '3', '15']) {
-  for (const line of (await read(`data-raw/charlists/CNS2UNICODE_Unicode ${file}.txt`)).trim().split('\n')) {
-    const [cns, hex] = line.trim().split('\t')
-    if (cns && hex) cnsChars.set(cns, String.fromCodePoint(parseInt(hex, 16)))
-  }
-}
-const cnsRefs = new Map((await read('data-raw/ids/CNS_component_ref.txt')).trim().split('\n').map(l => {
-  const fields = l.trim().split('\t')
-  return [fields[0]!, fields[3]!] as const
-}))
-const cnsOf = new Map<string, string[]>()
-const cnsEquivalent = new Map<string, string[]>()
-for (const line of (await read('data-raw/ids/CNS_component.txt')).trim().split('\n')) {
-  const [id, values] = line.trim().split('\t')
-  const char = cnsChars.get(id!)
-  const components = values?.split(',').map(i => cnsRefs.get(i) ?? '')
-  if (!char || !components?.length || components.some(c => !c)) continue
-  cnsOf.set(char, components)
-  if (components.length === 1) {
-    const c = components[0]!
-    if (!cnsEquivalent.has(c)) cnsEquivalent.set(c, [])
-    cnsEquivalent.get(c)!.push(char)
-  }
-}
-
-const targets = new Set<string>()
-for (const c of await read('data-raw/charlists/moe-common-4808.txt')) if (/\p{Unified_Ideograph}/u.test(c)) targets.add(c)
-for (const a of await json<{ id: string }[]>('public/data/articles/index.json')) {
-  for (const c of (await json<{ text: string }>(`public/data/articles/${a.id}.json`)).text) if (/\p{Unified_Ideograph}/u.test(c)) targets.add(c)
-}
-const BEFORE = { boshiamy: 2785, array: 1563, dayi: 1856, cangjie: 896 }
+const { idsOf, trees, cnsChars, cnsOf, cnsEquivalent, targets, relevant } = await loadDecompSources()
+const { sequences: strokes, conflicts } = strokeMap(await read('data-raw/cns/CNS_strokes_sequence.txt'), cnsChars, relevant)
+await writeFile(new URL('data-raw/decomp/strokes-cns.json', ROOT), JSON.stringify(strokes) + '\n')
+const BEFORE = { boshiamy: 2138, array: 1926, dayi: 2304, cangjie: 2351 }
 const LIMIT = 192
 const fingerprint = (cut: Cut) => `${cut.split}/${cut.bodySplit}:` + cut.parts.map(p => `${p.component}/${p.key ?? ''}/${p.group ?? ''}`).join(',')
 function unique(cuts: Cut[]): Cut[] {
@@ -85,7 +42,7 @@ function combinations(children: Cut[][], idc?: string): Cut[] {
 
 function makeSearch(im: ImId, ix: RootIndex, expansions: Map<string, Cut[]>) {
   const memo = new Map<string, Cut[]>()
-  const cuts = (node: Node, depth = 0, trail = new Set<string>()): Cut[] => {
+  const cuts = (node: Node, depth = 0, trail = new Set<string>(), parent?: string): Cut[] => {
     if (depth > 9) return []
     if (typeof node !== 'string') {
       const children = node.kids.map(k => cuts(k, depth + 1, trail))
@@ -93,8 +50,12 @@ function makeSearch(im: ImId, ix: RootIndex, expansions: Map<string, Cut[]>) {
       // Cangjie surrounds are read outside -> inside. Other IMs write 辶/廴 last.
       const delayed = (node.idc === '⿺' && typeof node.kids[0] === 'string' && '辶辵廴⻌⻍'.includes(node.kids[0]))
         || (node.idc === '⿶' && node.kids[0] === '凵')
-      const order = im !== 'cangjie' && delayed ? [...children].reverse() : children
-      return combinations(order, node.idc)
+      const original = im !== 'cangjie' && delayed ? [...children].reverse() : children
+      const proven = im === 'cangjie' ? undefined : surroundOrder(node, parent, strokes)
+      // Stroke order adds evidence, but Boshiamy eye order and Dayi's large-root
+      // rules can cross strokes. Keep the established structural cut available.
+      return proven ? unique([...combinations(proven.map(i => children[i]!), node.idc), ...combinations(original, node.idc)])
+        : combinations(original, node.idc)
     }
     if (trail.has(node)) return []
     const memoKey = `${node}/${depth}/${[...trail].join('')}`
@@ -105,7 +66,7 @@ function makeSearch(im: ImId, ix: RootIndex, expansions: Map<string, Cut[]>) {
     if (isPua) for (const equivalent of cnsEquivalent.get(node) ?? []) out.push(...cuts(equivalent, depth + 1, nextTrail))
     for (const e of expansions.get(node) ?? []) out.push({ ...e, parts: e.parts.map(p => ({ ...p, group: node })) })
     const sub = trees.get(node)
-    if (sub) out.push(...cuts(sub, depth + 1, nextTrail).map(c => ({ ...c, parts: c.parts.map(p => ({ ...p, group: node })) })))
+    if (sub) out.push(...cuts(sub, depth + 1, nextTrail, strokes[node]).map(c => ({ ...c, parts: c.parts.map(p => ({ ...p, group: node })) })))
     if (im !== 'cangjie') {
       const cns = cnsOf.get(node)
       if (cns && !(cns.length === 1 && cns[0] === node)) {
@@ -120,7 +81,7 @@ function makeSearch(im: ImId, ix: RootIndex, expansions: Map<string, Cut[]>) {
     // Never use a character's own table sequence/previous result to explain itself.
     const out: Cut[] = ix.keysOf.has(ch) ? [{ parts: [{ component: ch }] }] : []
     const tree = trees.get(ch)
-    if (tree) out.push(...cuts(tree, 0, new Set([ch])))
+    if (tree) out.push(...cuts(tree, 0, new Set([ch]), strokes[ch]))
     if (im !== 'cangjie') {
       const cns = cnsOf.get(ch)
       if (cns && !(cns.length === 1 && cns[0] === ch)) out.push(...combinations(cns.map(c => cuts(c, 1, new Set([ch])))))
@@ -129,7 +90,8 @@ function makeSearch(im: ImId, ix: RootIndex, expansions: Map<string, Cut[]>) {
   }
 }
 
-function lastStroke(ch: string, aliases: Aliases, seen = new Set<string>()): string | undefined {
+// Only disambiguates type-4 點/捺; the CNS last type must independently agree.
+function lastStrokeShape(ch: string, aliases: Aliases, seen = new Set<string>()): string | undefined {
   if (seen.has(ch)) return
   seen.add(ch)
   if (aliases.lastStrokes?.[ch]) return aliases.lastStrokes[ch]
@@ -137,11 +99,11 @@ function lastStroke(ch: string, aliases: Aliases, seen = new Set<string>()): str
   if (cns?.length) {
     const last = cns.at(-1)!
     for (const equivalent of [last, ...(cnsEquivalent.get(last) ?? [])]) {
-      const result = lastStroke(equivalent, aliases, new Set(seen))
+      const result = lastStrokeShape(equivalent, aliases, new Set(seen))
       if (result) return result
     }
   }
-  const visit = (node: Node): string | undefined => typeof node === 'string' ? lastStroke(node, aliases, new Set(seen))
+  const visit = (node: Node): string | undefined => typeof node === 'string' ? lastStrokeShape(node, aliases, new Set(seen))
     : visit(node.idc === '⿺' ? node.kids[0]! : node.kids.at(-1)!)
   const tree = trees.get(ch)
   // Enclosures and overlaps need stroke-level evidence, not an IDS-order guess.
@@ -158,17 +120,20 @@ function matches(im: ImId, ch: string, codes: string[], candidates: Cut[], ix: R
       let cut = original
       let plan = originalPlan
       if (im === 'boshiamy' && original.parts.length <= 2 && code.length === original.parts.length + 1) {
-        const stroke = aliases.prescribed?.[ch] ?? lastStroke(ch, aliases)
-        if (!stroke || !STROKE_KEYS[stroke]) continue
-        cut = { parts: [...original.parts, { component: stroke, key: STROKE_KEYS[stroke] }] }
+        const prescribed = aliases.prescribed?.[ch]
+        const extra = prescribed && STROKE_KEYS[prescribed]
+          ? { component: prescribed, key: STROKE_KEYS[prescribed], group: '規定補' }
+          : strokeSupplement(strokes[ch], lastStrokeShape(ch, aliases))
+        // Never get the supplement from the table. It can only verify evidence.
+        if (!extra || extra.key !== code.at(-1)) continue
+        cut = { parts: [...original.parts, extra] }
         plan = { picked: [...originalPlan.picked, cut.parts.length - 1], roles: [...originalPlan.roles, '補'] }
       }
       const entry = resolve(cut, plan, code, ix)
       if (entry && validEntry(entry, im, ch, table, ix, [plan])) out.push({ entry, cut: original, plan })
     }
-    if (out.length > 12) return out
   }
-  return out
+  return out.sort((a, b) => b.entry.code.length - a.entry.code.length || compareLargeRoots(a.cut, b.cut, strokes))
 }
 /** Manual roots may cover an unencoded IDS leaf, but cannot invent a taking rule. */
 function manualCut(im: ImId, ch: string, entry: DecompEntry): Cut | null {
@@ -196,7 +161,7 @@ function manualCut(im: ImId, ch: string, entry: DecompEntry): Cut | null {
   }
   return { parts, split: h, ...(bodySplit ? { bodySplit } : {}) }
 }
-const report: string[] = ['# 拆字對齊報告', '', '範圍：教育部常用 4808 字 ∪ 文章漢字；分母為該輸入法字表內的目標字。Before 為 T4 原始版本固定基準，重跑不會移動。', '', '| 輸入法 | Before | After | 演算法／人工（字） | 大小 |', '|---|---:|---:|---:|---:|']
+const report: string[] = ['# 拆字對齊報告', '', '範圍：教育部常用 4808 字 ∪ 文章漢字；分母為該輸入法字表內的目標字。Before 固定為 T5 開始前的 T4 實測產物，重跑不會移動。', '', '| 輸入法 | Before (T4) | After (T5) | 演算法／人工（字） | 大小 |', '|---|---:|---:|---:|---:|']
 const samples: string[] = []
 await mkdir(new URL('public/data/decomp/', ROOT), { recursive: true })
 for (const im of ['boshiamy', 'array', 'dayi', 'cangjie'] as const) {
@@ -251,13 +216,17 @@ for (const im of ['boshiamy', 'array', 'dayi', 'cangjie'] as const) {
     const pending = new Map<string, Cut[]>()
     for (const { ch } of ordered) {
       if (aligned.has(ch)) continue
-      const found = matches(im, ch, rev.get(ch)!, search(ch), ix, aliases, table.table)[0]
+      const paths = matches(im, ch, rev.get(ch)!, search(ch), ix, aliases, table.table)
+      const found = paths[0]
       if (!found) continue
       aligned.set(ch, found)
-      const parts = found.entry.parts.filter((_, i) => !found.entry.picked.some((p, n) => p === i && found.entry.roles[n] === '補'))
       // Keep the entire root sequence, not just picked roots or a 補碼.
-      const expansion = { ...found.cut, parts: parts.map(p => ({ component: p.component, key: p.key })) }
-      pending.set(ch, [expansion])
+      // A display preference must not discard other independently verified cuts
+      // needed by a larger character (e.g. 大易 覺 -> 攪).
+      pending.set(ch, unique(paths.map(path => {
+        const parts = path.entry.parts.filter((_, i) => !path.entry.picked.some((p, n) => p === i && path.entry.roles[n] === '補'))
+        return { ...path.cut, parts: parts.map(p => ({ component: p.component, key: p.key })) }
+      })))
       added++
     }
     for (const [ch, cuts] of pending) {
@@ -295,11 +264,12 @@ for (const im of ['boshiamy', 'array', 'dayi', 'cangjie'] as const) {
     }
   }
   const text = JSON.stringify(out) + '\n'
-  await writeFile(new URL(`public/data/decomp/${im}.json`, ROOT), text)
   const denominator = [...targets].filter(c => rev.has(c)).length
   const before = `${BEFORE[im]}/${denominator} (${(BEFORE[im] / denominator * 100).toFixed(1)}%)`
   const after = `${Object.keys(out).length}/${denominator} (${(Object.keys(out).length / denominator * 100).toFixed(1)}%)`
   const bytes = Buffer.byteLength(text)
+  if (bytes >= 1_000_000) throw Error(`${im} decomposition exceeds 1 MB`)
+  await writeFile(new URL(`public/data/decomp/${im}.json`, ROOT), text)
   const line = `${im}: ${before} -> ${after}; algorithm=${algorithm}, manual=${manual}; ${rounds} passes; ${(bytes / 1e6).toFixed(2)} MB`
   console.log(line)
   report.push(`| ${im} | ${before} | ${after} | ${algorithm} / ${manual} | ${(bytes / 1e6).toFixed(2)} MB |`)
@@ -314,13 +284,21 @@ for (const im of ['boshiamy', 'array', 'dayi', 'cangjie'] as const) {
   }
   samples.push('', ...[...`明崩謝這想`].filter(c => out[c]).map(ch => `- ${ch}：${decompositionLines(im, ch, out[ch]![0]!).join('')}`), '')
 }
-report.push('', '## 驗證與界線', '',
+report.push('', '## CNS 證據與重現', '',
+  `- 來源：[全字庫屬性資料集](https://data.gov.tw/dataset/5961)，選用 OGDL-1.0；下載 URL、日期、原 ZIP／原筆順檔／保留子集 SHA-256 及 Unicode 對照檔 SHA-256 見 [LICENSE-SOURCE.txt](../data-raw/cns/LICENSE-SOURCE.txt)。上游檔名實為 CNS_strokes_sequence.txt。原檔約 2.14 MB，僅保留目標及遞迴 IDS／CNS 部件的原始列，其餘不進 repo。`,
+  `- 範圍 ${targets.size} 個目標字、${relevant.size} 個含部件的相關字形；精簡 [char → 筆順碼](../data-raw/decomp/strokes-cns.json) 有 ${Object.keys(strokes).length} 字，其中 ${[...targets].filter(c => strokes[c]).length} 個目標字。衝突 Unicode 序列 ${conflicts.length} 字；衝突或含 0／6 的資料不作筆畫證據，沒有對無資料字形補造筆畫數。`,
+  '- 筆型 1→橫 E、2→豎 I、3→撇 P；4 合併點／捺，只有既有 aliases 的末筆形狀證據可分出點 A、捺 N，否則拒絕；5 為折筆族，不硬套鍵。補短先從 CNS 與形狀證據導出鍵，再核對字表最後一鍵，部件記 group／role「補」。既有俞的明示末形規定另標「規定補」，不冒稱 CNS 末筆。',
+  '- 同樣通過碼表驗證的切法，保留完整碼長優先，再按第一個不同根的 CNS 筆畫數取大根；沒有筆畫數的根不加分。所有已驗證完整根序仍可展開到其他字，顯示偏好不刪除其他切法。此為精度排序，不是以筆畫數證明局部幾何覆蓋。',
+  '- 非倉頡的包圍 IDS，以子件筆畫數切分母字筆順；只有兩件的完整筆序以唯一順序精確重現母字時才加入重排切法，例如凶＝乂＋凵、這＝言＋辶。嘸蝦米眼順與大易大根可跨筆順，仍保留既有結構切法並通過真表驗證；不以 CNS 順序強行覆寫（例如大易覺／攪）。四面包圍收口交錯、兩序皆可或筆畫數不合時不推斷；倉頡維持字首／字身規則。',
+  '- 證據鏈：保留 CNS 原始列＋既有 CNS→Unicode 對照 → 排除衝突的字形筆序 → 末筆鍵／大根排序／唯一部件順序 → roots、takingPlans、resolve、validEntry → compact JSON 與本報告。原表只作最終驗證，不能作補碼來源。',
+  '- 重現：`node --import tsx scripts/fetch-cns-strokes.ts` 更新來源；`node --import tsx scripts/build-decomp.ts` 離線重建精簡筆序、四種拆字及本報告；`pnpm test`、`pnpm exec vue-tsc -b --noEmit` 驗證。五組補短 golden、全檔根／索引／角色／碼表一致性、拒絕歧義筆型及包圍順序皆有測試；所有新增／重建檔案小於 1 MB。',
+  '', '## 驗證與界線', '',
   '- 每個根（含未取根與補碼）均須出現在該鍵字根清單或有來源的別形；逐筆核對 picked 串接碼、真實字表及取碼索引／角色。人工檔亦通過相同驗證；本次未加入人工逐字拆解。',
   '- IDS 依臺灣 T 標記優先；按複雜度處理目標與其遞迴部件，完整根序列（排除補碼）反覆展開至無新增。倉頡只額外採用 aliases-cangjie.json 明列的完整部件根序列，須先與原表及根表核對，從不直接把目標字自身的碼當拆解。',
   '- 倉頡：字首首尾；字身不超過三根全取；超過時，不可再分字身取首次尾，可分字身取其首部首尾＋餘部尾（首部僅一根則餘部取首尾）。⿸⿹⿺ 及四面包圍按外內分體；未實作須減筆的包含省略。X 僅允許明列的身／臼／齊難形。',
   '- 嘸蝦米：前三尾；一兩根補短須有末筆或圖表明示規定碼證據。行列：前三尾。大易：三碼首次尾，四碼原表採前三尾。',
   '- CNS 單部件字建立 PUA 與 Unicode 根的精確對應，未知 PUA 不猜。CNS 部件順序作其他三法的備選切法；不由無空間資訊的 CNS 清單猜倉頡分體。',
-  '- 已移除舊版 宀＝冖、中＝屮 等過寬等同；圖表註明僅取局部的形須保守排除。未解：跨 IDS 邊界的大根、包含省略、特殊字首、未編碼局部形，以及缺末筆證據的嘸蝦米補短。',
-  '- 嘸蝦米覆蓋下降是驗證收緊：舊版僅確認前一兩根，就把字表下一鍵當「末筆或規定碼」；本版須另有末筆證據，且橫 E、豎 I、撇 P、捺 N、點 A 不混用近形根。未證實的舊補碼不保留。',
+  '- 沿用 T4 的保守根義：宀≠冖、中≠屮；圖表註明僅取局部的形不當完整根。未解：跨 IDS 邊界的大根、包含省略、特殊字首、未編碼局部形，以及 CNS 未覆蓋或無法分辨點／捺／折筆的補短。行列／大易仍缺筆畫遮罩，沒有以近形或字表尾鍵倒造根。',
+  '- CNS 序列不保證符合本字表的補短慣例：例如乃為 35、戶為 3351，與 T4 末撇 P 證據不一致；本版遇不一致拒絕該補短路徑，不反改來源或原字表。因此新增 CNS 證據也可能撤回舊解釋；覆蓋率不是正確率。',
   '- JSON 省略重複 root 與說明文字；component 即根形，字根卡與本報告共用 decomp-text.ts 即時產生說明。抽樣採固定種子的 Fisher–Yates 洗牌，可重現。', '', ...samples)
 await writeFile(new URL('docs/decomp-report.md', ROOT), report.join('\n').trimEnd() + '\n')

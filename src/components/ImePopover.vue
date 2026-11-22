@@ -18,12 +18,13 @@ const props = defineProps<{
 const visible = computed(() => props.composer.buffer.length > 0)
 
 const style = computed(() => {
-  const width = 420
+  const width = 500
   const left = Math.max(0, Math.min(props.caret.x - 10, props.frameWidth - width))
   return { left: `${left}px`, top: `${props.caret.y + props.caret.h + 2}px` }
 })
 
 const cands = computed(() => props.composer.candidates.slice(0, 10))
+const hasCands = computed(() => cands.value.some(Boolean))
 const showLabels = computed(() => props.composer.exact && props.imId !== 'zhuyin')
 
 function labelOf(i: number): string {
@@ -55,11 +56,14 @@ watch(
         </span>
         <span class="cursor" />
       </div>
-      <div v-if="cands.length" class="cands" :class="{ dim: !composer.exact }">
-        <span v-for="(c, i) in cands" :key="i + c" class="cand" :class="{ first: i === 0 && composer.exact }">
-          <span v-if="showLabels" class="lab mono">{{ labelOf(i) }}</span>
-          <span class="cc serif">{{ c }}</span>
-        </span>
+      <div v-if="hasCands" class="cands" :class="{ dim: !composer.exact }">
+        <template v-for="(c, i) in cands" :key="i + c">
+          <!-- 行列簡碼 may have empty slots: skip them but keep the digit numbering -->
+          <span v-if="c" class="cand" :class="{ first: i === 0 && composer.exact }">
+            <span v-if="showLabels" class="lab mono">{{ labelOf(i) }}</span>
+            <span class="cc serif">{{ c }}</span>
+          </span>
+        </template>
       </div>
       <div v-else class="cands empty">{{ imId === 'zhuyin' ? '按聲調鍵或空白鍵送字' : '查無此碼' }}</div>
     </div>
@@ -73,7 +77,7 @@ watch(
   display: flex;
   align-items: center;
   gap: 10px;
-  max-width: 420px;
+  max-width: 500px;
   padding: 5px 12px 5px 6px;
   border-radius: 12px;
   background: color-mix(in srgb, var(--paper-raised) 94%, transparent);

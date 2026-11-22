@@ -76,3 +76,15 @@ test('importing an article adds it to the library and opens it', async ({ page }
   await page.goto('/#/library')
   await expect(page.locator('.tile', { hasText: '測試短文' })).toBeVisible()
 })
+
+for (const [im, mode] of [['array', 'any-key'], ['boshiamy', 'ime'], ['cangjie', 'ime'], ['zhuyin', 'ime']] as const) {
+  test(`${im}: punctuation mode "${mode}" works end to end`, async ({ page }) => {
+    await boot(page, im, { 'modaa:last-article': 'lou-shi-ming', 'modaa:punct': mode })
+    await page.goto('/#/')
+    await expect(page.locator('.ch.current')).toBeVisible()
+    await press(page, keysFor(im, TEXT, mode))
+    const cert = page.getByRole('dialog', { name: /陋室銘/ })
+    await expect(cert).toBeVisible()
+    await expect(cert.locator('.figures')).toContainText('100.0%')
+  })
+}

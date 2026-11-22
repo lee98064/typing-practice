@@ -29,7 +29,7 @@ const summary = computed(() => {
   return {
     sessions: r.length,
     chars,
-    minutes: Math.round(ms / 60000),
+    time: ms < 60_000 ? { v: Math.round(ms / 1000), u: '秒' } : ms < 3_600_000 ? { v: Math.round(ms / 60000), u: '分' } : { v: Math.round(ms / 360000) / 10, u: '小時' },
     best: Math.round(Math.max(...r.map((x) => x.cpm))),
     acc: Math.round((r.reduce((s, x) => s + x.accuracy, 0) / r.length) * 1000) / 10,
   }
@@ -97,7 +97,7 @@ async function clearAll() {
     <section v-if="summary" class="tiles">
       <div class="tile card"><span class="lab">練習次數</span><span class="val num serif">{{ summary.sessions }}</span></div>
       <div class="tile card"><span class="lab">累計字數</span><span class="val num serif">{{ summary.chars.toLocaleString() }}</span></div>
-      <div class="tile card"><span class="lab">累計時間</span><span class="val num serif">{{ summary.minutes }}<small> 分</small></span></div>
+      <div class="tile card"><span class="lab">累計時間</span><span class="val num serif">{{ summary.time.v }}<small> {{ summary.time.u }}</small></span></div>
       <div class="tile card"><span class="lab">最快</span><span class="val num serif">{{ summary.best }}<small> 字/分</small></span></div>
       <div class="tile card"><span class="lab">平均正確率</span><span class="val num serif">{{ summary.acc }}<small>%</small></span></div>
     </section>
