@@ -1,0 +1,3210 @@
+{
+  "im": "dayi",
+  "version": "大易三碼／OpenVanilla授權原表",
+  "status": "研究草稿；不能宣稱254個圖形均已有無損Unicode表示",
+  "sources": [
+    "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2",
+    "https://www.dayi.com/assets/大易輸入法-8_0-操作說明2.pdf#page=27"
+  ],
+  "keys": [
+    {
+      "key": "0",
+      "label": "金",
+      "roots": [
+        "金",
+        "𠆢",
+        "乂",
+        "辶",
+        "廴",
+        "㇏"
+      ],
+      "category": "五行",
+      "mnemonic": "金從上端兩筆向左右分開的形，衍生撇捺和捺筆；0聯想到金環的圓形。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵6個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "0:1",
+          "glyph": "金",
+          "source_glyph": "U+91D1",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "0:2",
+          "glyph": "𠆢",
+          "source_glyph": "U+E000",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "0:3",
+          "glyph": "乂",
+          "source_glyph": "U+E001",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "0:4",
+          "glyph": "辶",
+          "source_glyph": "U+E01A",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "0:5",
+          "glyph": "廴",
+          "source_glyph": "U+E01B",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "0:6",
+          "glyph": "㇏",
+          "source_glyph": "U+E01C",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "金",
+        "釒",
+        "钅"
+      ]
+    },
+    {
+      "key": "i",
+      "label": "木",
+      "roots": [
+        "木",
+        "朩"
+      ],
+      "category": "五行",
+      "mnemonic": "木與少筆木同組；I可想成樹幹，這是記鍵聯想，不是字源。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵2個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "i:1",
+          "glyph": "木",
+          "source_glyph": "U+6728",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "i:2",
+          "glyph": "朩",
+          "source_glyph": "U+E064",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "木",
+        "朩"
+      ]
+    },
+    {
+      "key": "x",
+      "label": "水",
+      "roots": [
+        "水",
+        "氵",
+        "三",
+        "氺",
+        "永",
+        "又",
+        "乂",
+        "攵",
+        "夂"
+      ],
+      "category": "五行",
+      "mnemonic": "水流和交叉筆形都歸此組；X的交叉外形幫助記水叉族。永、三僅為圖中的水形近似；又乂有多種角度／缺筆變體。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵10個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "x:1",
+          "glyph": "水",
+          "source_glyph": "U+6C34",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "x:2",
+          "glyph": "氵",
+          "source_glyph": "U+E009",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "x:3",
+          "glyph": "三",
+          "source_glyph": "U+E00A",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "x:4",
+          "glyph": "氺",
+          "source_glyph": "U+E008",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "x:5",
+          "glyph": "永",
+          "source_glyph": "U+E007",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "x:6",
+          "glyph": "又",
+          "source_glyph": "U+E0B6",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "x:7",
+          "glyph": "乂",
+          "source_glyph": "U+4E42",
+          "source_page": 2,
+          "source_row": 7,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "x:8",
+          "glyph": "又",
+          "source_glyph": "U+53C8",
+          "source_page": 2,
+          "source_row": 8,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "x:9",
+          "glyph": "攵",
+          "source_glyph": "U+E00C",
+          "source_page": 2,
+          "source_row": 9,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "x:10",
+          "glyph": "夂",
+          "source_glyph": "U+E00D",
+          "source_page": 2,
+          "source_row": 10,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "水",
+        "氵",
+        "氺",
+        "又",
+        "乂",
+        "攵",
+        "夂",
+        "攴"
+      ]
+    },
+    {
+      "key": "y",
+      "label": "火",
+      "roots": [
+        "火",
+        "灬",
+        "㣺"
+      ],
+      "category": "五行",
+      "mnemonic": "火的四點各種方向都歸同屬性；Y可聯想分叉火焰。四點斜向與水平排法用灬、㣺近似。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵4個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "y:1",
+          "glyph": "火",
+          "source_glyph": "U+706B",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "y:2",
+          "glyph": "灬",
+          "source_glyph": "U+E00E",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "y:3",
+          "glyph": "㣺",
+          "source_glyph": "U+E040",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "y:4",
+          "glyph": "灬",
+          "source_glyph": "U+E00B",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "火",
+        "灬"
+      ]
+    },
+    {
+      "key": "f",
+      "label": "土",
+      "roots": [
+        "土",
+        "士",
+        "十",
+        "圭",
+        "丰",
+        "艹"
+      ],
+      "category": "五行",
+      "mnemonic": "土族由橫豎相交變化；F的橫豎外形可作提示。圭、半、艹僅代表圖中缺筆土形，非整字。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵6個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "f:1",
+          "glyph": "土",
+          "source_glyph": "U+571F",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "f:2",
+          "glyph": "士",
+          "source_glyph": "U+58EB",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "f:3",
+          "glyph": "十",
+          "source_glyph": "U+E00F",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "f:4",
+          "glyph": "圭",
+          "source_glyph": "U+E010",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "f:5",
+          "glyph": "丰",
+          "source_glyph": "U+E011",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "f:6",
+          "glyph": "艹",
+          "source_glyph": "U+E012",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "土",
+        "士",
+        "丰"
+      ]
+    },
+    {
+      "key": "a",
+      "label": "人",
+      "roots": [
+        "人",
+        "亻",
+        "𠆢",
+        "入",
+        "𠔉"
+      ],
+      "category": "人",
+      "mnemonic": "人的撇捺和各種偏旁變形像A的兩腳；部分合頭以𠆢近似。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵6個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "a:1",
+          "glyph": "人",
+          "source_glyph": "U+4EBA",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "a:2",
+          "glyph": "亻",
+          "source_glyph": "U+E013",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "a:3",
+          "glyph": "𠆢",
+          "source_glyph": "U+E014",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "a:4",
+          "glyph": "入",
+          "source_glyph": "U+5165",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "a:5",
+          "glyph": "𠔉",
+          "source_glyph": "U+E015",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "a:6",
+          "glyph": "𠆢",
+          "source_glyph": "U+E016",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "人",
+        "亻",
+        "入",
+        "𠆢"
+      ]
+    },
+    {
+      "key": "z",
+      "label": "心",
+      "roots": [
+        "心",
+        "忄",
+        "㣺"
+      ],
+      "category": "人",
+      "mnemonic": "心旁與心底屬性相同；Z是記鍵慣例，可把曲折線聯想心緒，並非官方字源說。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵3個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "z:1",
+          "glyph": "心",
+          "source_glyph": "U+5FC3",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "z:2",
+          "glyph": "忄",
+          "source_glyph": "U+E017",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "z:3",
+          "glyph": "㣺",
+          "source_glyph": "U+E018",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "心",
+        "忄",
+        "㣺"
+      ]
+    },
+    {
+      "key": "o",
+      "label": "口",
+      "roots": [
+        "口"
+      ],
+      "category": "人",
+      "mnemonic": "口的圍合外形像O。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵1個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "o:1",
+          "glyph": "口",
+          "source_glyph": "U+53E3",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        }
+      ],
+      "match_roots": [
+        "口"
+      ]
+    },
+    {
+      "key": "1",
+      "label": "言",
+      "roots": [
+        "言",
+        "丨",
+        "丿"
+      ],
+      "category": "人",
+      "mnemonic": "言、直筆及言字中單邊筆形同組；1是直立的一畫。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵3個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "1:1",
+          "glyph": "言",
+          "source_glyph": "U+8A00",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "1:2",
+          "glyph": "丨",
+          "source_glyph": "U+E069",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "1:3",
+          "glyph": "丿",
+          "source_glyph": "U+E06A",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "言",
+        "訁",
+        "讠",
+        "丨"
+      ]
+    },
+    {
+      "key": "p",
+      "label": "耳",
+      "roots": [
+        "耳",
+        "身",
+        "長",
+        "匚",
+        "上",
+        "其",
+        "乍",
+        "阝",
+        "卩"
+      ],
+      "category": "人",
+      "mnemonic": "耳、身、長的長直側邊變形；P的上部輪廓可聯想耳朵。匚只近似長身缺筆外形。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵9個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "p:1",
+          "glyph": "耳",
+          "source_glyph": "U+8033",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "p:2",
+          "glyph": "身",
+          "source_glyph": "U+8EAB",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "p:3",
+          "glyph": "長",
+          "source_glyph": "U+E01E",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "p:4",
+          "glyph": "匚",
+          "source_glyph": "U+E01D",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "p:5",
+          "glyph": "上",
+          "source_glyph": "U+E01F",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "p:6",
+          "glyph": "其",
+          "source_glyph": "U+E023",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "p:7",
+          "glyph": "乍",
+          "source_glyph": "U+E024",
+          "source_page": 2,
+          "source_row": 7,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "p:8",
+          "glyph": "阝",
+          "source_glyph": "U+E020",
+          "source_page": 2,
+          "source_row": 8,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "p:9",
+          "glyph": "卩",
+          "source_glyph": "U+E021",
+          "source_page": 2,
+          "source_row": 9,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "耳",
+        "身",
+        "長",
+        "阝",
+        "卩"
+      ]
+    },
+    {
+      "key": "3",
+      "label": "目",
+      "roots": [
+        "目",
+        "且",
+        "直",
+        "上",
+        "止",
+        "非"
+      ],
+      "category": "人",
+      "mnemonic": "目與單邊、雙邊目框同組；3可聯想把眼眶轉向一側。上止非片僅為目框增減筆形的近似。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵6個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "3:1",
+          "glyph": "目",
+          "source_glyph": "U+76EE",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "3:2",
+          "glyph": "且",
+          "source_glyph": "U+E022",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "3:3",
+          "glyph": "直",
+          "source_glyph": "U+E061",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "3:4",
+          "glyph": "上",
+          "source_glyph": "U+E025",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "3:5",
+          "glyph": "止",
+          "source_glyph": "U+E026",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "3:6",
+          "glyph": "非",
+          "source_glyph": "U+E027",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "目",
+        "且"
+      ]
+    },
+    {
+      "key": "g",
+      "label": "手",
+      "roots": [
+        "手",
+        "扌",
+        "十",
+        "亅"
+      ],
+      "category": "人",
+      "mnemonic": "提手旁的上、下半部皆同組，G是主根手的記鍵位置；十、亅只代表省筆手形。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵4個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "g:1",
+          "glyph": "手",
+          "source_glyph": "U+624B",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "g:2",
+          "glyph": "扌",
+          "source_glyph": "U+E028",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "g:3",
+          "glyph": "十",
+          "source_glyph": "U+E029",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "g:4",
+          "glyph": "亅",
+          "source_glyph": "U+E02A",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "手",
+        "扌"
+      ]
+    },
+    {
+      "key": "9",
+      "label": "足",
+      "roots": [
+        "足",
+        "⻊",
+        "止",
+        "疋",
+        "卜",
+        "丅"
+      ],
+      "category": "人",
+      "mnemonic": "足的上、中、下部分同組；9外形像足的轉折，卜是腳形的直筆分支。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵7個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "9:1",
+          "glyph": "足",
+          "source_glyph": "U+8DB3",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "9:2",
+          "glyph": "⻊",
+          "source_glyph": "U+E02C",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "9:3",
+          "glyph": "止",
+          "source_glyph": "U+6B62",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "9:4",
+          "glyph": "⻊",
+          "source_glyph": "U+E02F",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "9:5",
+          "glyph": "疋",
+          "source_glyph": "U+E02D",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "9:6",
+          "glyph": "卜",
+          "source_glyph": "U+535C",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "9:7",
+          "glyph": "丅",
+          "source_glyph": "U+E02E",
+          "source_page": 2,
+          "source_row": 7,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "足",
+        "止",
+        "⻊",
+        "卜"
+      ]
+    },
+    {
+      "key": "l",
+      "label": "女",
+      "roots": [
+        "女",
+        "𠃋",
+        "く",
+        "巛",
+        "凵"
+      ],
+      "category": "人",
+      "mnemonic": "女的第一筆及其折線變形歸同組；L的折角提供記鍵線索。く是近似未編碼折筆，不作假名教學。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵5個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "l:1",
+          "glyph": "女",
+          "source_glyph": "U+5973",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "l:2",
+          "glyph": "𠃋",
+          "source_glyph": "U+E030",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "l:3",
+          "glyph": "く",
+          "source_glyph": "U+E031",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "l:4",
+          "glyph": "巛",
+          "source_glyph": "U+E032",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "l:5",
+          "glyph": "凵",
+          "source_glyph": "U+E033",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "女",
+        "巛"
+      ]
+    },
+    {
+      "key": "2",
+      "label": "牛",
+      "roots": [
+        "牛",
+        "牜",
+        "𠂉",
+        "生",
+        "丑",
+        "丰"
+      ],
+      "category": "動物",
+      "mnemonic": "牛族由相近的橫豎撇筆演繹；2用生肖第二順位作記鍵聯想。生丑丰只指圖中缺筆形。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵6個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "2:1",
+          "glyph": "牛",
+          "source_glyph": "U+725B",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "2:2",
+          "glyph": "牜",
+          "source_glyph": "U+E034",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "2:3",
+          "glyph": "𠂉",
+          "source_glyph": "U+E035",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "2:4",
+          "glyph": "生",
+          "source_glyph": "U+E036",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "2:5",
+          "glyph": "丑",
+          "source_glyph": "U+E037",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "2:6",
+          "glyph": "丰",
+          "source_glyph": "U+E038",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "牛",
+        "牜"
+      ]
+    },
+    {
+      "key": "b",
+      "label": "馬",
+      "roots": [
+        "馬",
+        "㇆",
+        "羽",
+        "乛"
+      ],
+      "category": "動物",
+      "mnemonic": "馬的筆形、尤其末端彎鉤歸同組；B是鍵位記憶。弓羽為馬尾鉤形近似，非完整弓羽。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵7個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "b:1",
+          "glyph": "馬",
+          "source_glyph": "U+99AC",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "b:2",
+          "glyph": "㇆",
+          "source_glyph": "U+E044",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "b:3",
+          "glyph": "㇆",
+          "source_glyph": "U+E043",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "b:4",
+          "glyph": "㇆",
+          "source_glyph": "U+E045",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "b:5",
+          "glyph": "羽",
+          "source_glyph": "U+E042",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "b:6",
+          "glyph": "乛",
+          "source_glyph": "U+E0A2",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "b:7",
+          "glyph": "㇆",
+          "source_glyph": "U+E046",
+          "source_page": 2,
+          "source_row": 7,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "馬",
+        "马"
+      ]
+    },
+    {
+      "key": "c",
+      "label": "鹿",
+      "roots": [
+        "鹿",
+        "广",
+        "虍",
+        "丬",
+        "匕",
+        "七",
+        "乚",
+        "乙",
+        "㇈",
+        "㇉",
+        "气"
+      ],
+      "category": "動物",
+      "mnemonic": "鹿的右下方及初始筆形歸此組，包含虍、匕、七與彎鉤；C像開口的彎曲筆形。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵11個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "c:1",
+          "glyph": "鹿",
+          "source_glyph": "U+9E7F",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "c:2",
+          "glyph": "广",
+          "source_glyph": "U+E039",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "c:3",
+          "glyph": "虍",
+          "source_glyph": "U+864D",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "c:4",
+          "glyph": "丬",
+          "source_glyph": "U+E03B",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "c:5",
+          "glyph": "匕",
+          "source_glyph": "U+5315",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "c:6",
+          "glyph": "七",
+          "source_glyph": "U+4E03",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "c:7",
+          "glyph": "乚",
+          "source_glyph": "U+E03D",
+          "source_page": 2,
+          "source_row": 7,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "c:8",
+          "glyph": "乙",
+          "source_glyph": "U+4E59",
+          "source_page": 2,
+          "source_row": 8,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "c:9",
+          "glyph": "㇈",
+          "source_glyph": "U+E0A9",
+          "source_page": 2,
+          "source_row": 9,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "c:10",
+          "glyph": "㇉",
+          "source_glyph": "U+E03C",
+          "source_page": 2,
+          "source_row": 10,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "c:11",
+          "glyph": "气",
+          "source_glyph": "U+E0B0",
+          "source_page": 2,
+          "source_row": 11,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "鹿",
+        "虍",
+        "匕",
+        "七",
+        "乙",
+        "气"
+      ]
+    },
+    {
+      "key": ",",
+      "label": "犭",
+      "roots": [
+        "犭",
+        "豕",
+        "勹",
+        "力"
+      ],
+      "category": "動物",
+      "mnemonic": "犬旁、豕、力的近似彎鉤筆形放同組；逗號鍵彎曲作記鍵。勹只是缺筆狗形近似。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵5個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": ",:1",
+          "glyph": "犭",
+          "source_glyph": "U+E03E",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": ",:2",
+          "glyph": "豕",
+          "source_glyph": "U+E03F",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": ",:3",
+          "glyph": "犭",
+          "source_glyph": "U+E041",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": ",:4",
+          "glyph": "勹",
+          "source_glyph": "U+E047",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": ",:5",
+          "glyph": "力",
+          "source_glyph": "U+529B",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖可編碼字形。"
+        }
+      ],
+      "match_roots": [
+        "犭",
+        "豕",
+        "力"
+      ]
+    },
+    {
+      "key": ";",
+      "label": "虫",
+      "roots": [
+        "虫",
+        "禸",
+        "屮",
+        "凵",
+        "艮",
+        "民"
+      ],
+      "category": "動物",
+      "mnemonic": "虫及拆出的折鉤筆形同組；分號與虫的點畫可聯想。屮凵艮僅為局部未編碼形近似。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵6個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": ";:1",
+          "glyph": "虫",
+          "source_glyph": "U+866B",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": ";:2",
+          "glyph": "禸",
+          "source_glyph": "U+E09C",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": ";:3",
+          "glyph": "屮",
+          "source_glyph": "U+E048",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": ";:4",
+          "glyph": "凵",
+          "source_glyph": "U+E049",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": ";:5",
+          "glyph": "艮",
+          "source_glyph": "U+E04A",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": ";:6",
+          "glyph": "民",
+          "source_glyph": "U+E04B",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "虫"
+      ]
+    },
+    {
+      "key": "n",
+      "label": "魚",
+      "roots": [
+        "魚",
+        "角",
+        "𠂊",
+        "夕",
+        "彑",
+        "刀",
+        "刂"
+      ],
+      "category": "動物",
+      "mnemonic": "魚、角及刀部初始筆形同組，N是主根魚的固定鍵。𠂊是魚頭形近似。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵8個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "n:1",
+          "glyph": "魚",
+          "source_glyph": "U+9B5A",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "n:2",
+          "glyph": "角",
+          "source_glyph": "U+89D2",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "n:3",
+          "glyph": "𠂊",
+          "source_glyph": "U+E04C",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "n:4",
+          "glyph": "夕",
+          "source_glyph": "U+E09B",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "n:5",
+          "glyph": "夕",
+          "source_glyph": "U+5915",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "n:6",
+          "glyph": "彑",
+          "source_glyph": "U+E04D",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "n:7",
+          "glyph": "刀",
+          "source_glyph": "U+5200",
+          "source_page": 2,
+          "source_row": 7,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "n:8",
+          "glyph": "刂",
+          "source_glyph": "U+E04E",
+          "source_page": 2,
+          "source_row": 8,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "魚",
+        "鱼",
+        "角",
+        "夕",
+        "刀",
+        "刂"
+      ]
+    },
+    {
+      "key": "h",
+      "label": "鳥",
+      "roots": [
+        "鳥",
+        "㇀",
+        "厂",
+        "户",
+        "戶",
+        "尸",
+        "㇇"
+      ],
+      "category": "動物",
+      "mnemonic": "鳥的初始筆形和戶、尸、厂形同組；H作鳥的記鍵。各種戶框缺筆形以戶尸厂近似。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵11個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "h:1",
+          "glyph": "鳥",
+          "source_glyph": "U+9CE5",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "h:2",
+          "glyph": "㇀",
+          "source_glyph": "U+E09F",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "h:3",
+          "glyph": "厂",
+          "source_glyph": "U+E0A0",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "h:4",
+          "glyph": "厂",
+          "source_glyph": "U+E051",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "h:5",
+          "glyph": "户",
+          "source_glyph": "U+E052",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "h:6",
+          "glyph": "戶",
+          "source_glyph": "U+6236",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "h:7",
+          "glyph": "户",
+          "source_glyph": "U+E04F",
+          "source_page": 2,
+          "source_row": 7,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "h:8",
+          "glyph": "尸",
+          "source_glyph": "U+5C38",
+          "source_page": 2,
+          "source_row": 8,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "h:9",
+          "glyph": "户",
+          "source_glyph": "U+E09E",
+          "source_page": 2,
+          "source_row": 9,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "h:10",
+          "glyph": "戶",
+          "source_glyph": "U+E050",
+          "source_page": 2,
+          "source_row": 10,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "h:11",
+          "glyph": "㇇",
+          "source_glyph": "U+E053",
+          "source_page": 2,
+          "source_row": 11,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "鳥",
+        "鸟",
+        "戶",
+        "户",
+        "尸",
+        "厂"
+      ]
+    },
+    {
+      "key": "d",
+      "label": "日",
+      "roots": [
+        "日",
+        "曰",
+        "由",
+        "田"
+      ],
+      "category": "自然",
+      "mnemonic": "日的封閉方框與穿筆變形同組；D聯想英文day的日。田由僅代表圖中的日框穿筆形。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵4個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "d:1",
+          "glyph": "日",
+          "source_glyph": "U+65E5",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "d:2",
+          "glyph": "曰",
+          "source_glyph": "U+66F0",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "d:3",
+          "glyph": "由",
+          "source_glyph": "U+E054",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "d:4",
+          "glyph": "田",
+          "source_glyph": "U+E055",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "日",
+        "曰"
+      ]
+    },
+    {
+      "key": "j",
+      "label": "月",
+      "roots": [
+        "月",
+        "冃",
+        "冂",
+        "夕",
+        "冫",
+        "亅",
+        "乚"
+      ],
+      "category": "自然",
+      "mnemonic": "月和月鉤形放同組；J的下鉤可聯想月鉤。冂肉僅指月形近似，普通雨蓋在m。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵8個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "j:1",
+          "glyph": "月",
+          "source_glyph": "U+6708",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "j:2",
+          "glyph": "冃",
+          "source_glyph": "U+E09D",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "j:3",
+          "glyph": "冂",
+          "source_glyph": "U+E0AD",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "j:4",
+          "glyph": "夕",
+          "source_glyph": "U+E056",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "j:5",
+          "glyph": "冫",
+          "source_glyph": "U+E02B",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "j:6",
+          "glyph": "冫",
+          "source_glyph": "U+E0A1",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "j:7",
+          "glyph": "亅",
+          "source_glyph": "U+E057",
+          "source_page": 2,
+          "source_row": 7,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "j:8",
+          "glyph": "乚",
+          "source_glyph": "U+E058",
+          "source_page": 2,
+          "source_row": 8,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "月"
+      ]
+    },
+    {
+      "key": "w",
+      "label": "山",
+      "roots": [
+        "山",
+        "屮",
+        "凵",
+        "凹",
+        "臼",
+        "𦥑"
+      ],
+      "category": "自然",
+      "mnemonic": "山的凹凸與臼等凹形同組；W的凹凸最容易聯想山。𦥑含學舉上部特別字根近似。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵8個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "w:1",
+          "glyph": "山",
+          "source_glyph": "U+5C71",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "w:2",
+          "glyph": "屮",
+          "source_glyph": "U+E0B2",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "w:3",
+          "glyph": "屮",
+          "source_glyph": "U+E0AA",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "w:4",
+          "glyph": "凵",
+          "source_glyph": "U+51F5",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "w:5",
+          "glyph": "凹",
+          "source_glyph": "U+E066",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "w:6",
+          "glyph": "臼",
+          "source_glyph": "U+81FC",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "w:7",
+          "glyph": "𦥑",
+          "source_glyph": "U+E067",
+          "source_page": 2,
+          "source_row": 7,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "w:8",
+          "glyph": "𦥑",
+          "source_glyph": "U+E068",
+          "source_page": 2,
+          "source_row": 8,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "山",
+        "屮",
+        "凵",
+        "臼"
+      ]
+    },
+    {
+      "key": "q",
+      "label": "石",
+      "roots": [
+        "石",
+        "几",
+        "儿",
+        "兀",
+        "𠘨"
+      ],
+      "category": "自然",
+      "mnemonic": "石族和几、儿形的轉折同組；Q可把外圈聯想石塊。各種几缺筆形以几儿近似。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵8個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "q:1",
+          "glyph": "石",
+          "source_glyph": "U+77F3",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "q:2",
+          "glyph": "几",
+          "source_glyph": "U+51E0",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "q:3",
+          "glyph": "儿",
+          "source_glyph": "U+513F",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "q:4",
+          "glyph": "儿",
+          "source_glyph": "U+E0AC",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "q:5",
+          "glyph": "兀",
+          "source_glyph": "U+E05A",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "q:6",
+          "glyph": "几",
+          "source_glyph": "U+E05B",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "q:7",
+          "glyph": "儿",
+          "source_glyph": "U+E05C",
+          "source_page": 2,
+          "source_row": 7,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "q:8",
+          "glyph": "𠘨",
+          "source_glyph": "U+E05D",
+          "source_page": 2,
+          "source_row": 8,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "石",
+        "几",
+        "儿"
+      ]
+    },
+    {
+      "key": "m",
+      "label": "雨",
+      "roots": [
+        "雨",
+        "冎",
+        "宀",
+        "冖",
+        "冂"
+      ],
+      "category": "自然",
+      "mnemonic": "全部是朝下覆蓋的筆形，M作雨蓋的記鍵。冎僅指骨上框。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵6個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "m:1",
+          "glyph": "雨",
+          "source_glyph": "U+96E8",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "m:2",
+          "glyph": "冎",
+          "source_glyph": "U+E060",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "m:3",
+          "glyph": "宀",
+          "source_glyph": "U+E05E",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "m:4",
+          "glyph": "冖",
+          "source_glyph": "U+E05F",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "m:5",
+          "glyph": "冂",
+          "source_glyph": "U+E065",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "m:6",
+          "glyph": "冂",
+          "source_glyph": "U+E0AB",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "雨",
+        "宀",
+        "冖",
+        "冂"
+      ]
+    },
+    {
+      "key": "7",
+      "label": "田",
+      "roots": [
+        "田",
+        "囗"
+      ],
+      "category": "農業",
+      "mnemonic": "田與外圍框形歸同組；7作田的固定鍵，不能把框和口混為一根。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵3個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "7:1",
+          "glyph": "田",
+          "source_glyph": "U+7530",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "7:2",
+          "glyph": "囗",
+          "source_glyph": "U+56D7",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "7:3",
+          "glyph": "囗",
+          "source_glyph": "U+E06C",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "田",
+        "囗"
+      ]
+    },
+    {
+      "key": "v",
+      "label": "禾",
+      "roots": [
+        "禾",
+        "丿",
+        "大",
+        "夫",
+        "夭"
+      ],
+      "category": "農業",
+      "mnemonic": "禾的初始筆形、大與夫同組；V的展開形可作大字記憶。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵5個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "v:1",
+          "glyph": "禾",
+          "source_glyph": "U+79BE",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "v:2",
+          "glyph": "丿",
+          "source_glyph": "U+E06D",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "v:3",
+          "glyph": "大",
+          "source_glyph": "U+5927",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "v:4",
+          "glyph": "夫",
+          "source_glyph": "U+592B",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "v:5",
+          "glyph": "夭",
+          "source_glyph": "U+E06E",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "禾",
+        "大",
+        "夫"
+      ]
+    },
+    {
+      "key": "8",
+      "label": "米",
+      "roots": [
+        "米",
+        "丷",
+        "八",
+        "𠔉",
+        "鬲",
+        "酉"
+      ],
+      "category": "農業",
+      "mnemonic": "米的初始兩點、末尾八和酉同組；8讀八提醒米字的上下分開筆。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵6個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "8:1",
+          "glyph": "米",
+          "source_glyph": "U+7C73",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "8:2",
+          "glyph": "丷",
+          "source_glyph": "U+E070",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "8:3",
+          "glyph": "八",
+          "source_glyph": "U+516B",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "8:4",
+          "glyph": "𠔉",
+          "source_glyph": "U+E071",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "8:5",
+          "glyph": "鬲",
+          "source_glyph": "U+E06F",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "8:6",
+          "glyph": "酉",
+          "source_glyph": "U+9149",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖可編碼字形。"
+        }
+      ],
+      "match_roots": [
+        "米",
+        "丷",
+        "八",
+        "酉"
+      ]
+    },
+    {
+      "key": "/",
+      "label": "竹",
+      "roots": [
+        "竹",
+        "丿",
+        "彡",
+        "鬼"
+      ],
+      "category": "農業",
+      "mnemonic": "竹頭、單撇和連撇同組，斜線鍵就是撇；鬼僅取圖中近似撇／頭形。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵5個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "/:1",
+          "glyph": "竹",
+          "source_glyph": "U+7AF9",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "/:2",
+          "glyph": "丿",
+          "source_glyph": "U+E072",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "/:3",
+          "glyph": "彡",
+          "source_glyph": "U+E073",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "/:4",
+          "glyph": "彡",
+          "source_glyph": "U+E074",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "/:5",
+          "glyph": "鬼",
+          "source_glyph": "U+E099",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "竹",
+        "⺮",
+        "丿",
+        "彡"
+      ]
+    },
+    {
+      "key": "u",
+      "label": "艹",
+      "roots": [
+        "艸",
+        "艹",
+        "卄",
+        "廾",
+        "井",
+        "並",
+        "业"
+      ],
+      "category": "農業",
+      "mnemonic": "草、廾及成排豎筆同組；U作凹形草根記憶。並、业只取圖中上部或省筆形。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵7個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "u:1",
+          "glyph": "艸",
+          "source_glyph": "U+8278",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "u:2",
+          "glyph": "艹",
+          "source_glyph": "U+E075",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "u:3",
+          "glyph": "卄",
+          "source_glyph": "U+E077",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "u:4",
+          "glyph": "廾",
+          "source_glyph": "U+5EFE",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "u:5",
+          "glyph": "井",
+          "source_glyph": "U+E076",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "u:6",
+          "glyph": "並",
+          "source_glyph": "U+E09A",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "u:7",
+          "glyph": "业",
+          "source_glyph": "U+E078",
+          "source_page": 2,
+          "source_row": 7,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "艸",
+        "艹",
+        "廾",
+        "卄"
+      ]
+    },
+    {
+      "key": "r",
+      "label": "工",
+      "roots": [
+        "工",
+        "𢀖",
+        "匚",
+        "彐",
+        "亅",
+        "巨",
+        "匸",
+        "㇄"
+      ],
+      "category": "工藝",
+      "mnemonic": "工從中間分成左右側、匚形都放同組；R是主根工固定記鍵。彐己為缺筆工框近似。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵11個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "r:1",
+          "glyph": "工",
+          "source_glyph": "U+5DE5",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "r:2",
+          "glyph": "𢀖",
+          "source_glyph": "U+E079",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "r:3",
+          "glyph": "匚",
+          "source_glyph": "U+E07A",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "r:4",
+          "glyph": "彐",
+          "source_glyph": "U+E07B",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "r:5",
+          "glyph": "亅",
+          "source_glyph": "U+E07C",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "r:6",
+          "glyph": "匚",
+          "source_glyph": "U+531A",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "r:7",
+          "glyph": "巨",
+          "source_glyph": "U+E07E",
+          "source_page": 2,
+          "source_row": 7,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "r:8",
+          "glyph": "匚",
+          "source_glyph": "U+E07F",
+          "source_page": 2,
+          "source_row": 8,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "r:9",
+          "glyph": "匸",
+          "source_glyph": "U+E07D",
+          "source_page": 2,
+          "source_row": 9,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "r:10",
+          "glyph": "匚",
+          "source_glyph": "U+E0A3",
+          "source_page": 2,
+          "source_row": 10,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "r:11",
+          "glyph": "㇄",
+          "source_glyph": "U+E06B",
+          "source_page": 2,
+          "source_row": 11,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "工",
+        "匚",
+        "匸"
+      ]
+    },
+    {
+      "key": "6",
+      "label": "車",
+      "roots": [
+        "車",
+        "甫",
+        "門",
+        "鬥",
+        "鼎",
+        "冂",
+        "丱",
+        "片",
+        "爿"
+      ],
+      "category": "工藝",
+      "mnemonic": "車甫與門鬥的直框同組；6可聯想片的轉折。鼎只指下半框。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵9個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "6:1",
+          "glyph": "車",
+          "source_glyph": "U+8ECA",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "6:2",
+          "glyph": "甫",
+          "source_glyph": "U+752B",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "6:3",
+          "glyph": "門",
+          "source_glyph": "U+9580",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "6:4",
+          "glyph": "鬥",
+          "source_glyph": "U+9B25",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "6:5",
+          "glyph": "鼎",
+          "source_glyph": "U+E080",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "6:6",
+          "glyph": "冂",
+          "source_glyph": "U+E081",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "6:7",
+          "glyph": "丱",
+          "source_glyph": "U+4E31",
+          "source_page": 2,
+          "source_row": 7,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "6:8",
+          "glyph": "片",
+          "source_glyph": "U+7247",
+          "source_page": 2,
+          "source_row": 8,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "6:9",
+          "glyph": "爿",
+          "source_glyph": "U+E083",
+          "source_page": 2,
+          "source_row": 9,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "車",
+        "车",
+        "甫",
+        "門",
+        "门",
+        "鬥",
+        "丱",
+        "片",
+        "爿"
+      ]
+    },
+    {
+      "key": ".",
+      "label": "舟",
+      "roots": [
+        "舟",
+        "方",
+        "亠",
+        "冫",
+        "氵",
+        "丶"
+      ],
+      "category": "工藝",
+      "mnemonic": "方、舟與點畫形同組；句點本身就是點。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵6個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": ".:1",
+          "glyph": "舟",
+          "source_glyph": "U+821F",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": ".:2",
+          "glyph": "方",
+          "source_glyph": "U+65B9",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": ".:3",
+          "glyph": "亠",
+          "source_glyph": "U+E019",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": ".:4",
+          "glyph": "冫",
+          "source_glyph": "U+E085",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": ".:5",
+          "glyph": "氵",
+          "source_glyph": "U+E086",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": ".:6",
+          "glyph": "丶",
+          "source_glyph": "U+E062",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "舟",
+        "方",
+        "丶",
+        "冫"
+      ]
+    },
+    {
+      "key": "t",
+      "label": "糸",
+      "roots": [
+        "糸",
+        "幺",
+        "乡",
+        "小",
+        "氺",
+        "少"
+      ],
+      "category": "工藝",
+      "mnemonic": "糸的上、下部和小少同組；T可用絲線垂下記憶。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵7個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "t:1",
+          "glyph": "糸",
+          "source_glyph": "U+7CF8",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "t:2",
+          "glyph": "幺",
+          "source_glyph": "U+E0A4",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "t:3",
+          "glyph": "乡",
+          "source_glyph": "U+E089",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "t:4",
+          "glyph": "小",
+          "source_glyph": "U+5C0F",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "t:5",
+          "glyph": "氺",
+          "source_glyph": "U+E08A",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "t:6",
+          "glyph": "氺",
+          "source_glyph": "U+E08B",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "t:7",
+          "glyph": "少",
+          "source_glyph": "U+E08C",
+          "source_page": 2,
+          "source_row": 7,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "糸",
+        "糹",
+        "纟",
+        "幺",
+        "小",
+        "少"
+      ]
+    },
+    {
+      "key": "s",
+      "label": "革",
+      "roots": [
+        "革",
+        "甘",
+        "共",
+        "其",
+        "曲",
+        "世",
+        "十",
+        "才"
+      ],
+      "category": "工藝",
+      "mnemonic": "革的上下部與十族同組；S鍵常用雙十來記。其曲共僅指圖中部分橫豎形。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵8個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "s:1",
+          "glyph": "革",
+          "source_glyph": "U+9769",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "s:2",
+          "glyph": "甘",
+          "source_glyph": "U+E093",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "s:3",
+          "glyph": "共",
+          "source_glyph": "U+E094",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "s:4",
+          "glyph": "其",
+          "source_glyph": "U+E095",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "s:5",
+          "glyph": "曲",
+          "source_glyph": "U+E096",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "s:6",
+          "glyph": "世",
+          "source_glyph": "U+E088",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "s:7",
+          "glyph": "十",
+          "source_glyph": "U+5341",
+          "source_page": 2,
+          "source_row": 7,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "s:8",
+          "glyph": "才",
+          "source_glyph": "U+E092",
+          "source_page": 2,
+          "source_row": 8,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "革",
+        "廿",
+        "十",
+        "才"
+      ]
+    },
+    {
+      "key": "k",
+      "label": "立",
+      "roots": [
+        "立",
+        "之",
+        "亠",
+        "衣",
+        "く",
+        "衤"
+      ],
+      "category": "其他",
+      "mnemonic": "立、之及衣的上下部相近形同組；K是立、衣的固定記鍵。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵8個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "k:1",
+          "glyph": "立",
+          "source_glyph": "U+7ACB",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "k:2",
+          "glyph": "之",
+          "source_glyph": "U+4E4B",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "k:3",
+          "glyph": "亠",
+          "source_glyph": "U+E08D",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "k:4",
+          "glyph": "衣",
+          "source_glyph": "U+E08E",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "k:5",
+          "glyph": "衣",
+          "source_glyph": "U+E097",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "k:6",
+          "glyph": "く",
+          "source_glyph": "U+E08F",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "k:7",
+          "glyph": "衤",
+          "source_glyph": "U+E090",
+          "source_page": 2,
+          "source_row": 7,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "k:8",
+          "glyph": "衤",
+          "source_glyph": "U+E091",
+          "source_page": 2,
+          "source_row": 8,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "立",
+        "之",
+        "衣",
+        "衤"
+      ]
+    },
+    {
+      "key": "e",
+      "label": "一",
+      "roots": [
+        "一",
+        "㇀",
+        "彳"
+      ],
+      "category": "其他",
+      "mnemonic": "一、提畫與雙人旁同組；E可聯想多條平行橫畫。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵3個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "e:1",
+          "glyph": "一",
+          "source_glyph": "U+4E00",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "e:2",
+          "glyph": "㇀",
+          "source_glyph": "U+E098",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "e:3",
+          "glyph": "彳",
+          "source_glyph": "U+5F73",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖可編碼字形。"
+        }
+      ],
+      "match_roots": [
+        "一",
+        "㇀",
+        "彳"
+      ]
+    },
+    {
+      "key": "4",
+      "label": "四",
+      "roots": [
+        "四",
+        "罒",
+        "黑",
+        "黒",
+        "西"
+      ],
+      "category": "其他",
+      "mnemonic": "四的框和黑西同組；數字4直接提醒主根四。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵8個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "4:1",
+          "glyph": "四",
+          "source_glyph": "U+56DB",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "4:2",
+          "glyph": "罒",
+          "source_glyph": "U+E0A8",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "4:3",
+          "glyph": "罒",
+          "source_glyph": "U+E0B7",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "4:4",
+          "glyph": "罒",
+          "source_glyph": "U+E084",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "4:5",
+          "glyph": "罒",
+          "source_glyph": "U+E063",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "4:6",
+          "glyph": "黑",
+          "source_glyph": "U+9ED1",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "4:7",
+          "glyph": "黒",
+          "source_glyph": "U+E087",
+          "source_page": 2,
+          "source_row": 7,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "4:8",
+          "glyph": "西",
+          "source_glyph": "U+897F",
+          "source_page": 2,
+          "source_row": 8,
+          "note": "原圖可編碼字形。"
+        }
+      ],
+      "match_roots": [
+        "四",
+        "罒",
+        "黑",
+        "黒",
+        "西"
+      ]
+    },
+    {
+      "key": "5",
+      "label": "王",
+      "roots": [
+        "王",
+        "壬",
+        "乚",
+        "㇙",
+        "乂",
+        "戈",
+        "氏"
+      ],
+      "category": "其他",
+      "mnemonic": "王壬與斜向提挑筆形同組；5作王的固定記鍵。戈氏為圖示提挑族近似。",
+      "note": "依官方第2頁逐鍵轉錄字形族；完整字若註明僅取局部，不得用於整字匹配。未編碼、缺筆及旋轉變體以最接近Unicode形表示；同一近似字可能代表數個不同原圖字形。",
+      "sources": [
+        "https://www.dayi.com/assets/大易輸入法初學資料與範例.pdf#page=2"
+      ],
+      "completeness": "官方圖本鍵7個圖形槽均已列出；近似字形仍須幾何校對。",
+      "root_variants": [
+        {
+          "id": "5:1",
+          "glyph": "王",
+          "source_glyph": "U+738B",
+          "source_page": 2,
+          "source_row": 1,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "5:2",
+          "glyph": "壬",
+          "source_glyph": "U+58EC",
+          "source_page": 2,
+          "source_row": 2,
+          "note": "原圖可編碼字形。"
+        },
+        {
+          "id": "5:3",
+          "glyph": "乚",
+          "source_glyph": "U+E005",
+          "source_page": 2,
+          "source_row": 3,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "5:4",
+          "glyph": "㇙",
+          "source_glyph": "U+E004",
+          "source_page": 2,
+          "source_row": 4,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "5:5",
+          "glyph": "乂",
+          "source_glyph": "U+E003",
+          "source_page": 2,
+          "source_row": 5,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "5:6",
+          "glyph": "戈",
+          "source_glyph": "U+E002",
+          "source_page": 2,
+          "source_row": 6,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        },
+        {
+          "id": "5:7",
+          "glyph": "氏",
+          "source_glyph": "U+E006",
+          "source_page": 2,
+          "source_row": 7,
+          "note": "原圖為專用字形；以近似Unicode形表示，筆畫方向、缺筆或局部範圍須依官方圖核對，不可直接作整字根匹配。"
+        }
+      ],
+      "match_roots": [
+        "王",
+        "壬"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "name": "五行",
+      "keys": [
+        "0",
+        "i",
+        "x",
+        "y",
+        "f"
+      ],
+      "note": "依字根的語義領域分類；鍵內再依筆形或屬性演繹。"
+    },
+    {
+      "name": "人",
+      "keys": [
+        "a",
+        "z",
+        "o",
+        "1",
+        "p",
+        "3",
+        "g",
+        "9",
+        "l"
+      ],
+      "note": "依字根的語義領域分類；鍵內再依筆形或屬性演繹。"
+    },
+    {
+      "name": "動物",
+      "keys": [
+        "2",
+        "b",
+        "c",
+        ",",
+        ";",
+        "n",
+        "h"
+      ],
+      "note": "依字根的語義領域分類；鍵內再依筆形或屬性演繹。"
+    },
+    {
+      "name": "自然",
+      "keys": [
+        "d",
+        "j",
+        "w",
+        "q",
+        "m"
+      ],
+      "note": "依字根的語義領域分類；鍵內再依筆形或屬性演繹。"
+    },
+    {
+      "name": "農業",
+      "keys": [
+        "7",
+        "v",
+        "8",
+        "/",
+        "u"
+      ],
+      "note": "依字根的語義領域分類；鍵內再依筆形或屬性演繹。"
+    },
+    {
+      "name": "工藝",
+      "keys": [
+        "r",
+        "6",
+        ".",
+        "t",
+        "s"
+      ],
+      "note": "依字根的語義領域分類；鍵內再依筆形或屬性演繹。"
+    },
+    {
+      "name": "其他",
+      "keys": [
+        "k",
+        "e",
+        "4",
+        "5"
+      ],
+      "note": "依字根的語義領域分類；鍵內再依筆形或屬性演繹。"
+    }
+  ],
+  "rules": [
+    {
+      "title": "順筆取最大根、首二尾",
+      "body": "依筆順選涵蓋最多筆畫的字根，三碼版超過三根取首根、第二根和尾根；已取筆畫不重複。字根可依造字精神跨越不連續筆畫；囗與口、月與冂須按官方交叉規則區分。",
+      "examples": [
+        {
+          "char": "明",
+          "code": "dj",
+          "explain": "左日d、右月j，兩根依筆順取全。"
+        },
+        {
+          "char": "林",
+          "code": "ii",
+          "explain": "左右兩個木都在i，取ii。"
+        },
+        {
+          "char": "江",
+          "code": "xr",
+          "explain": "氵歸水x，右側工r，取xr。"
+        },
+        {
+          "char": "支",
+          "code": "sx",
+          "explain": "十歸革族s，又歸水叉族x，取sx。"
+        },
+        {
+          "char": "秋",
+          "code": "vy",
+          "explain": "左禾v、右火y，依筆順取vy。"
+        },
+        {
+          "char": "鑷",
+          "code": "0pp",
+          "explain": "完整根序金耳耳耳為0ppp；三碼取首二尾，省掉第三個根，得到0pp。"
+        }
+      ]
+    },
+    {
+      "title": "簡碼與完整碼分開教",
+      "body": "一、二碼的常用簡碼由表決定；不能把簡碼每個字母硬說成該字的全部字根。三碼字仍可能保有四碼原碼作版本比較，但網站固定用三碼原表。",
+      "examples": []
+    }
+  ],
+  "chart_slot_count": 253,
+  "chart_transcription_note": "逐欄保留官方PDF每個字形槽，source_glyph是原PDF字形識別，並非Unicode私用碼的跨字型語義。glyph為可編碼近似；無損幾何轉錄尚未完成。",
+  "matching_note": "match_roots是本次可辨認的完整Unicode字根子集，供保守IDS探測；roots含為圖示缺筆形所用的近似完整字，絕不能無條件拿roots作整字匹配。",
+  "table_scope_note": "原授權表有7616字具≤3碼；5436字只有四碼，不可冒充完整三碼8.0。完整原表保留作研究。"
+}

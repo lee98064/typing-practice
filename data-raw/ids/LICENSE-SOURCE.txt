@@ -1,0 +1,56 @@
+墨打 T1a — IDS 資料來源／授權記錄
+取得日：2026-11-22 (Asia/Taipei)
+推薦：cjkvi/cjkvi-ids 的 ids.txt（保留原標頭），源自 CHISE。
+固定 commit：86b4d16159f0079437870408f0ca186e529015db
+原始資料：https://raw.githubusercontent.com/cjkvi/cjkvi-ids/86b4d16159f0079437870408f0ca186e529015db/ids.txt
+授權聲明：https://raw.githubusercontent.com/cjkvi/cjkvi-ids/86b4d16159f0079437870408f0ca186e529015db/README.md
+已存 README-upstream.md。
+原檔標頭：
+# Copyright (c) 2014-2017 CJKVI Database
+# Based on CHISE IDS Database
+
+CJKVI README 授權節逐字：
+## Licenses
+
+* 'ids.txt' is derived from [CHISE project](http://www.chise.org/).
+  License follows their terms. 'ids-ext-cde.txt' is not directly based
+  on [CHISE project](http://www.chise.org/), and is not restricted to
+  GPLv2 license.
+
+* All other data are distributed uner GPLv2.
+
+CHISE 上游：https://raw.githubusercontent.com/chise/ids/932316eabb66cd37c54061662b2dd9d1564024d3/README.md
+已存 CHISE-README.md。License 節逐字：
+This package is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2, or (at your option)
+any later version.
+
+This package is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this package; see the file COPYING.  If not, write to
+the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+Boston, MA 02111-1307, USA.
+
+GPL v2 全文：GPL-2.0.txt；官方 URL：https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+本機全文鏡像取得 URL：https://raw.githubusercontent.com/git/git/master/COPYING
+適用結論：ids.txt 依 CHISE 條款 GPL-2.0-or-later；可於公開非營利網站再散布，保留版權、授權、可取得的原始資料；若修改／整合為衍生資料，仍需遵守 GPL。是否與其他資料／程式構成衍生作品，不能單憑放不同檔案保證無傳染；正式發佈時需審查生成流程及授權邊界。
+
+probe-chars.txt：本研究自行選定50個常見繁體字的測試序列，非抽樣常用4808全表，不代表整體覆蓋率。
+probe_common.py、probe-*.json：研究用前向推估及結果，不是應用程式引擎。預測結束後才查碼表核對。
+
+補充開放部件資料（不與 GPL IDS 合併，僅作替代來源評估）：
+CNS_component.txt、CNS_component_ref.txt
+來源：https://data.cns11643.gov.tw/opendata/Properties.zip（20261028）
+資料集／提供機關：https://data.gov.tw/dataset/5961 ，數位發展部。
+授權：政府資料開放授權條款－第1版（選擇此單一授權）；全文 OGDL-1.0.txt。
+顯名：數位發展部，2026，CNS11643中文標準交換碼全字庫（20261028），https://www.cns11643.gov.tw 。
+此開放資料依政府資料開放授權條款 (Open Government Data License) 進行公眾釋出，使用者於遵守本條款各項規定之前提下，得利用之。
+政府資料開放授權條款：https://data.gov.tw/license 。
+這是 CNS碼→部件編號序列＋部件編號→字形參照，並非附有⿰⿱等空間運算子的IDS樹；部分部件使用PUA，需要另處理字形。未下載CNS字型／圖片。
+
+probe-*.json 含取自 IDS 的50筆結構描述，依本目錄 GPL-2.0-or-later 授權保留來源。研究說明與自寫程式不因單純讀入資料就被此聲明重新授權。

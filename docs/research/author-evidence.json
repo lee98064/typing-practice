@@ -1,0 +1,326 @@
+{
+  "retrieved": "2026-11-22",
+  "note": "僅保留作者姓名、生卒年欄位等事實及來源版本，不轉載現代作者簡介。司馬遷約前90年（另有前86年等說）；李清照、馬致遠、白樸卒年取約數。",
+  "authors": [
+    {
+      "author_page": "Author:劉禹錫",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E5%8A%89%E7%A6%B9%E9%8C%AB",
+      "revision": 8734964,
+      "date_fields": [
+        "deathyear=842"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:司馬遷",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E5%8F%B8%E9%A6%AC%E9%81%B7",
+      "revision": 2630664,
+      "date_fields": [
+        "deathyear=-90"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:吳均",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E5%90%B3%E5%9D%87",
+      "revision": 12993565,
+      "date_fields": [
+        "deathyear=520"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:周敦頤",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E5%91%A8%E6%95%A6%E9%A0%A4",
+      "revision": 206608,
+      "date_fields": [
+        "deathyear=1073"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:孟浩然",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E5%AD%9F%E6%B5%A9%E7%84%B6",
+      "revision": 2316696,
+      "date_fields": [
+        "deathyear = 740",
+        "691年－740年"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:宋濂",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E5%AE%8B%E6%BF%82",
+      "revision": 2636025,
+      "date_fields": [],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:張養浩",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E5%BC%B5%E9%A4%8A%E6%B5%A9",
+      "revision": 1541860,
+      "date_fields": [
+        "Dates=1270年-1329年"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:徐志摩",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E5%BE%90%E5%BF%97%E6%91%A9",
+      "revision": 6950721,
+      "date_fields": [
+        "deathyear = 1931"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:朱自清",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E6%9C%B1%E8%87%AA%E6%B8%85",
+      "revision": 2596884,
+      "date_fields": [
+        "deathyear=1948"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:李清照",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E6%9D%8E%E6%B8%85%E7%85%A7",
+      "revision": 11093823,
+      "date_fields": [],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:李白",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E6%9D%8E%E7%99%BD",
+      "revision": 2630656,
+      "date_fields": [],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:杜牧",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E6%9D%9C%E7%89%A7",
+      "revision": 2268274,
+      "date_fields": [
+        "deathyear=852"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:林覺民",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E6%9E%97%E8%A6%BA%E6%B0%91",
+      "revision": 2506752,
+      "date_fields": [
+        "deathyear=1911"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:柳宗元",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E6%9F%B3%E5%AE%97%E5%85%83",
+      "revision": 12724140,
+      "date_fields": [
+        "deathyear=819"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:梁啟超",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E6%A2%81%E5%95%9F%E8%B6%85",
+      "revision": 2649884,
+      "date_fields": [],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:歐陽修",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E6%AD%90%E9%99%BD%E4%BF%AE",
+      "revision": 8732967,
+      "date_fields": [
+        "deathyear=1072"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:歸有光",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E6%AD%B8%E6%9C%89%E5%85%89",
+      "revision": 2569138,
+      "date_fields": [
+        "deathyear=1571"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:王勃",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E7%8E%8B%E5%8B%83",
+      "revision": 8731305,
+      "date_fields": [
+        "deathyear=676"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:王安石",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E7%8E%8B%E5%AE%89%E7%9F%B3",
+      "revision": 2597092,
+      "date_fields": [
+        "deathyear=1086"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:王昌齡",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E7%8E%8B%E6%98%8C%E9%BD%A1",
+      "revision": 8734782,
+      "date_fields": [
+        "deathyear=756"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:王維",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E7%8E%8B%E7%B6%AD",
+      "revision": 2092719,
+      "date_fields": [
+        "deathyear=761"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:王羲之",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E7%8E%8B%E7%BE%B2%E4%B9%8B",
+      "revision": 2630647,
+      "date_fields": [],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:白居易",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E7%99%BD%E5%B1%85%E6%98%93",
+      "revision": 8734918,
+      "date_fields": [
+        "deathyear=846"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:范仲淹",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E8%8C%83%E4%BB%B2%E6%B7%B9",
+      "revision": 13122199,
+      "date_fields": [
+        "deathyear=1052"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:蘇洵",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E8%98%87%E6%B4%B5",
+      "revision": 2294009,
+      "date_fields": [
+        "deathyear=1066"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:蘇軾",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E8%98%87%E8%BB%BE",
+      "revision": 2638733,
+      "date_fields": [
+        "deathyear=1101"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:蘇轍",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E8%98%87%E8%BD%8D",
+      "revision": 2141802,
+      "date_fields": [
+        "deathyear=1112"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:許地山",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E8%A8%B1%E5%9C%B0%E5%B1%B1",
+      "revision": 2534003,
+      "date_fields": [
+        "deathyear=1941"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:諸葛亮",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E8%AB%B8%E8%91%9B%E4%BA%AE",
+      "revision": 2691946,
+      "date_fields": [],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:辛棄疾",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E8%BE%9B%E6%A3%84%E7%96%BE",
+      "revision": 2294056,
+      "date_fields": [
+        "deathyear=1207"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:陶淵明",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E9%99%B6%E6%B7%B5%E6%98%8E",
+      "revision": 2307897,
+      "date_fields": [
+        "deathyear=427"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:韓愈",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E9%9F%93%E6%84%88",
+      "revision": 2605158,
+      "date_fields": [
+        "deathyear=824"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:馬致遠",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E9%A6%AC%E8%87%B4%E9%81%A0",
+      "revision": 1484785,
+      "date_fields": [
+        "deathyear=1321"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:魯迅",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E9%AD%AF%E8%BF%85",
+      "revision": 2677979,
+      "date_fields": [],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:白仁甫",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E7%99%BD%E4%BB%81%E7%94%AB",
+      "revision": 1486086,
+      "date_fields": [
+        "deathyear=1306"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:劉向",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E5%8A%89%E5%90%91",
+      "revision": 2630966,
+      "date_fields": [
+        "deathyear=-6"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    },
+    {
+      "author_page": "Author:李密 (西晉)",
+      "url": "https://zh.wikisource.org/wiki/Author%3A%E6%9D%8E%E5%AF%86%20%28%E8%A5%BF%E6%99%89%29",
+      "revision": 2572327,
+      "date_fields": [
+        "deathyear=287"
+      ],
+      "source_note": "取作者頁之生卒年欄位；未含日期欄位者，古代作者身分已足以判斷期限。確切卒年考證差異不影響本次收錄。"
+    }
+  ]
+}

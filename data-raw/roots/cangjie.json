@@ -1,0 +1,2283 @@
+{
+  "im": "cangjie",
+  "version": "3",
+  "status": "research-draft-unicode-proxies",
+  "sources": [
+    "https://zh.wikibooks.org/wiki/倉頡輸入法/輔助字形",
+    "https://www.hkcards.com/b1/cj-table",
+    "https://raw.githubusercontent.com/definite/ibus-table-chinese/master/tables/cangjie/cangjie3.txt"
+  ],
+  "coverage": {
+    "main_roots": 24,
+    "v3_shape_classes": 99,
+    "source_svg_variants": 215,
+    "excluded_v5_only": [
+      "cjr5m-e1.svg",
+      "cjr5m-s1.svg"
+    ],
+    "note": "逐列保留三代形類與所有來源變體識別碼；Unicode 代表是草稿，不聲稱每個字形都能以單一 Unicode 精確顯示。"
+  },
+  "keys": [
+    {
+      "key": "a",
+      "label": "日",
+      "roots": [
+        "日",
+        "曰"
+      ],
+      "category": "哲理類",
+      "mnemonic": "日月及五行依序排在 A 到 G；A 是日。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "日",
+            "曰"
+          ],
+          "source_shape_ids": [
+            "cjrm-a0.svg",
+            "cjrm-a1.svg",
+            "cjrm-a2.svg"
+          ],
+          "example_characters": [
+            "明",
+            "早",
+            "良",
+            "書",
+            "冒"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 明,早,良 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "日"
+          ],
+          "source_shape_ids": [
+            "cjrm-a3.svg"
+          ],
+          "example_characters": [
+            "巴",
+            "眉",
+            "色",
+            "免",
+            "象"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 巴,眉,色 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "b",
+      "label": "月",
+      "roots": [
+        "月",
+        "⺼",
+        "⺝",
+        "冂",
+        "⺆",
+        "冖",
+        "爫"
+      ],
+      "category": "哲理類",
+      "mnemonic": "哲理類第二位是月，對應 B。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "月",
+            "⺼",
+            "⺝"
+          ],
+          "source_shape_ids": [
+            "cjrm-b0.svg",
+            "cjrm-b1.svg",
+            "cjrm-b2.svg",
+            "cjrm-b3.svg",
+            "cjrm-b4.svg",
+            "cjrm-b5.svg",
+            "cjrm-b6.svg"
+          ],
+          "example_characters": [
+            "朕",
+            "肝",
+            "胃",
+            "目",
+            "助"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 朕,肝,胃 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "冂",
+            "⺆"
+          ],
+          "source_shape_ids": [
+            "cjrm-b9.svg",
+            "cjrm-b7.svg",
+            "cjrm-b10.svg",
+            "cjrm-b8.svg"
+          ],
+          "example_characters": [
+            "用",
+            "同",
+            "禺",
+            "奧",
+            "皿"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 用,同,禺 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "冖"
+          ],
+          "source_shape_ids": [
+            "cjrm-b11.svg"
+          ],
+          "example_characters": [
+            "冠",
+            "罕",
+            "骨",
+            "旁",
+            "雷"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 冠,罕,骨 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "冂"
+          ],
+          "source_shape_ids": [
+            "cjrm-b19.svg",
+            "cjrm-b20.svg"
+          ],
+          "example_characters": [
+            "冎",
+            "渦",
+            "骨",
+            "體",
+            "冎（大陸寫法）"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 冎,渦,骨 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。 此為冎上方重疊框的近似字形，並非完整冂；三代支援解釋在來源註解中有討論，個別實作可能異碼。"
+        },
+        {
+          "representatives": [
+            "月"
+          ],
+          "source_shape_ids": [
+            "cjrm-b12.svg",
+            "cjrm-b14.svg",
+            "cjrm-b23.svg",
+            "cjrm-b13.svg",
+            "cjrm-b15.svg"
+          ],
+          "example_characters": [
+            "望",
+            "亙",
+            "炙",
+            "然",
+            "豹"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 望,亙,炙 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "爫"
+          ],
+          "source_shape_ids": [
+            "cjrm-b16.svg",
+            "cjrm-b17.svg"
+          ],
+          "example_characters": [
+            "愛",
+            "采",
+            "受",
+            "溪",
+            "菜"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 愛,采,受 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "c",
+      "label": "金",
+      "roots": [
+        "金",
+        "釒",
+        "丷",
+        "八",
+        "儿"
+      ],
+      "category": "哲理類",
+      "mnemonic": "日月之後接金木水火土，金在 C。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "金",
+            "釒"
+          ],
+          "source_shape_ids": [
+            "cjrm-c0.svg",
+            "cjrm-c1.svg"
+          ],
+          "example_characters": [
+            "鑒",
+            "淦",
+            "銅",
+            "劉",
+            "鏡"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 鑒,淦,銅 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "丷"
+          ],
+          "source_shape_ids": [
+            "cjrm-c2.svg"
+          ],
+          "example_characters": [
+            "丫",
+            "弟",
+            "业",
+            "僕",
+            "尞"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 丫,弟,业 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "八"
+          ],
+          "source_shape_ids": [
+            "cjrm-c3.svg",
+            "cjrm-c4.svg",
+            "cjrm-c5.svg"
+          ],
+          "example_characters": [
+            "只",
+            "谷",
+            "亦",
+            "扒",
+            "巷"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 只,谷,亦 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "儿"
+          ],
+          "source_shape_ids": [
+            "cjrm-c6.svg",
+            "cjrm-c9.svg"
+          ],
+          "example_characters": [
+            "四",
+            "西",
+            "空",
+            "詹",
+            "沿"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 四,西,空 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "d",
+      "label": "木",
+      "roots": [
+        "木",
+        "朩",
+        "才",
+        "也"
+      ],
+      "category": "哲理類",
+      "mnemonic": "五行順序中的木在 D。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "木",
+            "朩"
+          ],
+          "source_shape_ids": [
+            "cjrm-d0.svg",
+            "cjrm-d1.svg",
+            "cjrm-d2.svg",
+            "cjrm-d7.svg"
+          ],
+          "example_characters": [
+            "來",
+            "困",
+            "相",
+            "茶",
+            "东"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 來,困,相 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "才"
+          ],
+          "source_shape_ids": [
+            "cjrm-d3.svg",
+            "cjrm-d4.svg"
+          ],
+          "example_characters": [
+            "才",
+            "子",
+            "乎",
+            "爭",
+            "孩"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 才,子,乎 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "也"
+          ],
+          "source_shape_ids": [
+            "cjrm-d5.svg",
+            "cjrm-d6.svg"
+          ],
+          "example_characters": [
+            "皮",
+            "也",
+            "五",
+            "韋",
+            "決"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 皮,也,五 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "e",
+      "label": "水",
+      "roots": [
+        "水",
+        "又",
+        "氵",
+        "氺"
+      ],
+      "category": "哲理類",
+      "mnemonic": "五行順序中的水在 E。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "水"
+          ],
+          "source_shape_ids": [
+            "cjrm-e0.svg",
+            "cjrm-e1.svg"
+          ],
+          "example_characters": [
+            "冰",
+            "永",
+            "丞",
+            "踏",
+            "氹"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 冰,永,丞 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "又"
+          ],
+          "source_shape_ids": [
+            "cjrm-e3.svg",
+            "cjrm-e4.svg",
+            "cjrm-e5.svg"
+          ],
+          "example_characters": [
+            "支",
+            "叉",
+            "各",
+            "厦",
+            "及"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 支,叉,各 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "氵"
+          ],
+          "source_shape_ids": [
+            "cjrm-e2.svg"
+          ],
+          "example_characters": [
+            "沿",
+            "溪",
+            "塗",
+            "衍",
+            "匯"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 沿,溪,塗 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "氺"
+          ],
+          "source_shape_ids": [
+            "cjrm-e7.svg",
+            "cjrm-e6.svg",
+            "cjrm-e8.svg"
+          ],
+          "example_characters": [
+            "求",
+            "錄",
+            "康",
+            "黎",
+            "鰥"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 求,錄,康 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "f",
+      "label": "火",
+      "roots": [
+        "火",
+        "灬",
+        "小",
+        "⺌",
+        "⺍"
+      ],
+      "category": "哲理類",
+      "mnemonic": "五行順序中的火在 F。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "火"
+          ],
+          "source_shape_ids": [
+            "cjrm-f0.svg",
+            "cjrm-f1.svg"
+          ],
+          "example_characters": [
+            "灰",
+            "秋",
+            "焚",
+            "灶",
+            "炎"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 灰,秋,焚 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "灬"
+          ],
+          "source_shape_ids": [
+            "cjrm-f2.svg"
+          ],
+          "example_characters": [
+            "照",
+            "鯉",
+            "鳥",
+            "盡",
+            "駒"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 照,鯉,鳥 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "小",
+            "⺌"
+          ],
+          "source_shape_ids": [
+            "cjrm-f3.svg",
+            "cjrm-f5.svg",
+            "cjrm-f7.svg"
+          ],
+          "example_characters": [
+            "絲",
+            "係",
+            "平",
+            "尚",
+            "示"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 絲,係,平 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "⺍"
+          ],
+          "source_shape_ids": [
+            "cjrm-f4.svg",
+            "cjrm-f6.svg"
+          ],
+          "example_characters": [
+            "桜",
+            "覚",
+            "戦",
+            "佥",
+            "米"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 桜,覚,戦 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "小"
+          ],
+          "source_shape_ids": [
+            "cjrm-f8.svg",
+            "cjrm-f9.svg",
+            "cjrm-f11.svg"
+          ],
+          "example_characters": [
+            "不",
+            "祈",
+            "否",
+            "社",
+            "𣎴（dǔnㄉㄨㄣˇ）"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 不,祈,否 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "g",
+      "label": "土",
+      "roots": [
+        "土",
+        "士"
+      ],
+      "category": "哲理類",
+      "mnemonic": "五行順序中的土在 G。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "土"
+          ],
+          "source_shape_ids": [
+            "cjrm-g0.svg",
+            "cjrm-g1.svg"
+          ],
+          "example_characters": [
+            "走",
+            "再",
+            "里",
+            "球",
+            "動"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 走,再,里 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "士"
+          ],
+          "source_shape_ids": [
+            "cjrm-g2.svg",
+            "cjrm-g3.svg"
+          ],
+          "example_characters": [
+            "仕",
+            "吉",
+            "款",
+            "樹",
+            "壻"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 仕,吉,款 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "h",
+      "label": "竹",
+      "roots": [
+        "竹",
+        "⺮",
+        "丿",
+        "⺁"
+      ],
+      "category": "筆畫類",
+      "mnemonic": "筆畫類從 H 開始；竹含斜撇，向丿形聯想。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "竹",
+            "⺮"
+          ],
+          "source_shape_ids": [
+            "cjrm-h0.svg",
+            "cjrm-h1.svg"
+          ],
+          "example_characters": [
+            "𢎉（U+22389）",
+            "竺",
+            "簡",
+            "符",
+            "噬"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 𢎉（U+22389）,竺,簡 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "丿"
+          ],
+          "source_shape_ids": [
+            "cjrm-h2.svg",
+            "cjrm-h3.svg",
+            "cjrm-h4.svg",
+            "cjrm-h5.svg"
+          ],
+          "example_characters": [
+            "乃",
+            "亢",
+            "牛",
+            "白",
+            "千"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 乃,亢,牛 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "⺁"
+          ],
+          "source_shape_ids": [
+            "cjrm-h6.svg"
+          ],
+          "example_characters": [
+            "后",
+            "反",
+            "爪",
+            "析",
+            "爬"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 后,反,爪 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "i",
+      "label": "戈",
+      "roots": [
+        "戈",
+        "丶",
+        "广",
+        "厶"
+      ],
+      "category": "筆畫類",
+      "mnemonic": "戈頂端有點，以點形聯想 I。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "戈"
+          ],
+          "source_shape_ids": [
+            "cjrm-i0.svg"
+          ],
+          "example_characters": [
+            "戒",
+            "戚",
+            "越",
+            "幾",
+            "我"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 戒,戚,越 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "丶"
+          ],
+          "source_shape_ids": [
+            "cjrm-i1.svg",
+            "cjrm-i4.svg"
+          ],
+          "example_characters": [
+            "冰",
+            "尤",
+            "刃",
+            "社",
+            "之"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 冰,尤,刃 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "广"
+          ],
+          "source_shape_ids": [
+            "cjrm-i2.svg"
+          ],
+          "example_characters": [
+            "庫",
+            "廁",
+            "廈",
+            "鷓",
+            "渡"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 庫,廁,廈 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "厶"
+          ],
+          "source_shape_ids": [
+            "cjrm-i3.svg"
+          ],
+          "example_characters": [
+            "台",
+            "去",
+            "糸",
+            "充",
+            "芸"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 台,去,糸 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "j",
+      "label": "十",
+      "roots": [
+        "十",
+        "宀"
+      ],
+      "category": "筆畫類",
+      "mnemonic": "十的橫豎相交，記住交形與 J。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "十"
+          ],
+          "source_shape_ids": [
+            "cjrm-j0.svg",
+            "cjrm-j1.svg",
+            "cjrm-j3.svg"
+          ],
+          "example_characters": [
+            "古",
+            "車",
+            "哉",
+            "辦",
+            "刊"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 古,車,哉 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "宀"
+          ],
+          "source_shape_ids": [
+            "cjrm-j2.svg"
+          ],
+          "example_characters": [
+            "安",
+            "宋",
+            "空",
+            "佇",
+            "萱"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 安,宋,空 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "k",
+      "label": "大",
+      "roots": [
+        "大",
+        "𠂇",
+        "乂",
+        "㐅",
+        "疒"
+      ],
+      "category": "筆畫類",
+      "mnemonic": "大有交叉撇捺，記住叉形與 K。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "大"
+          ],
+          "source_shape_ids": [
+            "cjrm-k0.svg",
+            "cjrm-k1.svg",
+            "cjrm-k11.svg"
+          ],
+          "example_characters": [
+            "爽",
+            "淹",
+            "器",
+            "決",
+            "奇"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 爽,淹,器 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "𠂇"
+          ],
+          "source_shape_ids": [
+            "cjrm-k2.svg"
+          ],
+          "example_characters": [
+            "右",
+            "力",
+            "九",
+            "老",
+            "希"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 右,力,九 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "乂",
+            "㐅"
+          ],
+          "source_shape_ids": [
+            "cjrm-k4.svg",
+            "cjrm-k5.svg"
+          ],
+          "example_characters": [
+            "文",
+            "丈",
+            "希",
+            "敎",
+            "狗"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 文,丈,希 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "疒"
+          ],
+          "source_shape_ids": [
+            "cjrm-k3.svg"
+          ],
+          "example_characters": [
+            "病",
+            "痛",
+            "痊",
+            "痴",
+            "嫉"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 病,痛,痊 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "l",
+      "label": "中",
+      "roots": [
+        "中",
+        "丨",
+        "肀",
+        "衤"
+      ],
+      "category": "筆畫類",
+      "mnemonic": "中字的直豎貫穿上下，以縱形記 L。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "中"
+          ],
+          "source_shape_ids": [
+            "cjrm-l0.svg"
+          ],
+          "example_characters": [
+            "忠",
+            "仲",
+            "史",
+            "事",
+            "虫"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 忠,仲,史 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "丨"
+          ],
+          "source_shape_ids": [
+            "cjrm-l1.svg",
+            "cjrm-l2.svg"
+          ],
+          "example_characters": [
+            "引",
+            "川",
+            "介",
+            "亦",
+            "冘"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 引,川,介 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "肀"
+          ],
+          "source_shape_ids": [
+            "cjrm-l3.svg",
+            "cjrm-l4.svg",
+            "cjrm-l5.svg"
+          ],
+          "example_characters": [
+            "書",
+            "盡",
+            "事",
+            "唐",
+            "庚"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 書,盡,事 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "衤"
+          ],
+          "source_shape_ids": [
+            "cjrm-l6.svg"
+          ],
+          "example_characters": [
+            "衫",
+            "褲",
+            "被",
+            "裇",
+            "襪"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 衫,褲,被 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "m",
+      "label": "一",
+      "roots": [
+        "一",
+        "㇀",
+        "厂",
+        "𠂇",
+        "工"
+      ],
+      "category": "筆畫類",
+      "mnemonic": "一是水平橫畫，以橫形記 M。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "一"
+          ],
+          "source_shape_ids": [
+            "cjrm-m0.svg"
+          ],
+          "example_characters": [
+            "旦",
+            "低",
+            "天",
+            "不",
+            "合"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 旦,低,天 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "㇀"
+          ],
+          "source_shape_ids": [
+            "cjrm-m1.svg",
+            "cjrm-m6.svg"
+          ],
+          "example_characters": [
+            "刁",
+            "冰",
+            "匀",
+            "羽",
+            "劃"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 刁,冰,匀 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "厂"
+          ],
+          "source_shape_ids": [
+            "cjrm-m2.svg"
+          ],
+          "example_characters": [
+            "原",
+            "歷",
+            "炭",
+            "危",
+            "釐"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 原,歷,炭 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "𠂇"
+          ],
+          "source_shape_ids": [
+            "cjrm-m3.svg"
+          ],
+          "example_characters": [
+            "石",
+            "百",
+            "豚",
+            "光",
+            "狀"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 石,百,豚 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "工"
+          ],
+          "source_shape_ids": [
+            "cjrm-m4.svg",
+            "cjrm-m5.svg"
+          ],
+          "example_characters": [
+            "空",
+            "巫",
+            "丘",
+            "哥",
+            "功"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 空,巫,丘 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "n",
+      "label": "弓",
+      "roots": [
+        "弓",
+        "亅",
+        "乛",
+        "㇆",
+        "⺈",
+        "乙",
+        "几"
+      ],
+      "category": "筆畫類",
+      "mnemonic": "弓有鉤折，筆畫類最後一位 N。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "弓"
+          ],
+          "source_shape_ids": [
+            "cjrm-n0.svg"
+          ],
+          "example_characters": [
+            "弦",
+            "窮",
+            "疆",
+            "弟",
+            "夷"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 弦,窮,疆 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "亅"
+          ],
+          "source_shape_ids": [
+            "cjrm-n1.svg"
+          ],
+          "example_characters": [
+            "丁",
+            "了",
+            "予",
+            "到",
+            "赤"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 丁,了,予 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "乛",
+            "㇆"
+          ],
+          "source_shape_ids": [
+            "cjrm-n2.svg",
+            "cjrm-n3.svg",
+            "cjrm-n12.svg",
+            "cjrm-n11.svg"
+          ],
+          "example_characters": [
+            "乃",
+            "承",
+            "今",
+            "丑",
+            "吳"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 乃,承,今 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "⺈"
+          ],
+          "source_shape_ids": [
+            "cjrm-n4.svg",
+            "cjrm-n5.svg"
+          ],
+          "example_characters": [
+            "你",
+            "色",
+            "陷",
+            "久",
+            "夕"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 你,色,陷 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "乙",
+            "几"
+          ],
+          "source_shape_ids": [
+            "cjrm-n7.svg",
+            "cjrm-n8.svg",
+            "cjrm-n9.svg",
+            "cjrm-n10.svg"
+          ],
+          "example_characters": [
+            "乞",
+            "亢",
+            "役",
+            "飛",
+            "佩"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 乞,亢,役 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "o",
+      "label": "人",
+      "roots": [
+        "人",
+        "入",
+        "𠆢",
+        "𠂉",
+        "亻",
+        "㇏"
+      ],
+      "category": "人體類",
+      "mnemonic": "人體類依人心手口順序安排；人為 O。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "人",
+            "入",
+            "𠆢"
+          ],
+          "source_shape_ids": [
+            "cjrm-o0.svg",
+            "cjrm-o2.svg",
+            "cjrm-o3.svg",
+            "cjrm-o4.svg",
+            "cjrm-o5.svg"
+          ],
+          "example_characters": [
+            "走",
+            "以",
+            "舍",
+            "內",
+            "陝"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 走,以,舍 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "𠂉"
+          ],
+          "source_shape_ids": [
+            "cjrm-o6.svg"
+          ],
+          "example_characters": [
+            "氣",
+            "海",
+            "知",
+            "攻",
+            "御"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 氣,海,知 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "亻"
+          ],
+          "source_shape_ids": [
+            "cjrm-o7.svg",
+            "cjrm-o8.svg"
+          ],
+          "example_characters": [
+            "仁",
+            "確",
+            "眾",
+            "丘",
+            "岳"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 仁,確,眾 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "㇏"
+          ],
+          "source_shape_ids": [
+            "cjrm-o9.svg",
+            "cjrm-o10.svg"
+          ],
+          "example_characters": [
+            "啄",
+            "象",
+            "飞",
+            "飛",
+            "兆"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 啄,象,飞 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "㇏"
+          ],
+          "source_shape_ids": [
+            "cjrm-o11.svg",
+            "cjrm-o12.svg",
+            "cjrm-o13.svg",
+            "cjrm-o14.svg"
+          ],
+          "example_characters": [
+            "尺",
+            "夫",
+            "規",
+            "迭",
+            "之"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 尺,夫,規 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "p",
+      "label": "心",
+      "roots": [
+        "心",
+        "忄",
+        "⺗",
+        "匕",
+        "乇",
+        "弋",
+        "勹"
+      ],
+      "category": "人體類",
+      "mnemonic": "人體類第二位的心在 P。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "心"
+          ],
+          "source_shape_ids": [
+            "cjrm-p0.svg"
+          ],
+          "example_characters": [
+            "思",
+            "沁",
+            "悶",
+            "寧",
+            "必"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 思,沁,悶 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "忄"
+          ],
+          "source_shape_ids": [
+            "cjrm-p1.svg"
+          ],
+          "example_characters": [
+            "怕",
+            "怡",
+            "恆",
+            "慳",
+            "筷"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 怕,怡,恆 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "⺗"
+          ],
+          "source_shape_ids": [
+            "cjrm-p2.svg",
+            "cjrm-p3.svg"
+          ],
+          "example_characters": [
+            "恭",
+            "慕",
+            "忝",
+            "添",
+            "隳"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 恭,慕,忝 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "匕"
+          ],
+          "source_shape_ids": [
+            "cjrm-p4.svg",
+            "cjrm-p5.svg",
+            "cjrm-p6.svg",
+            "cjrm-p7.svg",
+            "cjrm-p8.svg",
+            "cjrm-p9.svg"
+          ],
+          "example_characters": [
+            "旨",
+            "老",
+            "化",
+            "屯",
+            "頃"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 旨,老,化 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "乇"
+          ],
+          "source_shape_ids": [
+            "cjrm-p10.svg",
+            "cjrm-p11.svg",
+            "cjrm-p12.svg"
+          ],
+          "example_characters": [
+            "託",
+            "虐",
+            "也",
+            "世",
+            "切"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 託,虐,也 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "弋"
+          ],
+          "source_shape_ids": [
+            "cjrm-p13.svg",
+            "cjrm-p14.svg"
+          ],
+          "example_characters": [
+            "代",
+            "民",
+            "低",
+            "式",
+            "曳"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 代,民,低 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "勹"
+          ],
+          "source_shape_ids": [
+            "cjrm-p15.svg",
+            "cjrm-p17.svg",
+            "cjrm-p16.svg"
+          ],
+          "example_characters": [
+            "砲",
+            "渴",
+            "鸟",
+            "隊",
+            "象"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 砲,渴,鸟 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "q",
+      "label": "手",
+      "roots": [
+        "手",
+        "扌",
+        "丰",
+        "夫",
+        "㐄"
+      ],
+      "category": "人體類",
+      "mnemonic": "人體類第三位的手在 Q。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "手"
+          ],
+          "source_shape_ids": [
+            "cjrm-q0.svg"
+          ],
+          "example_characters": [
+            "拿",
+            "掰",
+            "擧",
+            "挙",
+            "罉"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 拿,掰,擧 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "扌"
+          ],
+          "source_shape_ids": [
+            "cjrm-q1.svg"
+          ],
+          "example_characters": [
+            "打",
+            "浙",
+            "誓",
+            "找",
+            "我"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 打,浙,誓 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "丰"
+          ],
+          "source_shape_ids": [
+            "cjrm-q2.svg",
+            "cjrm-q3.svg",
+            "cjrm-q4.svg",
+            "cjrm-q9.svg"
+          ],
+          "example_characters": [
+            "淸",
+            "承",
+            "羊",
+            "耘",
+            "扥"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 淸,承,羊 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "夫"
+          ],
+          "source_shape_ids": [
+            "cjrm-q5.svg",
+            "cjrm-q6.svg"
+          ],
+          "example_characters": [
+            "夫",
+            "那",
+            "专",
+            "看",
+            "着"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 夫,那,专 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "㐄"
+          ],
+          "source_shape_ids": [
+            "cjrm-q7.svg",
+            "cjrm-q8.svg"
+          ],
+          "example_characters": [
+            "降",
+            "韋",
+            "桀",
+            "年",
+            "鵇"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 降,韋,桀 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "r",
+      "label": "口",
+      "roots": [
+        "口"
+      ],
+      "category": "人體類",
+      "mnemonic": "人體類第四位的口在 R。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "口"
+          ],
+          "source_shape_ids": [
+            "cjrm-r0.svg"
+          ],
+          "example_characters": [
+            "吹",
+            "石",
+            "區",
+            "巳",
+            "官"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 吹,石,區 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "s",
+      "label": "尸",
+      "roots": [
+        "尸",
+        "彐",
+        "𠃌",
+        "匚",
+        "耳"
+      ],
+      "category": "字形類",
+      "mnemonic": "字形類由 S 開始；尸的側向框形可聯想到彐、匚。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "尸"
+          ],
+          "source_shape_ids": [
+            "cjrm-s0.svg",
+            "cjrm-s1.svg"
+          ],
+          "example_characters": [
+            "尺",
+            "局",
+            "旎",
+            "戶",
+            "房"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 尺,局,旎 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "彐"
+          ],
+          "source_shape_ids": [
+            "cjrm-s2.svg"
+          ],
+          "example_characters": [
+            "己",
+            "巨",
+            "彗",
+            "尹",
+            "刍"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 己,巨,彗 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "𠃌"
+          ],
+          "source_shape_ids": [
+            "cjrm-s3.svg",
+            "cjrm-s4.svg",
+            "cjrm-s5.svg"
+          ],
+          "example_characters": [
+            "司",
+            "局",
+            "成",
+            "豕",
+            "犭"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 司,局,成 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "匚"
+          ],
+          "source_shape_ids": [
+            "cjrm-s6.svg",
+            "cjrm-s7.svg",
+            "cjrm-s8.svg"
+          ],
+          "example_characters": [
+            "臣",
+            "虐",
+            "姬",
+            "區",
+            "巨"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 臣,虐,姬 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "耳"
+          ],
+          "source_shape_ids": [
+            "cjrm-s9.svg",
+            "cjrm-s10.svg"
+          ],
+          "example_characters": [
+            "耳",
+            "耶",
+            "長",
+            "套",
+            "髮"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 耳,耶,長 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "t",
+      "label": "廿",
+      "roots": [
+        "廿",
+        "廾",
+        "卄",
+        "艹",
+        "卌",
+        "卝",
+        "业",
+        "䒑",
+        "丱"
+      ],
+      "category": "字形類",
+      "mnemonic": "廿的兩豎並列，並形記 T。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "廿"
+          ],
+          "source_shape_ids": [
+            "cjrm-t0.svg"
+          ],
+          "example_characters": [
+            "甘",
+            "庶",
+            "燕",
+            "革",
+            "難"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 甘,庶,燕 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "廾"
+          ],
+          "source_shape_ids": [
+            "cjrm-t1.svg",
+            "cjrm-t2.svg"
+          ],
+          "example_characters": [
+            "昔",
+            "共",
+            "其",
+            "典",
+            "畢"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 昔,共,其 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "卄",
+            "艹",
+            "卌"
+          ],
+          "source_shape_ids": [
+            "cjrm-t3.svg",
+            "cjrm-t4.svg",
+            "cjrm-t5.svg",
+            "cjrm-t6.svg",
+            "cjrm-t7.svg",
+            "cjrm-t8.svg",
+            "cjrm-t9.svg"
+          ],
+          "example_characters": [
+            "曲",
+            "草",
+            "雚",
+            "卅",
+            "卉"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 曲,草,雚 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "卝"
+          ],
+          "source_shape_ids": [
+            "cjrm-t10.svg",
+            "cjrm-t11.svg"
+          ],
+          "example_characters": [
+            "虛",
+            "墟",
+            "噓",
+            "聯",
+            "關"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 虛,墟,噓 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "业"
+          ],
+          "source_shape_ids": [
+            "cjrm-t12.svg",
+            "cjrm-t15.svg"
+          ],
+          "example_characters": [
+            "业",
+            "虚",
+            "並",
+            "皿",
+            "卹"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 业,虚,並 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "䒑",
+            "丱"
+          ],
+          "source_shape_ids": [
+            "cjrm-t13.svg",
+            "cjrm-t16.svg"
+          ],
+          "example_characters": [
+            "豆",
+            "益",
+            "立",
+            "并",
+            "站"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 豆,益,立 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "u",
+      "label": "山",
+      "roots": [
+        "山",
+        "凵",
+        "乚",
+        "屮"
+      ],
+      "category": "字形類",
+      "mnemonic": "山向上仰開，仰形記 U。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "山"
+          ],
+          "source_shape_ids": [
+            "cjrm-u0.svg"
+          ],
+          "example_characters": [
+            "仙",
+            "茁",
+            "崑",
+            "幽",
+            "峽"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 仙,茁,崑 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "凵"
+          ],
+          "source_shape_ids": [
+            "cjrm-u1.svg"
+          ],
+          "example_characters": [
+            "齒",
+            "凶",
+            "目",
+            "息",
+            "画"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 齒,凶,目 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "乚"
+          ],
+          "source_shape_ids": [
+            "cjrm-u2.svg",
+            "cjrm-u5.svg"
+          ],
+          "example_characters": [
+            "孔",
+            "光",
+            "己",
+            "輝",
+            "改"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 孔,光,己 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "屮"
+          ],
+          "source_shape_ids": [
+            "cjrm-u3.svg",
+            "cjrm-u4.svg"
+          ],
+          "example_characters": [
+            "嗤",
+            "艸",
+            "逆",
+            "朔",
+            "芻"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 嗤,艸,逆 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "v",
+      "label": "女",
+      "roots": [
+        "女",
+        "巛",
+        "幺",
+        "𠃊",
+        "𠄌"
+      ],
+      "category": "字形類",
+      "mnemonic": "女的交紐形，引申幺、巛等曲折形，記 V。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "女"
+          ],
+          "source_shape_ids": [
+            "cjrm-v0.svg",
+            "cjrm-v1.svg"
+          ],
+          "example_characters": [
+            "汝",
+            "娶",
+            "好",
+            "魏",
+            "威"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 汝,娶,好 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "巛",
+            "幺"
+          ],
+          "source_shape_ids": [
+            "cjrm-v2.svg",
+            "cjrm-v3.svg",
+            "cjrm-v4.svg"
+          ],
+          "example_characters": [
+            "巡",
+            "兪",
+            "糸",
+            "互",
+            "彔"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 巡,兪,糸 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "𠃊"
+          ],
+          "source_shape_ids": [
+            "cjrm-v5.svg",
+            "cjrm-v6.svg"
+          ],
+          "example_characters": [
+            "県",
+            "吳",
+            "亡",
+            "曷",
+            "甚"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 県,吳,亡 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "𠄌"
+          ],
+          "source_shape_ids": [
+            "cjrm-v7.svg",
+            "cjrm-v8.svg"
+          ],
+          "example_characters": [
+            "收",
+            "以",
+            "氏",
+            "民",
+            "瓜"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 收,以,氏 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "𠄌"
+          ],
+          "source_shape_ids": [
+            "cjrm-v9.svg"
+          ],
+          "example_characters": [
+            "鼠",
+            "鼬",
+            "巤",
+            "獵",
+            "邋"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 鼠,鼬,巤 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "𠄌"
+          ],
+          "source_shape_ids": [
+            "cjrm-v10.svg"
+          ],
+          "example_characters": [
+            "很",
+            "展",
+            "衣",
+            "衷",
+            "表"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 很,展,衣 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "w",
+      "label": "田",
+      "roots": [
+        "田",
+        "囗",
+        "罒",
+        "毌"
+      ],
+      "category": "字形類",
+      "mnemonic": "田及其方框，方形記 W。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "田"
+          ],
+          "source_shape_ids": [
+            "cjrm-w0.svg"
+          ],
+          "example_characters": [
+            "畦",
+            "車",
+            "畢",
+            "宙",
+            "伸"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 畦,車,畢 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "囗",
+            "罒"
+          ],
+          "source_shape_ids": [
+            "cjrm-w1.svg",
+            "cjrm-w2.svg"
+          ],
+          "example_characters": [
+            "國",
+            "罪",
+            "黑",
+            "衰",
+            "貫"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 國,罪,黑 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "毌"
+          ],
+          "source_shape_ids": [
+            "cjrm-w3.svg"
+          ],
+          "example_characters": [
+            "母",
+            "毋",
+            "海",
+            "莓",
+            "敏"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 母,毋,海 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "x",
+      "label": "難",
+      "roots": [],
+      "category": "功能鍵",
+      "mnemonic": "X 代表取碼規則指定的難字部分；需記例外，並非把所有不會拆的部分改按 X。",
+      "note": "例如身 hxh、齊 yx；Z 的萬用字元／標點前綴屬實作行為。"
+    },
+    {
+      "key": "y",
+      "label": "卜",
+      "roots": [
+        "卜",
+        "亠",
+        "⺀",
+        "辶",
+        "辵"
+      ],
+      "category": "字形類",
+      "mnemonic": "卜及旋轉、延伸的點橫形在 Y；X 留給難字。",
+      "note": "roots 包含所有下列字形類別的 Unicode 代表；若為近似，須連同 shape_classes 的 note 顯示，不可當成相同字元的無條件取碼。",
+      "shape_classes": [
+        {
+          "representatives": [
+            "卜"
+          ],
+          "source_shape_ids": [
+            "cjrm-y0.svg",
+            "cjrm-y1.svg"
+          ],
+          "example_characters": [
+            "下",
+            "外",
+            "上",
+            "真",
+            "正"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 下,外,上 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "亠"
+          ],
+          "source_shape_ids": [
+            "cjrm-y2.svg",
+            "cjrm-y3.svg",
+            "cjrm-y4.svg",
+            "cjrm-y5.svg"
+          ],
+          "example_characters": [
+            "充",
+            "文",
+            "亡",
+            "母",
+            "言"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 充,文,亡 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "⺀"
+          ],
+          "source_shape_ids": [
+            "cjrm-y6.svg"
+          ],
+          "example_characters": [
+            "斗",
+            "雨",
+            "於",
+            "冬",
+            "尽"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 斗,雨,於 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        },
+        {
+          "representatives": [
+            "辶",
+            "辵"
+          ],
+          "source_shape_ids": [
+            "cjrm-y7.svg",
+            "cjrm-y8.svg",
+            "cjrm-y11.svg"
+          ],
+          "example_characters": [
+            "連",
+            "追",
+            "逆",
+            "巡",
+            "漣"
+          ],
+          "note": "Unicode 代表形；同列 SVG 的筆勢、旋轉或連接差異未必有獨立碼位。此類在 連,追,逆 中的局部位置才是判斷依據；不能把完整例字視為一碼字根。"
+        }
+      ]
+    },
+    {
+      "key": "z",
+      "label": "重",
+      "roots": [],
+      "category": "功能鍵",
+      "mnemonic": "傳統鍵名為重；本表 Z 開頭主要用於標點，macOS 另以 Z 表示未知碼。",
+      "note": "不能把標點或萬用字元用途當成普遍字根。"
+    }
+  ],
+  "groups": [
+    {
+      "name": "哲理類",
+      "keys": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "note": "日月金木水火土"
+    },
+    {
+      "name": "筆畫類",
+      "keys": [
+        "h",
+        "i",
+        "j",
+        "k",
+        "l",
+        "m",
+        "n"
+      ],
+      "note": "竹戈十大中一弓；斜、點、交、叉、縱、橫、鉤"
+    },
+    {
+      "name": "人體類",
+      "keys": [
+        "o",
+        "p",
+        "q",
+        "r"
+      ],
+      "note": "人心手口"
+    },
+    {
+      "name": "字形類",
+      "keys": [
+        "s",
+        "t",
+        "u",
+        "v",
+        "w",
+        "y"
+      ],
+      "note": "尸廿山女田卜；側、並、仰、紐、方及卜形"
+    }
+  ],
+  "rules": [
+    {
+      "title": "字首與字身",
+      "body": "由上到下、由左到右、由外到內，先判定可否分割；分體字字首最多二碼取首尾，字身最多三碼取首次尾；總長最多五碼。連體字最多四碼，超長取首次三尾。包含、省略、複合字、特別字首及難字另行判定。輔助字形獨立成字時通常要再拆，不能沿用偏旁的一碼。",
+      "examples": [
+        {
+          "char": "明",
+          "code": "ab",
+          "explain": "左右分割；日是字首，月是字身，各一碼，組成日月。"
+        },
+        {
+          "char": "林",
+          "code": "dd",
+          "explain": "左右兩個木形，字首、字身各取木。"
+        },
+        {
+          "char": "休",
+          "code": "od",
+          "explain": "左邊亻是人的輔助字形，右邊木；取人木。"
+        },
+        {
+          "char": "好",
+          "code": "vnd",
+          "explain": "左邊女取 V；右邊子拆弓木，作字身保留兩碼，組成女弓木。"
+        },
+        {
+          "char": "學",
+          "code": "hbnd",
+          "explain": "上部作字首，超過兩根時只留首根竹、尾根月；下部子作字身，取弓木。不可把 IDS 的臼、爻、冖逐項串成最後碼。"
+        },
+        {
+          "char": "身",
+          "code": "hxh",
+          "explain": "屬規定的難字；取竹難竹，X 為難字部分。"
+        }
+      ]
+    }
+  ],
+  "probe_exact_components": {
+    "日": "a",
+    "月": "b",
+    "金": "c",
+    "木": "d",
+    "水": "e",
+    "火": "f",
+    "土": "g",
+    "竹": "h",
+    "戈": "i",
+    "十": "j",
+    "大": "k",
+    "中": "l",
+    "一": "m",
+    "弓": "n",
+    "人": "o",
+    "心": "p",
+    "手": "q",
+    "口": "r",
+    "尸": "s",
+    "廿": "t",
+    "山": "u",
+    "女": "v",
+    "田": "w",
+    "卜": "y",
+    "曰": "a",
+    "亻": "o",
+    "入": "o",
+    "𠆢": "o",
+    "氵": "e",
+    "又": "e",
+    "灬": "f",
+    "忄": "p",
+    "扌": "q",
+    "宀": "j",
+    "冖": "b",
+    "冂": "b",
+    "爫": "b",
+    "丿": "h",
+    "丶": "i",
+    "厶": "i",
+    "广": "i",
+    "𠂇": "k",
+    "乂": "k",
+    "疒": "k",
+    "丨": "l",
+    "厂": "m",
+    "亅": "n",
+    "⺈": "n",
+    "匕": "p",
+    "勹": "p",
+    "彐": "s",
+    "匚": "s",
+    "廾": "t",
+    "艹": "t",
+    "屮": "u",
+    "凵": "u",
+    "幺": "v",
+    "巛": "v",
+    "囗": "w",
+    "罒": "w",
+    "亠": "y"
+  }
+}

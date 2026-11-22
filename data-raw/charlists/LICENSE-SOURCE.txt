@@ -1,0 +1,38 @@
+墨打 T1a — 教育部常用／次常用字清單
+取得日：2026-11-22 (Asia/Taipei)
+
+一、常用 4808：以明確開放的全字庫資料重建，不複製授權未明的教育部試算表。
+CNS 官方資料集：https://data.gov.tw/dataset/5961
+提供機關：數位發展部。
+版本：20261028（CNS-release.txt）；此次選用政府資料開放授權條款－第1版 (OGDL-TW-1.0)。
+原始檔：
+https://data.cns11643.gov.tw/opendata/Properties.zip 的 CNS_source.txt
+https://data.cns11643.gov.tw/opendata/MapingTables.zip 的 Unicode/CNS2UNICODE_Unicode BMP.txt 等4個Unicode對照檔
+保留以上必要原始成員，不保留壓縮包／字型。
+產物：moe-common-4808.txt、moe-common-4808.tsv；CNS_source 篩選「常用國字標準字體表」並以 CNS 碼聯結Unicode。
+此排序是CNS順序，並非教育部A字號順序；欄位沒有冒稱教育部原序號。
+
+官方教育部原始4808下載說明：
+https://language.moe.gov.tw/material/info?m=9fe3ff5a-5a8c-4817-9e60-6337dd55a509
+ODF：https://language.moe.gov.tw/uploads/files/17694982751710.ods
+該站顯示「版權所有」，檔案未見專屬開放授權，故只供本次比對，未保留副本。
+common-crosscheck.json 記錄：教育部ODS4808筆／4808獨立字，與CNS衍生4808字集合對稱差為0。
+
+二、次常用6343：維基文庫文字轉錄版，明示 CC BY-SA4.0。
+來源：https://zh.wikisource.org/w/index.php?title=次常用國字標準字體表&oldid=2334552
+原始碼下載：https://zh.wikisource.org/w/index.php?title=次常用國字標準字體表&oldid=2334552&action=raw
+歷史：https://zh.wikisource.org/w/index.php?title=次常用國字標準字體表&action=history
+歸屬：教育部原字表；維基文庫該頁貢獻者（原文轉錄及編排）。
+授權：https://creativecommons.org/licenses/by-sa/4.0/ ，全文 CC-BY-SA-4.0.txt。
+保留原始碼 moe-secondary-wikisource.wiki，衍生 moe-secondary-6343.txt/.tsv 依同條款釋出，變更：轉成Unicode字元清單／TSV，移除Wiki標記。
+6343是歷史乙表範圍；轉錄版先列目前6329字，再附5待考字與9單位符號。不是官方原B字號次序，TSV欄名明示 transcription_sequence。
+教育部正字表說明：https://dict.variants.moe.edu.tw/appendix.jsp?ID=1&ID=0
+教育部歷史字數說明：https://dict.variants.moe.edu.tw/page.jsp?ID=89&la=0
+CNS_source 次常用來源標記只有5768筆，不能當成完整乙表；cns-secondary-partial.txt 僅為來源資料篩選結果，不作正式題庫。
+
+OGDL必要顯名聲明：
+數位發展部，2026，CNS11643中文標準交換碼全字庫（20261028），https://www.cns11643.gov.tw 。
+此開放資料依政府資料開放授權條款 (Open Government Data License) 進行公眾釋出，使用者於遵守本條款各項規定之前提下，得利用之。
+政府資料開放授權條款：https://data.gov.tw/license
+全文：OGDL-1.0.txt。
+公開非營利網站：以上CNS資料可修改／公開傳輸並再散布，須顯名；次常用轉錄版須顯名及相同方式分享。沒有將「政府網站上可下載」等同公有領域，也未套用其他教育部字典的禁止改作授權。

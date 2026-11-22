@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-22",
+  "worked_examples": 20,
+  "worked_examples_passed": 20,
+  "phrase_checks": 8,
+  "phrase_checks_passed": 8,
+  "zhuyin_sample_consistency": {
+    "im": "zhuyin",
+    "sample_size": 50,
+    "dictionary_coverage": 50,
+    "consistent_characters": 50,
+    "IDS_prediction": "N/A: 字形樹不能推出讀音；此數值是來源讀音→鍵碼的一致性，不是破音字自動判斷正確率。"
+  },
+  "original_sha256": {
+    "bopomofo.cin": "0b8d0014c54b482e68eb0b5c2608f013326967c6a4480ab8bac8a12c50e93ff7",
+    "index.js": "027d72dd428a42c752b920ae783a6321739f409541a9911d24986428c330df2b",
+    "boshiamy.cin": "d5d2fb887e170e76db2df8cd5fde5f7934bbb6b51cb084cbabde5d6f189fae15"
+  },
+  "cache_cleanup": "own cache removed; no source charts or glyph font bundled"
+}

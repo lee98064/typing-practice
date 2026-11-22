@@ -1,0 +1,70 @@
+{
+  "source": "public/data/roots/array.json；docs/research/notes/；data-raw/ids/CNS_component_ref.txt (OGDL-1.0)。僅列明確同形，不把近似局部當整字。",
+  "aliases": [
+    {
+      "component": "㇐",
+      "root": "一",
+      "note": "CNS_component_ref 的筆畫對應字根圖之橫、豎、撇、點、捺或鉤。"
+    },
+    {
+      "component": "㇑",
+      "root": "丨",
+      "note": "CNS_component_ref 的筆畫對應字根圖之橫、豎、撇、點、捺或鉤。"
+    },
+    {
+      "component": "㇒",
+      "root": "丿",
+      "note": "CNS_component_ref 的筆畫對應字根圖之橫、豎、撇、點、捺或鉤。"
+    },
+    {
+      "component": "㇔",
+      "root": "丶",
+      "note": "CNS_component_ref 的筆畫對應字根圖之橫、豎、撇、點、捺或鉤。"
+    },
+    {
+      "component": "㇚",
+      "root": "亅",
+      "note": "CNS_component_ref 的筆畫對應字根圖之橫、豎、撇、點、捺或鉤。"
+    },
+    {
+      "component": "⺊",
+      "root": "卜",
+      "note": "卜的偏旁字形；public/data/roots 字形族。"
+    },
+    {
+      "component": "𠂆",
+      "root": "丿",
+      "note": "廠字頭的撇形；public/data/roots 字形族。"
+    },
+    {
+      "component": "⺄",
+      "root": "乙",
+      "note": "乙的偏旁折形；public/data/roots 字形族。"
+    },
+    {
+      "component": "夊",
+      "root": "夂",
+      "note": "下腳夂的書寫變形；public/data/roots 字形族。"
+    },
+    {
+      "component": "匸",
+      "root": "匚",
+      "note": "側框偏旁形；public/data/roots 字形族。"
+    },
+    {
+      "component": "龶",
+      "root": "丰",
+      "note": "青字頭橫豎形；僅按圖表丰形族驗碼；public/data/roots 字形族。"
+    },
+    {
+      "component": "コ",
+      "root": "彐",
+      "note": "彐族三橫折框字形；public/data/roots 字形族。"
+    },
+    {
+      "component": "㇟",
+      "root": "乚",
+      "note": "豎彎鉤的筆畫／漢字表示；public/data/roots 字形族。"
+    }
+  ]
+}

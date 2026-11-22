@@ -1,0 +1,1087 @@
+{
+  "im": "zhuyin",
+  "sample_size": 50,
+  "dictionary_coverage": 50,
+  "consistent_characters": 50,
+  "IDS_prediction": "N/A: 字形樹不能推出讀音；此數值是來源讀音→鍵碼的一致性，不是破音字自動判斷正確率。",
+  "details": [
+    {
+      "char": "的",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄉㄜ˙",
+          "pinyin": "de5",
+          "physical": "2k7",
+          "group": "big5",
+          "mapped": "2k7",
+          "match": true
+        },
+        {
+          "bpmf": "ㄉㄧˋ",
+          "pinyin": "di4",
+          "physical": "2u4",
+          "group": "big5",
+          "mapped": "2u4",
+          "match": true
+        },
+        {
+          "bpmf": "ㄉㄧˊ",
+          "pinyin": "di2",
+          "physical": "2u6",
+          "group": "big5",
+          "mapped": "2u6",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "一",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄧ",
+          "pinyin": "yi",
+          "physical": "u",
+          "group": "big5",
+          "mapped": "u",
+          "match": true
+        },
+        {
+          "bpmf": "ㄧˋ",
+          "pinyin": "yi4",
+          "physical": "u4",
+          "group": "big5",
+          "mapped": "u4",
+          "match": true
+        },
+        {
+          "bpmf": "ㄧˊ",
+          "pinyin": "yi2",
+          "physical": "u6",
+          "group": "big5",
+          "mapped": "u6",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "是",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄕˋ",
+          "pinyin": "shi4",
+          "physical": "g4",
+          "group": "big5",
+          "mapped": "g4",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "不",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄅㄨˋ",
+          "pinyin": "bu4",
+          "physical": "1j4",
+          "group": "big5",
+          "mapped": "1j4",
+          "match": true
+        },
+        {
+          "bpmf": "ㄅㄨˊ",
+          "pinyin": "bu2",
+          "physical": "1j6",
+          "group": "big5",
+          "mapped": "1j6",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "了",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄌㄜ˙",
+          "pinyin": "le5",
+          "physical": "xk7",
+          "group": "big5",
+          "mapped": "xk7",
+          "match": true
+        },
+        {
+          "bpmf": "ㄌㄧㄠˇ",
+          "pinyin": "liao3",
+          "physical": "xul3",
+          "group": "big5",
+          "mapped": "xul3",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "我",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄨㄛˇ",
+          "pinyin": "wo3",
+          "physical": "ji3",
+          "group": "big5",
+          "mapped": "ji3",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "有",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄧㄡˇ",
+          "pinyin": "you3",
+          "physical": "u.3",
+          "group": "big5",
+          "mapped": "u.3",
+          "match": true
+        },
+        {
+          "bpmf": "ㄧㄡˋ",
+          "pinyin": "you4",
+          "physical": "u.4",
+          "group": "big5",
+          "mapped": "u.4",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "在",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄗㄞˋ",
+          "pinyin": "zai4",
+          "physical": "y94",
+          "group": "big5",
+          "mapped": "y94",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "人",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄖㄣˊ",
+          "pinyin": "ren2",
+          "physical": "bp6",
+          "group": "big5",
+          "mapped": "bp6",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "來",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄌㄞˋ",
+          "pinyin": "lai4",
+          "physical": "x94",
+          "group": "big5",
+          "mapped": "x94",
+          "match": true
+        },
+        {
+          "bpmf": "ㄌㄞˊ",
+          "pinyin": "lai2",
+          "physical": "x96",
+          "group": "big5",
+          "mapped": "x96",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "大",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄉㄚˋ",
+          "pinyin": "da4",
+          "physical": "284",
+          "group": "big5",
+          "mapped": "284",
+          "match": true
+        },
+        {
+          "bpmf": "ㄉㄞˋ",
+          "pinyin": "dai4",
+          "physical": "294",
+          "group": "big5",
+          "mapped": "294",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "上",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄕㄤˇ",
+          "pinyin": "shang3",
+          "physical": "g;3",
+          "group": "big5",
+          "mapped": "g;3",
+          "match": true
+        },
+        {
+          "bpmf": "ㄕㄤˋ",
+          "pinyin": "shang4",
+          "physical": "g;4",
+          "group": "big5",
+          "mapped": "g;4",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "這",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄓㄟˋ",
+          "pinyin": "zhei4",
+          "physical": "5o4",
+          "group": "utf8",
+          "mapped": "5o4",
+          "match": true
+        },
+        {
+          "bpmf": "ㄓㄜˋ",
+          "pinyin": "zhe4",
+          "physical": "5k4",
+          "group": "big5",
+          "mapped": "5k4",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "到",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄉㄠˋ",
+          "pinyin": "dao4",
+          "physical": "2l4",
+          "group": "big5",
+          "mapped": "2l4",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "們",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄇㄣˊ",
+          "pinyin": "men2",
+          "physical": "ap6",
+          "group": "big5",
+          "mapped": "ap6",
+          "match": true
+        },
+        {
+          "bpmf": "ㄇㄣ˙",
+          "pinyin": "men5",
+          "physical": "ap7",
+          "group": "big5",
+          "mapped": "ap7",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "個",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄍㄜˋ",
+          "pinyin": "ge4",
+          "physical": "ek4",
+          "group": "big5",
+          "mapped": "ek4",
+          "match": true
+        },
+        {
+          "bpmf": "ㄍㄜ˙",
+          "pinyin": "ge5",
+          "physical": "ek7",
+          "group": "big5",
+          "mapped": "ek7",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "小",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄒㄧㄠˇ",
+          "pinyin": "xiao3",
+          "physical": "vul3",
+          "group": "big5",
+          "mapped": "vul3",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "你",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄋㄧˇ",
+          "pinyin": "ni3",
+          "physical": "su3",
+          "group": "big5",
+          "mapped": "su3",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "子",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄗˇ",
+          "pinyin": "zi3",
+          "physical": "y3",
+          "group": "big5",
+          "mapped": "y3",
+          "match": true
+        },
+        {
+          "bpmf": "ㄗ˙",
+          "pinyin": "zi5",
+          "physical": "y7",
+          "group": "big5",
+          "mapped": "y7",
+          "match": true
+        },
+        {
+          "bpmf": "ㄗㄜˇ",
+          "pinyin": "ze3",
+          "physical": "yk3",
+          "group": "big5",
+          "mapped": "yk3",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "他",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄊㄚ",
+          "pinyin": "ta",
+          "physical": "w8",
+          "group": "big5",
+          "mapped": "w8",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "以",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄧˇ",
+          "pinyin": "yi3",
+          "physical": "u3",
+          "group": "big5",
+          "mapped": "u3",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "好",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄏㄠˇ",
+          "pinyin": "hao3",
+          "physical": "cl3",
+          "group": "big5",
+          "mapped": "cl3",
+          "match": true
+        },
+        {
+          "bpmf": "ㄏㄠˋ",
+          "pinyin": "hao4",
+          "physical": "cl4",
+          "group": "big5",
+          "mapped": "cl4",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "為",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄨㄟˋ",
+          "pinyin": "wei4",
+          "physical": "jo4",
+          "group": "big5",
+          "mapped": "jo4",
+          "match": true
+        },
+        {
+          "bpmf": "ㄨㄟˊ",
+          "pinyin": "wei2",
+          "physical": "jo6",
+          "group": "big5",
+          "mapped": "jo6",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "就",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄐㄧㄡˋ",
+          "pinyin": "jiu4",
+          "physical": "ru.4",
+          "group": "big5",
+          "mapped": "ru.4",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "生",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄕㄥ",
+          "pinyin": "sheng",
+          "physical": "g/",
+          "group": "big5",
+          "mapped": "g/",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "要",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄧㄠ",
+          "pinyin": "yao",
+          "physical": "ul",
+          "group": "big5",
+          "mapped": "ul",
+          "match": true
+        },
+        {
+          "bpmf": "ㄧㄠˋ",
+          "pinyin": "yao4",
+          "physical": "ul4",
+          "group": "big5",
+          "mapped": "ul4",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "說",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄕㄨㄛ",
+          "pinyin": "shuo",
+          "physical": "gji",
+          "group": "big5",
+          "mapped": "gji",
+          "match": true
+        },
+        {
+          "bpmf": "ㄕㄨㄟˋ",
+          "pinyin": "shui4",
+          "physical": "gjo4",
+          "group": "big5",
+          "mapped": "gjo4",
+          "match": true
+        },
+        {
+          "bpmf": "ㄩㄝˋ",
+          "pinyin": "yue4",
+          "physical": "m,4",
+          "group": "big5",
+          "mapped": "m,4",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "中",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄓㄨㄥ",
+          "pinyin": "zhong",
+          "physical": "5j/",
+          "group": "big5",
+          "mapped": "5j/",
+          "match": true
+        },
+        {
+          "bpmf": "ㄓㄨㄥˋ",
+          "pinyin": "zhong4",
+          "physical": "5j/4",
+          "group": "big5",
+          "mapped": "5j/4",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "時",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄕˊ",
+          "pinyin": "shi2",
+          "physical": "g6",
+          "group": "big5",
+          "mapped": "g6",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "地",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄉㄜ˙",
+          "pinyin": "de5",
+          "physical": "2k7",
+          "group": "big5",
+          "mapped": "2k7",
+          "match": true
+        },
+        {
+          "bpmf": "ㄉㄧˋ",
+          "pinyin": "di4",
+          "physical": "2u4",
+          "group": "big5",
+          "mapped": "2u4",
+          "match": true
+        },
+        {
+          "bpmf": "ㄉㄧ˙",
+          "pinyin": "di5",
+          "physical": "2u7",
+          "group": "big5",
+          "mapped": "2u7",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "出",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄔㄨ",
+          "pinyin": "chu",
+          "physical": "tj",
+          "group": "big5",
+          "mapped": "tj",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "也",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄧㄝˇ",
+          "pinyin": "ye3",
+          "physical": "u,3",
+          "group": "big5",
+          "mapped": "u,3",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "得",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄉㄜˊ",
+          "pinyin": "de2",
+          "physical": "2k6",
+          "group": "big5",
+          "mapped": "2k6",
+          "match": true
+        },
+        {
+          "bpmf": "ㄉㄜ˙",
+          "pinyin": "de5",
+          "physical": "2k7",
+          "group": "big5",
+          "mapped": "2k7",
+          "match": true
+        },
+        {
+          "bpmf": "ㄉㄟˇ",
+          "pinyin": "dei3",
+          "physical": "2o3",
+          "group": "big5",
+          "mapped": "2o3",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "和",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄏㄢˋ",
+          "pinyin": "han4",
+          "physical": "c04",
+          "group": "big5",
+          "mapped": "c04",
+          "match": true
+        },
+        {
+          "bpmf": "ㄏㄨㄛˋ",
+          "pinyin": "huo4",
+          "physical": "cji4",
+          "group": "big5",
+          "mapped": "cji4",
+          "match": true
+        },
+        {
+          "bpmf": "ㄏㄨㄛ˙",
+          "pinyin": "huo5",
+          "physical": "cji7",
+          "group": "big5",
+          "mapped": "cji7",
+          "match": true
+        },
+        {
+          "bpmf": "ㄏㄜˋ",
+          "pinyin": "he4",
+          "physical": "ck4",
+          "group": "big5",
+          "mapped": "ck4",
+          "match": true
+        },
+        {
+          "bpmf": "ㄏㄜˊ",
+          "pinyin": "he2",
+          "physical": "ck6",
+          "group": "big5",
+          "mapped": "ck6",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "那",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄋㄚ",
+          "pinyin": "na",
+          "physical": "s8",
+          "group": "big5",
+          "mapped": "s8",
+          "match": true
+        },
+        {
+          "bpmf": "ㄋㄚˇ",
+          "pinyin": "na3",
+          "physical": "s83",
+          "group": "big5",
+          "mapped": "s83",
+          "match": true
+        },
+        {
+          "bpmf": "ㄋㄚˋ",
+          "pinyin": "na4",
+          "physical": "s84",
+          "group": "big5",
+          "mapped": "s84",
+          "match": true
+        },
+        {
+          "bpmf": "ㄋㄟˇ",
+          "pinyin": "nei3",
+          "physical": "so3",
+          "group": "big5",
+          "mapped": "so3",
+          "match": true
+        },
+        {
+          "bpmf": "ㄋㄟˋ",
+          "pinyin": "nei4",
+          "physical": "so4",
+          "group": "big5",
+          "mapped": "so4",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "用",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄩㄥˋ",
+          "pinyin": "yong4",
+          "physical": "m/4",
+          "group": "big5",
+          "mapped": "m/4",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "下",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄒㄧㄚˋ",
+          "pinyin": "xia4",
+          "physical": "vu84",
+          "group": "big5",
+          "mapped": "vu84",
+          "match": true
+        },
+        {
+          "bpmf": "ㄒㄧㄚ˙",
+          "pinyin": "xia5",
+          "physical": "vu87",
+          "group": "big5",
+          "mapped": "vu87",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "年",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄋㄧㄢˊ",
+          "pinyin": "nian2",
+          "physical": "su06",
+          "group": "big5",
+          "mapped": "su06",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "會",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄏㄨㄟˇ",
+          "pinyin": "hui3",
+          "physical": "cjo3",
+          "group": "big5",
+          "mapped": "cjo3",
+          "match": true
+        },
+        {
+          "bpmf": "ㄏㄨㄟˋ",
+          "pinyin": "hui4",
+          "physical": "cjo4",
+          "group": "big5",
+          "mapped": "cjo4",
+          "match": true
+        },
+        {
+          "bpmf": "ㄎㄨㄞˋ",
+          "pinyin": "kuai4",
+          "physical": "dj94",
+          "group": "big5",
+          "mapped": "dj94",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "可",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄎㄜˇ",
+          "pinyin": "ke3",
+          "physical": "dk3",
+          "group": "big5",
+          "mapped": "dk3",
+          "match": true
+        },
+        {
+          "bpmf": "ㄎㄜˋ",
+          "pinyin": "ke4",
+          "physical": "dk4",
+          "group": "big5",
+          "mapped": "dk4",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "多",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄉㄨㄛ",
+          "pinyin": "duo",
+          "physical": "2ji",
+          "group": "big5",
+          "mapped": "2ji",
+          "match": true
+        },
+        {
+          "bpmf": "ㄉㄨㄛˊ",
+          "pinyin": "duo2",
+          "physical": "2ji6",
+          "group": "big5",
+          "mapped": "2ji6",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "自",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄗˋ",
+          "pinyin": "zi4",
+          "physical": "y4",
+          "group": "big5",
+          "mapped": "y4",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "己",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄐㄧˇ",
+          "pinyin": "ji3",
+          "physical": "ru3",
+          "group": "big5",
+          "mapped": "ru3",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "於",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄨ",
+          "pinyin": "wu",
+          "physical": "j",
+          "group": "big5",
+          "mapped": "j",
+          "match": true
+        },
+        {
+          "bpmf": "ㄩˊ",
+          "pinyin": "yu2",
+          "physical": "m6",
+          "group": "big5",
+          "mapped": "m6",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "能",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄋㄥˊ",
+          "pinyin": "neng2",
+          "physical": "s/6",
+          "group": "big5",
+          "mapped": "s/6",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "之",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄓ",
+          "pinyin": "zhi",
+          "physical": "5",
+          "group": "big5",
+          "mapped": "5",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "學",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄒㄩㄝˊ",
+          "pinyin": "xue2",
+          "physical": "vm,6",
+          "group": "big5",
+          "mapped": "vm,6",
+          "match": true
+        },
+        {
+          "bpmf": "ㄒㄧㄠˊ",
+          "pinyin": "xiao2",
+          "physical": "vul6",
+          "group": "big5",
+          "mapped": "vul6",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "家",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄍㄨ",
+          "pinyin": "gu",
+          "physical": "ej",
+          "group": "big5",
+          "mapped": "ej",
+          "match": true
+        },
+        {
+          "bpmf": "ㄐㄧㄚ",
+          "pinyin": "jia",
+          "physical": "ru8",
+          "group": "big5",
+          "mapped": "ru8",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "後",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄏㄡˋ",
+          "pinyin": "hou4",
+          "physical": "c.4",
+          "group": "big5",
+          "mapped": "c.4",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    },
+    {
+      "char": "發",
+      "covered": true,
+      "readings": [
+        {
+          "bpmf": "ㄈㄚ",
+          "pinyin": "fa",
+          "physical": "z8",
+          "group": "big5",
+          "mapped": "z8",
+          "match": true
+        }
+      ],
+      "all_mapped_correctly": true
+    }
+  ]
+}

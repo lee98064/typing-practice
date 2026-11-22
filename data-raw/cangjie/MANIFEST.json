@@ -1,0 +1,41 @@
+{
+  "retrieved": "2026-11-22",
+  "files": {
+    "build-roots.py": {
+      "bytes": 7764,
+      "sha256": "c1e17fffd073a7c909e14198da3e86cccee989b9548c67bc30110784802ec6f9"
+    },
+    "cangjie3.txt": {
+      "bytes": 230357,
+      "sha256": "af3d2215f5abd02d022773a54583cb68c9bd64fc6989b20cfb0cdf421eeb951a"
+    },
+    "validate.py": {
+      "bytes": 1541,
+      "sha256": "1d0cff3e28d35089b565ebb343b88a631bd937d4f3952c5b0a56457e59c8b096"
+    },
+    "root-chart-source.wiki": {
+      "bytes": 59175,
+      "sha256": "032730e38aea7b25b05a583de1e1e46a3b0f303854824f6763ee1ca2f1dccd3e"
+    },
+    "LICENSE-SOURCE.txt": {
+      "bytes": 2184,
+      "sha256": "1aaf61d8ae391130d8ed48949417665ea7fa16ffd8c9faf520c529e6b1edc7d1"
+    },
+    "validation.json": {
+      "bytes": 1792,
+      "sha256": "b6c0b25e0ea6c4151c20477fe17db88e312ad1489fd22710a363984275894178"
+    },
+    "rime-integrated-v3-comparison.json": {
+      "bytes": 534,
+      "sha256": "0e3d293cd9c5bbfeadfc292754241b43075c45f12af7368975e387bb349d53e1"
+    },
+    "openvanilla-cj-comparison.json": {
+      "bytes": 447,
+      "sha256": "806525ddc2802a8af165c08dc7604b616f82e4fa7a2898c17e3c7461adbc6f65"
+    },
+    "CC-BY-SA-4.0.txt": {
+      "bytes": 20138,
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    }
+  }
+}

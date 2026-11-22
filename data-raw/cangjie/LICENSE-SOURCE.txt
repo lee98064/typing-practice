@@ -1,0 +1,34 @@
+墨打 T1a — 倉頡三代資料來源／授權記錄
+取得日：2026-11-22 (Asia/Taipei)
+
+推薦表：cangjie3.txt
+來源：https://raw.githubusercontent.com/definite/ibus-table-chinese/bac13d268344311d48ad9bbc09c7df48b304066f/tables/cangjie/cangjie3.txt
+上游頁：https://github.com/definite/ibus-table-chinese/blob/bac13d268344311d48ad9bbc09c7df48b304066f/tables/cangjie/cangjie3.txt
+固定版本：檔內 SERIAL_NUMBER = 2004111801，2008-12-23 轉為 ibus-table 格式。
+原始作者／來源：Roy Hiu-yueng Chan；chinesecj.com（倉頡之友‧馬來西亞）。
+適用授權是資料檔自身的聲明，不把整個 ibus 專案 GPL-3.0 自動套在此獨立資料檔。
+
+原檔完整授權及保留標頭要求（逐字）：
+### CangJie Input Method the 3rd Generation
+###
+### Supported Encodings : Unicode4.0、BIG5、GB18030、GBK、GB
+### Source of Software  : chinesecj.com (倉頡之友‧馬來西亞)
+### Author              : Roy Hiu-yueng Chan
+###
+### File header must not be modified.
+### This file must be encoded into UTF-8.
+
+### License
+LICENSE =  Freely redistributable without restriction
+
+公開非營利網站：可再散布，保留原檔標頭；此判斷以檔內明示再散布許可為據。
+原始表不可覆寫為五代；保留原始檔作來源，格式轉換物另檔並保留來源及許可。
+
+root-chart-source.wiki：維基教科書《倉頡輸入法／輔助字形》文字原始碼，研究參照。
+來源：https://zh.wikibooks.org/w/index.php?title=倉頡輸入法/輔助字形&action=raw
+頁面：https://zh.wikibooks.org/wiki/倉頡輸入法/輔助字形
+作者：該頁維基教科書貢獻者；歷史：https://zh.wikibooks.org/w/index.php?title=倉頡輸入法/輔助字形&action=history
+文字授權：CC BY-SA 4.0。原始碼含對 Commons SVG 檔名的參照，沒有下載或再散布那些圖檔。
+授權全文：CC-BY-SA-4.0.txt；URL：https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt
+本次 roots/cangjie.json 的記憶說明為自行撰寫；字形類別與來源識別碼依該表記錄。
+Unicode近似形不等於精確字根輪廓，詳 JSON note。需圖片時應另行核對每個圖片授權。

@@ -1,0 +1,133 @@
+墨打 T1a 注音資料來源與授權記錄
+擷取日期：2026-11-22
+建議：BPMFBase.txt 單字音 + BPMFMappings.txt 詞音 + BPMFPunctuations.txt 符號。
+McBopomofo 固定 commit：592d5b7f3ac2d8ee39ddf01c9e806af45d9f21c5
+來源專案： https://github.com/openvanilla/McBopomofo
+目前專案為 MIT，授權包含 software and associated documentation files；資料目錄無另行限制聲明。
+為保留詞表既有 libtabe/tsi.src 來源脈絡，另附 libtabe BSD-style COPYING 的兩組著作權／免責聲明；不能把先前BSD義務省略。
+公開、非商業、離線PWA再散布：可，發布時同時提供下面完整 MIT 與 BSD notices，不以原作者名義背書。
+原始檔未更改；若日後轉換為JSON等格式，應保留此檔與原始來源版本／轉換說明，並提供可取得的來源。
+各檔原始下載URL、大小與SHA256：
+BPMFBase.txt
+https://raw.githubusercontent.com/openvanilla/McBopomofo/592d5b7f3ac2d8ee39ddf01c9e806af45d9f21c5/Source/Data/BPMFBase.txt
+SHA256 0acea11158afb2d4bf6e81729b427c3807c377c9656f6438221ac510ccae29bd
+BPMFMappings.txt
+https://raw.githubusercontent.com/openvanilla/McBopomofo/592d5b7f3ac2d8ee39ddf01c9e806af45d9f21c5/Source/Data/BPMFMappings.txt
+SHA256 669fc54cba7d091986d9d58fa409ffe089a03f37b7b904a1827f674e2a8899ca
+BPMFPunctuations.txt
+https://raw.githubusercontent.com/openvanilla/McBopomofo/592d5b7f3ac2d8ee39ddf01c9e806af45d9f21c5/Source/Data/BPMFPunctuations.txt
+SHA256 3058fd5fb933a5919900caa7332c2d1a95cd11a2a2ff56e51526a4daa4c95083
+McBopomofo-LICENSE.txt
+https://raw.githubusercontent.com/openvanilla/McBopomofo/592d5b7f3ac2d8ee39ddf01c9e806af45d9f21c5/LICENSE.txt
+SHA256 72ed32193b0c629def66df63791b2fb125946b593a3251380e6b949488f47b72
+McBopomofo-data-README.md
+https://raw.githubusercontent.com/openvanilla/McBopomofo/592d5b7f3ac2d8ee39ddf01c9e806af45d9f21c5/Source/Data/README.md
+SHA256 2cdf3094295c6e13e629b8bafb3e5f49398179189aed59e22a08976a8af153a2
+libtabe-COPYING
+https://raw.githubusercontent.com/kcwu/libtabe/ea382a829c916f2cceda2022afdf8e8471e6e7b5/COPYING
+SHA256 055d91064dfd275f7f098bd373cf04a2bf32ade93fc05b5dd3c3d7e798153c33
+
+===== McBopomofo MIT 授權原文 =====
+MIT License
+
+Copyright (c) 2011-2026 Mengjuei Hsieh et al.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+===== libtabe COPYING 原文（歷史來源聲明一併保留）=====
+
+The library consists of software developed by several entities.
+
+The following license applies to major parts of the software.
+
+/*
+ * Copyrighy (c) 1999 TaBE Project.
+ * Copyright (c) 1999 Pai-Hsiang Hsiao.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * . Redistributions of source code must retain the above copyright
+ *   notice, this list of conditions and the following disclaimer.
+ * . Redistributions in binary form must reproduce the above copyright
+ *   notice, this list of conditions and the following disclaimer in
+ *   the documentation and/or other materials provided with the
+ *   distribution.
+ * . Neither the name of the TaBE Project nor the names of its
+ *   contributors may be used to endorse or promote products derived
+ *   from this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ * REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+ * OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+/*
+ * Copyright (c) 1999 Computer Systems and Communication Lab,
+ *                    Institute of Information Science, Academia Sinica.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * . Redistributions of source code must retain the above copyright
+ *   notice, this list of conditions and the following disclaimer.
+ * . Redistributions in binary form must reproduce the above copyright
+ *   notice, this list of conditions and the following disclaimer in
+ *   the documentation and/or other materials provided with the
+ *   distribution.
+ * . Neither the name of the Computer Systems and Communication Lab
+ *   nor the names of its contributors may be used to endorse or
+ *   promote products derived from this software without specific
+ *   prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ * REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+ * OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+
+===== 既有 bopomofo.cin =====
+不納入新採用的可發布資料；原檔保持原樣，僅做溯源。
+它與 OpenVanilla DataTables/bpmf.cin 高度重疊，但標頭沒有著作權或授權。
+OpenVanilla 根目錄 LICENSE 明說 external data table 應查看各資料檔授權；不能把根目錄 MIT 自動套用至缺少聲明的 bpmf.cin。
+比對原始URL： https://raw.githubusercontent.com/openvanilla/openvanilla/ecf3260a49e61aacf4ffc951d40d390a46dc4cec/DataTables/bpmf.cin
+OpenVanilla LICENSE： https://raw.githubusercontent.com/openvanilla/openvanilla/ecf3260a49e61aacf4ffc951d40d390a46dc4cec/LICENSE.txt
+%gen_inp 是 CIN 通用格式記號，不能單憑它判定來自某一專案，也不能判定授權。

@@ -1,0 +1,21 @@
+{
+  "common": {
+    "source_rows": 4808,
+    "unique_unicode_chars": 4808,
+    "source": "CNS_source + CNS2UNICODE (20261028)",
+    "order": "CNS order; not MOE A-number order"
+  },
+  "secondary": {
+    "source_rows": 6343,
+    "unique_unicode_chars": 6343,
+    "source": "Wikisource oldid=2334552",
+    "current_regular": 6329,
+    "moved_pending": 5,
+    "units": 9,
+    "order": "Wikisource transcription sequence; last14 are relocated entries"
+  },
+  "cns_secondary_source_only": {
+    "rows": 5768,
+    "warning": "CNS_source is not exhaustive of original MOE secondary inventory"
+  }
+}

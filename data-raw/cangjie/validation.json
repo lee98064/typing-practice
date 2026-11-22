@@ -1,0 +1,117 @@
+{
+  "table_sha256": "af3d2215f5abd02d022773a54583cb68c9bd64fc6989b20cfb0cdf421eeb951a",
+  "rows": 17578,
+  "unique_outputs": 17568,
+  "unique_han_in_documented_ranges": 16860,
+  "max_code_length": 5,
+  "code_length_histogram": {
+    "1": 26,
+    "2": 506,
+    "3": 2366,
+    "4": 9369,
+    "5": 5311
+  },
+  "punctuation": {
+    "，": [
+      "zxab"
+    ],
+    "。": [
+      "zxad"
+    ],
+    "、": [
+      "zxac"
+    ],
+    "；": [
+      "zxag"
+    ],
+    "：": [
+      "zxah"
+    ],
+    "「": [
+      "zxcd"
+    ],
+    "」": [
+      "zxce"
+    ],
+    "？": [
+      "zxai"
+    ],
+    "！": [
+      "zxaj"
+    ],
+    "…": [
+      "zxal"
+    ],
+    "（": [
+      "zxbe"
+    ],
+    "）": [
+      "zxbf"
+    ],
+    "《": [
+      "zxbu"
+    ],
+    "》": [
+      "zxbv"
+    ]
+  },
+  "version_probes": {
+    "面": [
+      "mwyl"
+    ],
+    "廠": [
+      "ifbk"
+    ],
+    "這": [
+      "yymr"
+    ],
+    "黑": [
+      "wgf"
+    ],
+    "麵": [
+      "jnmwl"
+    ]
+  },
+  "examples": [
+    {
+      "char": "明",
+      "code": "ab",
+      "match": true
+    },
+    {
+      "char": "林",
+      "code": "dd",
+      "match": true
+    },
+    {
+      "char": "休",
+      "code": "od",
+      "match": true
+    },
+    {
+      "char": "好",
+      "code": "vnd",
+      "match": true
+    },
+    {
+      "char": "學",
+      "code": "hbnd",
+      "match": true
+    },
+    {
+      "char": "身",
+      "code": "hxh",
+      "match": true
+    }
+  ],
+  "root_coverage": {
+    "main_roots": 24,
+    "v3_shape_classes": 99,
+    "source_svg_variants": 215,
+    "excluded_v5_only": [
+      "cjr5m-e1.svg",
+      "cjr5m-s1.svg"
+    ],
+    "note": "逐列保留三代形類與所有來源變體識別碼；Unicode 代表是草稿，不聲稱每個字形都能以單一 Unicode 精確顯示。"
+  }
+}

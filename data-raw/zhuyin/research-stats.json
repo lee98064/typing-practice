@@ -1,0 +1,406 @@
+{
+  "boshiamy": {
+    "entries": 26341,
+    "unique_outputs": 13563,
+    "single_han": 13069,
+    "unique_codes": 21949,
+    "lengths": {
+      "1": 31,
+      "2": 745,
+      "3": 7679,
+      "4": 12529,
+      "5": 965
+    },
+    "punctuation": {
+      "，": [
+        ",",
+        ",,"
+      ],
+      "。": [
+        ",.",
+        ",.w",
+        "."
+      ],
+      "、": [
+        "vv",
+        ",.",
+        ",.c",
+        ",'",
+        ",'f",
+        "'"
+      ],
+      "；": [
+        ".,"
+      ],
+      "：": [
+        ".."
+      ],
+      "「": [
+        ",,",
+        ",[",
+        "["
+      ],
+      "」": [
+        ",v",
+        ",,v",
+        ",]",
+        "]"
+      ],
+      "？": [
+        "s."
+      ],
+      "！": [
+        "c.",
+        "v."
+      ],
+      "『": [
+        ",[[",
+        "[["
+      ],
+      "』": [
+        ",]]",
+        "]]"
+      ]
+    }
+  },
+  "supplied_bopomofo": {
+    "entries": 14428,
+    "unique_outputs": 13202,
+    "unique_codes": 1363,
+    "max_code_length": 4,
+    "punctuation": {
+      "，": [],
+      "。": [],
+      "、": [],
+      "；": [],
+      "：": [],
+      "「": [],
+      "」": [],
+      "？": [],
+      "！": [],
+      "『": [],
+      "』": []
+    }
+  },
+  "mcbopomofo_base": {
+    "entries": 26536,
+    "unique_characters": 21786,
+    "max_raw_physical_length": 5,
+    "exceptions_over4": [
+      {
+        "char": "𰻞",
+        "bpmf": "ㄅㄧㄤˊ",
+        "pinyin": "biang2",
+        "physical": "11u;6",
+        "group": "utf8"
+      },
+      {
+        "char": "𰻝",
+        "bpmf": "ㄅㄧㄤˊ",
+        "pinyin": "biang2",
+        "physical": "11u;6",
+        "group": "utf8"
+      }
+    ]
+  },
+  "mcbopomofo_phrases": {
+    "entries": 146191,
+    "unique_phrases": 140582,
+    "heteronym_examples": [
+      [
+        "快樂",
+        "ㄎㄨㄞˋ",
+        "ㄌㄜˋ"
+      ],
+      [
+        "行走",
+        "ㄒㄧㄥˊ",
+        "ㄗㄡˇ"
+      ],
+      [
+        "重複",
+        "ㄔㄨㄥˊ",
+        "ㄈㄨˋ"
+      ],
+      [
+        "重量",
+        "ㄓㄨㄥˋ",
+        "ㄌㄧㄤˋ"
+      ],
+      [
+        "銀行",
+        "ㄧㄣˊ",
+        "ㄏㄤˊ"
+      ],
+      [
+        "長大",
+        "ㄓㄤˇ",
+        "ㄉㄚˋ"
+      ],
+      [
+        "長度",
+        "ㄔㄤˊ",
+        "ㄉㄨˋ"
+      ],
+      [
+        "音樂",
+        "ㄧㄣ",
+        "ㄩㄝˋ"
+      ]
+    ]
+  },
+  "mcbopomofo_punctuations": {
+    "，": [
+      "_ctrl_punctuation_,",
+      "_punctuation_<",
+      "_punctuation_Standard_<",
+      "_punctuation_ETen_<",
+      "_punctuation_ETen26_,",
+      "_punctuation_Hsu_,",
+      "_punctuation_HanyuPinyin_,",
+      "_punctuation_list",
+      "_punctuation_list_,"
+    ],
+    "。": [
+      "_ctrl_punctuation_.",
+      "_punctuation_>",
+      "_punctuation_Standard_>",
+      "_punctuation_ETen_>",
+      "_punctuation_ETen26_.",
+      "_punctuation_Hsu_.",
+      "_punctuation_HanyuPinyin_.",
+      "_punctuation_list",
+      "_punctuation_list_."
+    ],
+    "、": [
+      "_ctrl_punctuation_'",
+      "_punctuation_\"",
+      "_punctuation_Standard_'",
+      "_punctuation_ETen26_'",
+      "_punctuation_Hsu_'",
+      "_punctuation_HanyuPinyin_'",
+      "_punctuation_list",
+      "_punctuation_list_'"
+    ],
+    "；": [
+      "_ctrl_punctuation_;",
+      "_punctuation_:",
+      "_punctuation_Standard_\"",
+      "_punctuation_ETen_:",
+      "_punctuation_ETen26_;",
+      "_punctuation_Hsu_;",
+      "_punctuation_HanyuPinyin_;",
+      "_punctuation_list",
+      "_punctuation_list_;"
+    ],
+    "：": [
+      "_punctuation_:",
+      "_punctuation_Standard_:",
+      "_punctuation_ETen_:",
+      "_punctuation_ETen26_:",
+      "_punctuation_Hsu_:",
+      "_punctuation_HanyuPinyin_:",
+      "_punctuation_list",
+      "_punctuation_list_:"
+    ],
+    "「": [
+      "_punctuation_[",
+      "_punctuation_list",
+      "_punctuation_list_["
+    ],
+    "」": [
+      "_punctuation_]",
+      "_punctuation_list",
+      "_punctuation_list_]"
+    ],
+    "？": [
+      "_ctrl_punctuation_/",
+      "_punctuation_?",
+      "_punctuation_list",
+      "_punctuation_list_?"
+    ],
+    "！": [
+      "_ctrl_punctuation_!",
+      "_punctuation_!",
+      "_punctuation_list",
+      "_punctuation_list_!"
+    ],
+    "『": [
+      "_punctuation_{",
+      "_punctuation_list",
+      "_punctuation_list_{",
+      "_punctuation_list_["
+    ],
+    "』": [
+      "_punctuation_}",
+      "_punctuation_list",
+      "_punctuation_list_}",
+      "_punctuation_list_]"
+    ]
+  },
+  "example_checks": [
+    {
+      "im": "boshiamy",
+      "char": "明",
+      "code": "due",
+      "explain": "日用Day取d，月取u；只有兩根，月末橫取e補短。",
+      "match": true
+    },
+    {
+      "im": "boshiamy",
+      "char": "休",
+      "code": "ptn",
+      "explain": "亻用People取p，木用Tree取t；兩根後補木的末捺n。",
+      "match": true
+    },
+    {
+      "im": "boshiamy",
+      "char": "林",
+      "code": "ttn",
+      "explain": "左右兩木各取Tree的t；不足三根，補右木末捺n。",
+      "match": true
+    },
+    {
+      "im": "boshiamy",
+      "char": "仁",
+      "code": "pre",
+      "explain": "亻p、二r；二在字內不是獨立數字，仍補末橫e。",
+      "match": true
+    },
+    {
+      "im": "boshiamy",
+      "char": "機",
+      "code": "twwb",
+      "explain": "木t、幺w、幺w，跳過中間交叉根，末人b；簡碼另為g。",
+      "match": true
+    },
+    {
+      "im": "boshiamy",
+      "char": "的",
+      "code": "d",
+      "explain": "一碼簡碼d，完整標準碼pdna；單獨一碼字不表示的字部件永遠只取d。",
+      "match": true
+    },
+    {
+      "im": "boshiamy",
+      "char": "俞",
+      "code": "ai",
+      "explain": "俞是簡速根a，再以末豎鉤i補短；完整標準拆法aur也收於表。",
+      "match": true
+    },
+    {
+      "im": "boshiamy",
+      "char": "天",
+      "code": "edn",
+      "explain": "一e、大d再補捺n是官網明示容錯碼；標準應按大根取gnn。",
+      "match": true
+    },
+    {
+      "im": "boshiamy",
+      "char": "精",
+      "code": "mhu",
+      "explain": "米m、青的上部h、月u；MHU第0候選。",
+      "match": true
+    },
+    {
+      "im": "boshiamy",
+      "char": "睛",
+      "code": "mhuv",
+      "explain": "目m、青的上部h、月u與精重碼；末v為選第1候選的輔助碼。",
+      "match": true
+    },
+    {
+      "im": "boshiamy",
+      "char": "雞",
+      "code": "ewdv",
+      "explain": "此碼已有雞，不能用它把EWD第1候選岰覆蓋掉；顯示字表實際對應優先。",
+      "match": true
+    },
+    {
+      "im": "zhuyin",
+      "char": "媽",
+      "code": "a8",
+      "commit": " ",
+      "explain": "ㄇ在a、ㄚ在8；一聲無印刷調號，按Space完成。",
+      "match": true
+    },
+    {
+      "im": "zhuyin",
+      "char": "麻",
+      "code": "a86",
+      "explain": "ㄇa＋ㄚ8＋二聲6。",
+      "match": true
+    },
+    {
+      "im": "zhuyin",
+      "char": "馬",
+      "code": "a83",
+      "explain": "ㄇa＋ㄚ8＋三聲3。",
+      "match": true
+    },
+    {
+      "im": "zhuyin",
+      "char": "罵",
+      "code": "a84",
+      "explain": "ㄇa＋ㄚ8＋四聲4。",
+      "match": true
+    },
+    {
+      "im": "zhuyin",
+      "char": "嗎",
+      "code": "a87",
+      "explain": "輕聲讀法ㄇㄚ˙：ㄇa＋ㄚ8＋7；詞境仍可能有其他讀法。",
+      "match": true
+    },
+    {
+      "im": "zhuyin",
+      "char": "中",
+      "code": "5j/",
+      "commit": " ",
+      "explain": "ㄓ5、ㄨj、ㄥ/，一聲Space；第二讀音ㄓㄨㄥˋ另收5j/4。",
+      "match": true
+    },
+    {
+      "im": "zhuyin",
+      "char": "行",
+      "code": "c;6",
+      "explain": "銀行的行讀ㄏㄤˊ，鍵c ; 6。",
+      "match": true
+    },
+    {
+      "im": "zhuyin",
+      "char": "行",
+      "code": "vu/6",
+      "explain": "行走的行讀ㄒㄧㄥˊ，鍵v u / 6。",
+      "match": true
+    },
+    {
+      "im": "zhuyin",
+      "char": "樂",
+      "code": "m,4",
+      "explain": "音樂的樂讀ㄩㄝˋ，鍵m , 4；快樂的樂讀ㄌㄜˋ，另為xk4。",
+      "match": true
+    }
+  ],
+  "zhuyin_probe_summary": {
+    "im": "zhuyin",
+    "sample_size": 50,
+    "dictionary_coverage": 50,
+    "consistent_characters": 50,
+    "IDS_prediction": "N/A: 字形樹不能推出讀音；此數值是來源讀音→鍵碼的一致性，不是破音字自動判斷正確率。"
+  },
+  "original_sha256": {
+    "bopomofo.cin": "0b8d0014c54b482e68eb0b5c2608f013326967c6a4480ab8bac8a12c50e93ff7",
+    "index.js": "027d72dd428a42c752b920ae783a6321739f409541a9911d24986428c330df2b",
+    "boshiamy.cin": "d5d2fb887e170e76db2df8cd5fde5f7934bbb6b51cb084cbabde5d6f189fae15"
+  },
+  "lineage_comparison": {
+    "openvanilla_commit": "ecf3260a49e61aacf4ffc951d40d390a46dc4cec",
+    "url": "https://raw.githubusercontent.com/openvanilla/openvanilla/ecf3260a49e61aacf4ffc951d40d390a46dc4cec/DataTables/bpmf.cin",
+    "supplied_pairs": 14427,
+    "openvanilla_pairs": 14149,
+    "common_pairs": 14130,
+    "only_supplied": 297,
+    "only_openvanilla": 19
+  }
+}

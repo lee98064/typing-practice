@@ -1,0 +1,25 @@
+{
+  "source_url": "https://raw.githubusercontent.com/cangjie-system/rime-cangjie-integrated/dcfba770189078a2f7b347793c8e155c3c39275d/cangjie.3-base.dict.yaml",
+  "rows": 108419,
+  "unique_outputs": 97057,
+  "sha256_downloaded_but_not_bundled": "365603b504506dbbdca885783fd2623d727affb56e1a3f183b7f7de61ac62744",
+  "version_probes": {
+    "面": [
+      "mwyl"
+    ],
+    "廠": [
+      "ifbk"
+    ],
+    "這": [
+      "yymr"
+    ],
+    "黑": [
+      "wgf"
+    ],
+    "麵": [
+      "demwl",
+      "jemwl",
+      "jnmwl"
+    ]
+  }
+}

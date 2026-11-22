@@ -1,0 +1,516 @@
+{
+  "im": "cangjie",
+  "sample_size": 50,
+  "table_covered": 50,
+  "predicted": 13,
+  "exact_matches": 11,
+  "details": [
+    {
+      "char": "的",
+      "ids": "⿰白勺",
+      "predicted": null,
+      "actual_codes": [
+        "hapi"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "一",
+      "ids": "一",
+      "predicted": "m",
+      "actual_codes": [
+        "m"
+      ],
+      "match": true,
+      "path": "main-root"
+    },
+    {
+      "char": "是",
+      "ids": "⿱日𤴓",
+      "predicted": null,
+      "actual_codes": [
+        "amyo"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "不",
+      "ids": "⿱一③",
+      "predicted": null,
+      "actual_codes": [
+        "mf"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "了",
+      "ids": "⿱乛亅",
+      "predicted": null,
+      "actual_codes": [
+        "nn"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "我",
+      "ids": "我",
+      "predicted": null,
+      "actual_codes": [
+        "hqi"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "有",
+      "ids": "⿸𠂇月",
+      "predicted": "kb",
+      "actual_codes": [
+        "kb"
+      ],
+      "match": true,
+      "path": "coarse-head-body"
+    },
+    {
+      "char": "在",
+      "ids": "⿸③土",
+      "predicted": null,
+      "actual_codes": [
+        "klg"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "人",
+      "ids": "人",
+      "predicted": "o",
+      "actual_codes": [
+        "o"
+      ],
+      "match": true,
+      "path": "main-root"
+    },
+    {
+      "char": "來",
+      "ids": "⿻木从",
+      "predicted": "doo",
+      "actual_codes": [
+        "doo"
+      ],
+      "match": true,
+      "path": "coarse-head-body"
+    },
+    {
+      "char": "大",
+      "ids": "⿻一人",
+      "predicted": "k",
+      "actual_codes": [
+        "k"
+      ],
+      "match": true,
+      "path": "main-root"
+    },
+    {
+      "char": "上",
+      "ids": "⿱⺊一",
+      "predicted": null,
+      "actual_codes": [
+        "ym"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "這",
+      "ids": "⿺辶言",
+      "predicted": null,
+      "actual_codes": [
+        "yymr"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "到",
+      "ids": "⿰至刂",
+      "predicted": null,
+      "actual_codes": [
+        "mgln"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "們",
+      "ids": "⿰亻門",
+      "predicted": null,
+      "actual_codes": [
+        "oan"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "個",
+      "ids": "⿰亻固",
+      "predicted": "owjr",
+      "actual_codes": [
+        "owjr"
+      ],
+      "match": true,
+      "path": "coarse-head-body"
+    },
+    {
+      "char": "小",
+      "ids": "小",
+      "predicted": null,
+      "actual_codes": [
+        "nc"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "你",
+      "ids": "⿰亻尔",
+      "predicted": null,
+      "actual_codes": [
+        "onf"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "子",
+      "ids": "子",
+      "predicted": null,
+      "actual_codes": [
+        "nd"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "他",
+      "ids": "⿰亻也",
+      "predicted": null,
+      "actual_codes": [
+        "opd"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "以",
+      "ids": "以",
+      "predicted": null,
+      "actual_codes": [
+        "vio"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "好",
+      "ids": "⿰女子",
+      "predicted": null,
+      "actual_codes": [
+        "vnd"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "為",
+      "ids": "為",
+      "predicted": null,
+      "actual_codes": [
+        "iknf"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "就",
+      "ids": "⿰京尤",
+      "predicted": null,
+      "actual_codes": [
+        "yfiku"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "生",
+      "ids": "生",
+      "predicted": null,
+      "actual_codes": [
+        "hqm"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "要",
+      "ids": "⿱覀女",
+      "predicted": "mlv",
+      "actual_codes": [
+        "mwv"
+      ],
+      "match": false,
+      "path": "coarse-head-body"
+    },
+    {
+      "char": "說",
+      "ids": "⿰言兌",
+      "predicted": null,
+      "actual_codes": [
+        "yrcru"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "中",
+      "ids": "⿻口丨",
+      "predicted": "l",
+      "actual_codes": [
+        "l"
+      ],
+      "match": true,
+      "path": "main-root"
+    },
+    {
+      "char": "時",
+      "ids": "⿰日寺",
+      "predicted": null,
+      "actual_codes": [
+        "agdi"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "地",
+      "ids": "⿰土也",
+      "predicted": null,
+      "actual_codes": [
+        "gpd"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "出",
+      "ids": "⿱屮凵",
+      "predicted": "uu",
+      "actual_codes": [
+        "uu"
+      ],
+      "match": true,
+      "path": "coarse-head-body"
+    },
+    {
+      "char": "也",
+      "ids": "也",
+      "predicted": null,
+      "actual_codes": [
+        "pd"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "得",
+      "ids": "⿰彳㝵",
+      "predicted": null,
+      "actual_codes": [
+        "hoami"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "和",
+      "ids": "⿰禾口",
+      "predicted": "hdr",
+      "actual_codes": [
+        "hdr"
+      ],
+      "match": true,
+      "path": "coarse-head-body"
+    },
+    {
+      "char": "那",
+      "ids": "⿰⿻刀二阝",
+      "predicted": null,
+      "actual_codes": [
+        "sqnl"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "用",
+      "ids": "⿵冂⿻二丨",
+      "predicted": "bmml",
+      "actual_codes": [
+        "bq"
+      ],
+      "match": false,
+      "path": "coarse-head-body"
+    },
+    {
+      "char": "下",
+      "ids": "⿱一卜",
+      "predicted": "my",
+      "actual_codes": [
+        "my"
+      ],
+      "match": true,
+      "path": "coarse-head-body"
+    },
+    {
+      "char": "年",
+      "ids": "年",
+      "predicted": null,
+      "actual_codes": [
+        "oq"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "會",
+      "ids": "⿱亼𭥴",
+      "predicted": null,
+      "actual_codes": [
+        "omwa"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "可",
+      "ids": "⿹丁口",
+      "predicted": "mnr",
+      "actual_codes": [
+        "mnr"
+      ],
+      "match": true,
+      "path": "coarse-head-body"
+    },
+    {
+      "char": "多",
+      "ids": "⿱夕夕",
+      "predicted": null,
+      "actual_codes": [
+        "nini"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "自",
+      "ids": "自",
+      "predicted": null,
+      "actual_codes": [
+        "hbu"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "己",
+      "ids": "己",
+      "predicted": null,
+      "actual_codes": [
+        "su"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "於",
+      "ids": "⿰方仒",
+      "predicted": null,
+      "actual_codes": [
+        "ysoy"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "能",
+      "ids": "⿰䏍𫧇",
+      "predicted": null,
+      "actual_codes": [
+        "ibpp"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "之",
+      "ids": "⿱丶②",
+      "predicted": null,
+      "actual_codes": [
+        "ino"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "學",
+      "ids": "⿱𦥯子",
+      "predicted": null,
+      "actual_codes": [
+        "hbnd"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "家",
+      "ids": "⿱宀豕",
+      "predicted": null,
+      "actual_codes": [
+        "jmso"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "後",
+      "ids": "⿰彳⿱幺夊",
+      "predicted": null,
+      "actual_codes": [
+        "hovie"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    },
+    {
+      "char": "發",
+      "ids": "⿱癶𭚧",
+      "predicted": null,
+      "actual_codes": [
+        "nonhe"
+      ],
+      "match": false,
+      "path": "unknown-root"
+    }
+  ],
+  "input_sha256": {
+    "data-raw/cangjie/cangjie3.txt": "af3d2215f5abd02d022773a54583cb68c9bd64fc6989b20cfb0cdf421eeb951a",
+    "data-raw/roots/cangjie.json": "cde9657350d9de8a5371a9c3215d1c0f787c9cf23703cbc3186aafd0932aaebb",
+    "data-raw/ids/ids.txt": "bfc70a8c09f9f5616ebf0543bd6681e67314e9f7ae2307e5ae8c6f15bdc5c6a6",
+    "data-raw/ids/probe-chars.txt": "16d3079e4b4c56aa58dd6462b6e3220f67135998aa179536a31d518de42d413b"
+  },
+  "limitations": "字根表精確 Unicode 子集；無筆畫幾何、連筆/包圍次序、簡碼、特別字首或容錯。表僅在預測完成後比對。"
+}

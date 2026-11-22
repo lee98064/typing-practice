@@ -1,0 +1,106 @@
+[
+  {
+    "phrase": "銀行",
+    "bopomofo": [
+      "ㄧㄣˊ",
+      "ㄏㄤˊ"
+    ],
+    "physical_syllables": [
+      "up6",
+      "c;6"
+    ],
+    "first_tone_commit": "未帶3/4/6/7的音節另按Space；音節之間不是固定輸入文字空格。",
+    "match": true
+  },
+  {
+    "phrase": "行走",
+    "bopomofo": [
+      "ㄒㄧㄥˊ",
+      "ㄗㄡˇ"
+    ],
+    "physical_syllables": [
+      "vu/6",
+      "y.3"
+    ],
+    "first_tone_commit": "未帶3/4/6/7的音節另按Space；音節之間不是固定輸入文字空格。",
+    "match": true
+  },
+  {
+    "phrase": "音樂",
+    "bopomofo": [
+      "ㄧㄣ",
+      "ㄩㄝˋ"
+    ],
+    "physical_syllables": [
+      "up",
+      "m,4"
+    ],
+    "first_tone_commit": "未帶3/4/6/7的音節另按Space；音節之間不是固定輸入文字空格。",
+    "match": true
+  },
+  {
+    "phrase": "快樂",
+    "bopomofo": [
+      "ㄎㄨㄞˋ",
+      "ㄌㄜˋ"
+    ],
+    "physical_syllables": [
+      "dj94",
+      "xk4"
+    ],
+    "first_tone_commit": "未帶3/4/6/7的音節另按Space；音節之間不是固定輸入文字空格。",
+    "match": true
+  },
+  {
+    "phrase": "重複",
+    "bopomofo": [
+      "ㄔㄨㄥˊ",
+      "ㄈㄨˋ"
+    ],
+    "physical_syllables": [
+      "tj/6",
+      "zj4"
+    ],
+    "first_tone_commit": "未帶3/4/6/7的音節另按Space；音節之間不是固定輸入文字空格。",
+    "match": true
+  },
+  {
+    "phrase": "重量",
+    "bopomofo": [
+      "ㄓㄨㄥˋ",
+      "ㄌㄧㄤˋ"
+    ],
+    "physical_syllables": [
+      "5j/4",
+      "xu;4"
+    ],
+    "first_tone_commit": "未帶3/4/6/7的音節另按Space；音節之間不是固定輸入文字空格。",
+    "match": true
+  },
+  {
+    "phrase": "長大",
+    "bopomofo": [
+      "ㄓㄤˇ",
+      "ㄉㄚˋ"
+    ],
+    "physical_syllables": [
+      "5;3",
+      "284"
+    ],
+    "first_tone_commit": "未帶3/4/6/7的音節另按Space；音節之間不是固定輸入文字空格。",
+    "match": true
+  },
+  {
+    "phrase": "長度",
+    "bopomofo": [
+      "ㄔㄤˊ",
+      "ㄉㄨˋ"
+    ],
+    "physical_syllables": [
+      "t;6",
+      "2j4"
+    ],
+    "first_tone_commit": "未帶3/4/6/7的音節另按Space；音節之間不是固定輸入文字空格。",
+    "match": true
+  }
+]

@@ -1,0 +1,101 @@
+{
+  "retrieved": "2026-11-22",
+  "files": {
+    "cns-secondary-partial.txt": {
+      "bytes": 17305,
+      "sha256": "93ae40278da92369f1f86d59487524869c24e9e69e12c7196655cac02d04e24d"
+    },
+    "common-crosscheck.json": {
+      "bytes": 361,
+      "sha256": "243c27a704ed4e05b08328027c6a019c5611bd447ae59ae53ad9f416853a5d49"
+    },
+    "upstream-README.md": {
+      "bytes": 2581,
+      "sha256": "b3f19f888b8e552f8c35936548905d0851f7911afb096bb5930d6c5d6c491e32"
+    },
+    "CNS2UNICODE_Unicode 15.txt": {
+      "bytes": 265562,
+      "sha256": "70895f73b6605731a256b616bbb1c0c1bd51d74c105c2f108fcae0896411dbc3"
+    },
+    "provenance.json": {
+      "bytes": 1315,
+      "sha256": "1ce75cc867149877210ebe4b8c6d4bd92e1df45c791193a40107668032459bfb"
+    },
+    "moe-secondary-6343.tsv": {
+      "bytes": 107086,
+      "sha256": "89a717e02c4d84cee355606c790b304136b8bcefb6d0e642e8cebea326916df1"
+    },
+    "CNS_source.txt": {
+      "bytes": 5664612,
+      "sha256": "89ce445edc362567d2ff04f414782a7d5d58f01f85933287a60e34b249e02507"
+    },
+    "CNS2UNICODE_Unicode 2.txt": {
+      "bytes": 661890,
+      "sha256": "6b8964063c651d2caea30d03e1bee1e4b3df87f3ebee435ac16a4aa856020eaf"
+    },
+    "CNS-release.txt": {
+      "bytes": 3150,
+      "sha256": "1ac2a833649a5eaf758dc653cd73823d9d33b144707fdccef0baaae66be5fe38"
+    },
+    "CNS2UNICODE_Unicode 3.txt": {
+      "bytes": 28158,
+      "sha256": "3afc7842d2a21d6bd2de586f1b63966a92feb6541d44cfaa011f0bec8638512a"
+    },
+    "wikipedia-zh-tw-frequency.tsv": {
+      "bytes": 171881,
+      "sha256": "530ad756c308033798467f3586fa74e9e275ad131882783cbb897ae8ba25a6e3"
+    },
+    "moe-secondary-6343.txt": {
+      "bytes": 19030,
+      "sha256": "e672b702e34f87ed9a8f35708aa68e741a4191917736cb8c25bb58a84c230406"
+    },
+    "moe-secondary-wikisource.wiki": {
+      "bytes": 164941,
+      "sha256": "1432425d1873aca7a344c75dd874215893865678975b3288a2fbb213d37bb93d"
+    },
+    "derive-lists.py": {
+      "bytes": 2197,
+      "sha256": "61df53958ae873cb0d7efe0a4a4af618ba44883d7f3e3c33f333f97b81299a2e"
+    },
+    "wikipedia-frequencies-original.html": {
+      "bytes": 680271,
+      "sha256": "72f7dca541418a4920ff335d3b51ba9cad3558f9422004f5bbe9f00f24fe4f75"
+    },
+    "CNS2UNICODE_Unicode BMP.txt": {
+      "bytes": 418707,
+      "sha256": "9f0d89dc002f0848e4ab88704b4940c5b74d9321eb4ccf1a1283d440cf73b782"
+    },
+    "LICENSE-hanzifreq-MIT.txt": {
+      "bytes": 1087,
+      "sha256": "eb3df8bd66488e7f9f5e730e313300996edf04a13374e4093997e816b8d8638a"
+    },
+    "README.md": {
+      "bytes": 2669,
+      "sha256": "e3603e445f007c8586f698f3fe01a27514643e947da5dcb9dcca0664a6f0d737"
+    },
+    "moe-common-4808.tsv": {
+      "bytes": 86561,
+      "sha256": "1d1af11c12e035c1ce43fcb68d2e9e2026b47f408f3eece301e2420ae6c8835f"
+    },
+    "LICENSE-SOURCE.txt": {
+      "bytes": 3182,
+      "sha256": "863dce864b85c33fdfdeed9c5af636d8f477fb4093537388b2a0f5947cab4c79"
+    },
+    "validation.json": {
+      "bytes": 592,
+      "sha256": "8df0914f073f2ada91d57dd0170553ac2033946734319d03c7d8adedc77b40f8"
+    },
+    "OGDL-1.0.txt": {
+      "bytes": 4584,
+      "sha256": "1a1adaeb922b82493bab7ddaa9a87743f1edbbdafa805a72e51f71afe7c03694"
+    },
+    "CC-BY-SA-4.0.txt": {
+      "bytes": 20138,
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    },
+    "moe-common-4808.txt": {
+      "bytes": 14425,
+      "sha256": "eecbf9e1b9ade9c2859324f0af32a63dc07841e51c059af48569b99e686fa81c"
+    }
+  }
+}

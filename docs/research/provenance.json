@@ -1,0 +1,1064 @@
+[
+  {
+    "id": "chu-shi-biao",
+    "sources": [
+      {
+        "page": "前出師表",
+        "url": "https://zh.wikisource.org/wiki/%E5%89%8D%E5%87%BA%E5%B8%AB%E8%A1%A8",
+        "revision": 12969966,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=12969966",
+        "parsed_html_sha256": "de361b26d94cc22c09bdba911e2a2021c3f5a88fbcc0c25a99d54c13d644906d"
+      }
+    ],
+    "selection_note": "",
+    "start": "臣亮言：先帝創業未半而中道崩殂，今天下三分，益州疲敝，此誠危急存亡之秋",
+    "end": "今當遠離，臨表涕泣，不知所云。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "tao-hua-yuan-ji",
+    "sources": [
+      {
+        "page": "桃花源記",
+        "url": "https://zh.wikisource.org/wiki/%E6%A1%83%E8%8A%B1%E6%BA%90%E8%A8%98",
+        "revision": 2620894,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2620894",
+        "parsed_html_sha256": "a917ecc9b36e11bce34e070e03bb3ced0221b09977afb9518fa2cba76fec9898"
+      }
+    ],
+    "selection_note": "僅取〈記〉正文；不含另附〈桃花源詩〉。",
+    "start": "晉太元中，武陵人捕魚為業。緣溪行，忘路之遠近。忽逢桃花林，夾岸數百步，",
+    "end": "路。南陽劉子驥，高尚士也。聞之，欣然規往。未果，尋病終。後遂無問津者。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "yue-yang-lou-ji",
+    "sources": [
+      {
+        "page": "岳陽樓記",
+        "url": "https://zh.wikisource.org/wiki/%E5%B2%B3%E9%99%BD%E6%A8%93%E8%A8%98",
+        "revision": 12969970,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=12969970",
+        "parsed_html_sha256": "09f76563b326f0a249b7ef331908d4d5c1ae59f06f7ffdd3bff3341998e5df86"
+      }
+    ],
+    "selection_note": "",
+    "start": "慶曆四年春，滕子京謫守巴陵郡。越明年，政通人和，百廢具興，乃重修岳陽樓",
+    "end": "時六年九月十五日。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "zui-weng-ting-ji",
+    "sources": [
+      {
+        "page": "醉翁亭記",
+        "url": "https://zh.wikisource.org/wiki/%E9%86%89%E7%BF%81%E4%BA%AD%E8%A8%98",
+        "revision": 2667322,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2667322",
+        "parsed_html_sha256": "dbdba6acddc261fe3669d55a46ee4ed672ba3fb56ab61f23f0516c3c8cf40d34"
+      }
+    ],
+    "selection_note": "",
+    "start": "環滁皆山也。其西南諸峰，林壑尤美。望之蔚然而深秀者，琅琊也。山行六七里",
+    "end": "之樂其樂也。醉能同其樂，醒能述以文者，太守也。太守謂誰？廬陵歐陽修也。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "chi-bi-fu",
+    "sources": [
+      {
+        "page": "前赤壁賦",
+        "url": "https://zh.wikisource.org/wiki/%E5%89%8D%E8%B5%A4%E5%A3%81%E8%B3%A6",
+        "revision": 10247882,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=10247882",
+        "parsed_html_sha256": "539787c27fc0309d3a2f69d29fb41d3397bf20cd4bb3cb997d20b1f4f5dcfadc"
+      }
+    ],
+    "selection_note": "僅取首列通讀正文；不收書畫題跋及逐行異文。",
+    "start": "壬戌之秋，七月既望，蘇子與客泛舟游於赤壁之下。清風徐來，水波不興。舉酒",
+    "end": "喜而笑，洗盞更酌，餚核既盡，杯盤狼籍。相與枕藉乎舟中，不知東方之既白。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "lou-shi-ming",
+    "sources": [
+      {
+        "page": "陋室銘",
+        "url": "https://zh.wikisource.org/wiki/%E9%99%8B%E5%AE%A4%E9%8A%98",
+        "revision": 11122639,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=11122639",
+        "parsed_html_sha256": "26435a3ca61fe3d64b014dc17c53f036facc2b5520877589a377cadbb4419a54"
+      }
+    ],
+    "selection_note": "",
+    "start": "山不在高，有仙則名。水不在深，有龍則靈。斯是陋室，惟吾德馨。苔痕上階綠",
+    "end": "無絲竹之亂耳，無案牘之勞形。南陽諸葛廬，西蜀子雲亭。孔子云：何陋之有？",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "ai-lian-shuo",
+    "sources": [
+      {
+        "page": "愛蓮說",
+        "url": "https://zh.wikisource.org/wiki/%E6%84%9B%E8%93%AE%E8%AA%AA",
+        "revision": 13063261,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=13063261",
+        "parsed_html_sha256": "fcb82d1e0784930a013a16d6a5bb8202747d9743cebcddd21aabe80f53d4afc5"
+      }
+    ],
+    "selection_note": "不收頁末後人評語。",
+    "start": "水陸草木之花，可愛者甚蕃。晉陶淵明獨愛菊。自李唐來，世人盛愛牡丹。予獨",
+    "end": "者也。噫！菊之愛，陶後鮮有聞。蓮之愛，同予者何人？牡丹之愛，宜乎眾矣。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "shi-shuo",
+    "sources": [
+      {
+        "page": "師說",
+        "url": "https://zh.wikisource.org/wiki/%E5%B8%AB%E8%AA%AA",
+        "revision": 13186669,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=13186669",
+        "parsed_html_sha256": "d520c8efe6982bd6e73aa250273dc24fc2cd837db7d2d66e2280647550bdf04a"
+      }
+    ],
+    "selection_note": "",
+    "start": "古之學者必有師。師者，所以傳道受業解惑也。人非生而知之者，孰能無惑？惑",
+    "end": "藝經傳，皆通習之，不拘於時，學於余。余嘉其能行古道，作《師說》以貽之。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "lan-ting-ji-xu",
+    "sources": [
+      {
+        "page": "蘭亭集序",
+        "url": "https://zh.wikisource.org/wiki/%E8%98%AD%E4%BA%AD%E9%9B%86%E5%BA%8F",
+        "revision": 11124686,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=11124686",
+        "parsed_html_sha256": "2631d9d5563e74146d809a411b7ca723d5de9e709c624609e883db0e96ad909f"
+      }
+    ],
+    "selection_note": "取首列正文；不重複收異文版本。",
+    "start": "永和九年，歲在癸丑，暮春之初，會於會稽山陰之蘭亭，修禊事也。群賢畢至，",
+    "end": "，錄其所述，雖世殊事異，所以興懐，其致一也。後之覽者，亦將有感扵斯文。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "teng-wang-ge-xu",
+    "sources": [
+      {
+        "page": "滕王閣序",
+        "url": "https://zh.wikisource.org/wiki/%E6%BB%95%E7%8E%8B%E9%96%A3%E5%BA%8F",
+        "revision": 12697774,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=12697774",
+        "parsed_html_sha256": "3edd568e268187bc4be5449d7b3d2a1fb811d4a4f3a0f4311bc51dcb2202c817"
+      }
+    ],
+    "selection_note": "取首列正文及文末原詩；不重複收異文版本。",
+    "start": "豫章故郡，洪都新府。星分翼軫，地接衡廬。襟三江而帶五湖，控蠻荊而引甌越",
+    "end": "山雨。閒雲潭影日悠悠，物換星移幾度秋。閣中帝子今何在，檻外長江空自流。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "li-yun-da-tong",
+    "sources": [
+      {
+        "page": "禮記/禮運",
+        "url": "https://zh.wikisource.org/wiki/%E7%A6%AE%E8%A8%98/%E7%A6%AE%E9%81%8B",
+        "revision": 13034173,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=13034173",
+        "parsed_html_sha256": "742e89bce4c57320040b032ef39473dbfb208f064b1379e4ca00b49252f9deff"
+      }
+    ],
+    "selection_note": "取《禮記·禮運》「大道之行也」至「是謂大同」。古代編纂作品，無現代譯文。",
+    "start": "大道之行也，天下為公，選賢與能，講信修睦。故人不獨親其親，不獨子其子，",
+    "end": "也，不必為己。是故謀閉而不興，盜竊亂賊而不作，故外戶而不閉。是謂大同。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "song-dong-yang",
+    "sources": [
+      {
+        "page": "送東陽馬生序",
+        "url": "https://zh.wikisource.org/wiki/%E9%80%81%E6%9D%B1%E9%99%BD%E9%A6%AC%E7%94%9F%E5%BA%8F",
+        "revision": 2391410,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2391410",
+        "parsed_html_sha256": "c18f607df4db7a924aee939f6ca39b520b8a6595e8cfabfeca2dcd58a6fddb19"
+      }
+    ],
+    "selection_note": "",
+    "start": "余幼時即嗜學。家貧，無從致書以觀，每假借於藏書之家，手自筆錄，計日以還",
+    "end": "之。謂余勉鄉人以學者，余之志也；詆我夸際遇之盛而驕鄉人者，豈知予者哉！",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "wu-liu-xian-sheng",
+    "sources": [
+      {
+        "page": "五柳先生傳",
+        "url": "https://zh.wikisource.org/wiki/%E4%BA%94%E6%9F%B3%E5%85%88%E7%94%9F%E5%82%B3",
+        "revision": 11135098,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=11135098",
+        "parsed_html_sha256": "c12c9bb679af5ffffb0d782d9f740d53443c4b1b320b355d42a1b57c58fb1eb7"
+      }
+    ],
+    "selection_note": "校正來源「極其言」為通行本「揆其言」，並統一標點。",
+    "start": "先生不知何許人也，亦不詳其姓字。宅邊有五柳樹，因以為號焉。",
+    "end": "揆其言，茲若人之儔乎？酣觴賦詩，以樂其志。無懷氏之民歟！葛天氏之民歟！",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "ma-shuo",
+    "sources": [
+      {
+        "page": "雜說四",
+        "url": "https://zh.wikisource.org/wiki/%E9%9B%9C%E8%AA%AA%E5%9B%9B",
+        "revision": 2016113,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2016113",
+        "parsed_html_sha256": "0447b3df54c0d5ef8da63df324e3b132273d79ba2dd94c0691a46ee5423da5f1"
+      }
+    ],
+    "selection_note": "",
+    "start": "世有伯樂，然後有千里馬。千里馬常有，而伯樂不常有。故雖有名馬，衹辱於奴",
+    "end": "通其意，執策而臨之，曰：「天下無馬！」嗚呼！其真無馬邪？其真不知馬也。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "quan-xue",
+    "sources": [
+      {
+        "page": "荀子/勸學篇",
+        "url": "https://zh.wikisource.org/wiki/%E8%8D%80%E5%AD%90/%E5%8B%B8%E5%AD%B8%E7%AF%87",
+        "revision": 12969982,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=12969982",
+        "parsed_html_sha256": "7462e4d376bff489e3157aefd61439b8a77799ae811881141ecd56f2ab94d85b"
+      }
+    ],
+    "selection_note": "兩段節選：「君子曰」至「善假於物也」及「積土成山」至「用心躁也」；刪去雙行夾注。",
+    "start": "君子曰：學不可以已。青，取之於藍而青於藍；冰，水為之而寒於水。木直中繩",
+    "end": "土，下飲黃泉，用心一也。蟹六跪而二螯，非蛇鱔之穴無可寄託者，用心躁也。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "lun-yu-xue-er",
+    "sources": [
+      {
+        "page": "論語/學而第一",
+        "url": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E/%E5%AD%B8%E8%80%8C%E7%AC%AC%E4%B8%80",
+        "revision": 12807585,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=12807585",
+        "parsed_html_sha256": "109f66d947f21b6db6a68dd53f345f18cf7c8040c71314f4835129bf7d48381a"
+      }
+    ],
+    "selection_note": "取〈學而第一〉原文，刪除章次與校注。",
+    "start": "子曰：「學而時習之，不亦說乎？有朋自遠方來，不亦樂乎？人不知而不慍，不",
+    "end": "子曰：「不患人之不己知，患不知人也。」",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "yu-wo-suo-yu",
+    "sources": [
+      {
+        "page": "孟子/告子上",
+        "url": "https://zh.wikisource.org/wiki/%E5%AD%9F%E5%AD%90/%E5%91%8A%E5%AD%90%E4%B8%8A",
+        "revision": 12969975,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=12969975",
+        "parsed_html_sha256": "70b9af82518cf46b21627817834180a34c9e132ae726000257ceb4d0e0634758"
+      }
+    ],
+    "selection_note": "取《告子上》第十章，從「孟子曰：魚」至「失其本心」。",
+    "start": "孟子曰：「魚，我所欲也；熊掌，亦我所欲也。二者不可得兼，舍魚而取熊掌者",
+    "end": "死而不受，今為所識窮乏者得我而為之。是亦不可以已乎？此之謂失其本心。」",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "cao-gui-lun-zhan",
+    "sources": [
+      {
+        "page": "曹劌論戰",
+        "url": "https://zh.wikisource.org/wiki/%E6%9B%B9%E5%8A%8C%E8%AB%96%E6%88%B0",
+        "revision": 2644775,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2644775",
+        "parsed_html_sha256": "158e62ee28464a7bce5fd16c330b24e55d7364aa9f4665072643a2f2a83e9924"
+      }
+    ],
+    "selection_note": "",
+    "start": "十年春，齊師伐我，公將戰，曹劌請見。其鄉人曰：「肉食者謀之，又何間焉？",
+    "end": "盈，故克之。夫大國，難測也，懼有伏焉。吾視其轍亂，望其旗靡，故逐之。」",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "zou-ji-feng-qi-wang",
+    "sources": [
+      {
+        "page": "鄒忌諷齊王納諫",
+        "url": "https://zh.wikisource.org/wiki/%E9%84%92%E5%BF%8C%E8%AB%B7%E9%BD%8A%E7%8E%8B%E7%B4%8D%E8%AB%AB",
+        "revision": 2573091,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2573091",
+        "parsed_html_sha256": "711e8f6f46537072291be189d571bdc92235199bf81d60cb589f4390503f4d52"
+      }
+    ],
+    "selection_note": "刪去頁末現代詞語註釋。",
+    "start": "鄒忌修八尺有餘，而形貌昳麗。朝服衣冠，窺鏡，謂其妻曰：「我孰與城北徐公",
+    "end": "後，雖欲言，無可進者。燕、趙、韓、魏聞之，皆朝於齊。此所謂戰勝於朝廷。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "chen-qing-biao",
+    "sources": [
+      {
+        "page": "陳情表 (西晉)",
+        "url": "https://zh.wikisource.org/wiki/%E9%99%B3%E6%83%85%E8%A1%A8_%28%E8%A5%BF%E6%99%89%29",
+        "revision": 10482707,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=10482707",
+        "parsed_html_sha256": "0ba2949a3d88e07e619a306c76feef3cb77a1935d3f9898a4fed5ff72114bd29"
+      }
+    ],
+    "selection_note": "",
+    "start": "臣密言：臣以險釁，夙遭閔凶。生孩六月，慈父見背。行年四歲，舅奪母志。祖",
+    "end": "臣不勝犬馬怖懼之情，謹拜表以聞。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "liu-guo-lun",
+    "sources": [
+      {
+        "page": "六國論 (蘇洵)",
+        "url": "https://zh.wikisource.org/wiki/%E5%85%AD%E5%9C%8B%E8%AB%96_%28%E8%98%87%E6%B4%B5%29",
+        "revision": 12969965,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=12969965",
+        "parsed_html_sha256": "659e640403991ca714720cd99adae0363f9cb723d2a9910bbd8e6b2973271984"
+      }
+    ],
+    "selection_note": "僅取蘇洵正文，不含頁末《古文評註》評語。",
+    "start": "六國破滅，非兵不利，戰不善，弊在賂秦。賂秦而力虧，破滅之道也。或曰：「",
+    "end": "可以不賂而勝之之勢；苟以天下之大，而從六國破亡之故事，是又在六國下矣！",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "shi-de-xi-shan",
+    "sources": [
+      {
+        "page": "始得西山宴遊記",
+        "url": "https://zh.wikisource.org/wiki/%E5%A7%8B%E5%BE%97%E8%A5%BF%E5%B1%B1%E5%AE%B4%E9%81%8A%E8%A8%98",
+        "revision": 12969968,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=12969968",
+        "parsed_html_sha256": "d8711460f623624263aadfaaeb56320859ada152035dd1783f7c137d89a5306c"
+      }
+    ],
+    "selection_note": "",
+    "start": "自余為僇人，居是州，恆惴慄。其隙也，則施施而行，漫漫而游。日與其徒上高",
+    "end": "冥合。然後知吾嚮之未始游，游於是乎始。故為之文以志。是歲，元和四年也。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "xiang-ji-xuan-zhi",
+    "sources": [
+      {
+        "page": "項脊軒志",
+        "url": "https://zh.wikisource.org/wiki/%E9%A0%85%E8%84%8A%E8%BB%92%E5%BF%97",
+        "revision": 7906684,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=7906684",
+        "parsed_html_sha256": "1d128a49ccc5df4a80d1d664e7690c7dd28fb79e636612ce97452110260f5c0e"
+      }
+    ],
+    "selection_note": "",
+    "start": "項脊軒，舊南閤子也。室僅方丈，可容一人居。百年老屋，塵泥滲漉，雨澤下注",
+    "end": "庭有枇杷樹，吾妻死之年所手植也。今已亭亭如蓋矣。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "xiao-shi-tan-ji",
+    "sources": [
+      {
+        "page": "至小丘西小石潭記",
+        "url": "https://zh.wikisource.org/wiki/%E8%87%B3%E5%B0%8F%E4%B8%98%E8%A5%BF%E5%B0%8F%E7%9F%B3%E6%BD%AD%E8%A8%98",
+        "revision": 2510274,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2510274",
+        "parsed_html_sha256": "b75c14194b049d1e4ced678546547bec7bf50fad5e903c4a843f382753928895"
+      }
+    ],
+    "selection_note": "",
+    "start": "從小丘西行百二十步，隔篁竹，聞水聲，如鳴珮環，心樂之。伐竹取道，下見小",
+    "end": "同游者：吳武陵，龔古，余弟宗玄。隸而從者，崔氏二小生：曰恕己，曰奉壹。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "bu-she-zhe-shuo",
+    "sources": [
+      {
+        "page": "捕蛇者說",
+        "url": "https://zh.wikisource.org/wiki/%E6%8D%95%E8%9B%87%E8%80%85%E8%AA%AA",
+        "revision": 8750369,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=8750369",
+        "parsed_html_sha256": "795da443d400ea1aa10483f7fdaf71c7c4d175174fd3d6def1f5682f8f790ebe"
+      }
+    ],
+    "selection_note": "",
+    "start": "永州之野產異蛇，黑質而白章，觸草木盡死。以齧人，無禦之者。然得而腊之以",
+    "end": "猶信。嗚呼！孰知賦斂之毒，有甚是蛇者乎！故為之說，以俟夫觀人風者得焉。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "a-fang-gong-fu",
+    "sources": [
+      {
+        "page": "阿房宮賦",
+        "url": "https://zh.wikisource.org/wiki/%E9%98%BF%E6%88%BF%E5%AE%AE%E8%B3%A6",
+        "revision": 10035503,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=10035503",
+        "parsed_html_sha256": "50fb38cee4e8c7583b90cec53b0e1f205c1bcb0c58f7425a7d9628968ca46f89"
+      }
+    ],
+    "selection_note": "",
+    "start": "六王畢，四海一。蜀山兀，阿房出。覆壓三百餘里，隔離天日。驪山北構而西折",
+    "end": "。秦人不暇自哀，而後人哀之。後人哀之，而不鑑之，亦使後人而復哀後人也。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "da-si-ma-jian-yi",
+    "sources": [
+      {
+        "page": "答司馬諫議書",
+        "url": "https://zh.wikisource.org/wiki/%E7%AD%94%E5%8F%B8%E9%A6%AC%E8%AB%AB%E8%AD%B0%E6%9B%B8",
+        "revision": 10241441,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=10241441",
+        "parsed_html_sha256": "2cf73452cbb1888c2360869ae45dd2d331f9d563b948565a21fb19c7acd82050"
+      }
+    ],
+    "selection_note": "",
+    "start": "某啟：昨日蒙教，竊以為與君實遊處相好之日久，而議事每不合，所操之術多異",
+    "end": "無由會晤，不任區區向往之至。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "you-bao-chan-shan",
+    "sources": [
+      {
+        "page": "遊褒禪山記",
+        "url": "https://zh.wikisource.org/wiki/%E9%81%8A%E8%A4%92%E7%A6%AA%E5%B1%B1%E8%A8%98",
+        "revision": 2438100,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2438100",
+        "parsed_html_sha256": "ff00993239e88367bbe64943c51e82f6e96f3c17626789a29fb62e299c8d169d"
+      }
+    ],
+    "selection_note": "",
+    "start": "褒禪山，亦謂之華山，唐浮圖慧褒，始舍於其址，而卒葬之，以故其後名之曰褒",
+    "end": "；長樂王回深父；予弟安國平父，安上純父。至和元年七月某日，臨川王某記。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "lian-po-lin-xiang-ru",
+    "sources": [
+      {
+        "page": "史記/卷081",
+        "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7081",
+        "revision": 12969973,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=12969973",
+        "parsed_html_sha256": "53994c4c6f1d9756a3eeef9812de94963368c2d0ec383717ed43b518dc352bd3"
+      }
+    ],
+    "selection_note": "取「既罷歸國」至「為刎頸之交」，即將相和一段。",
+    "start": "既罷歸國，以相如功大，拜為上卿，位在廉頗之右。廉頗曰：「我為趙將，有攻",
+    "end": "如門謝罪。曰：「鄙賤之人，不知將軍寬之至此也。」卒相與驩，為刎頸之交。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "hong-men-yan",
+    "sources": [
+      {
+        "page": "史記/卷007",
+        "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7007",
+        "revision": 12725987,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=12725987",
+        "parsed_html_sha256": "3e768110250743db33da22c49dd20a965b3c6daa7b38500e0a826581e7a2fe51"
+      }
+    ],
+    "selection_note": "取《史記·項羽本紀》樊噲入帳、沛公脫身一段；自「於是張良至軍門」至「立誅殺曹無傷」。",
+    "start": "於是張良至軍門，見樊噲。樊噲曰：「今日之事何如？」良曰：「甚急。今者項",
+    "end": "謀。奪項王天下者，必沛公也，吾屬今為之虜矣。」沛公至軍，立誅殺曹無傷。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "zhu-zhi-wu",
+    "sources": [
+      {
+        "page": "燭之武退秦師",
+        "url": "https://zh.wikisource.org/wiki/%E7%87%AD%E4%B9%8B%E6%AD%A6%E9%80%80%E7%A7%A6%E5%B8%AB",
+        "revision": 2444900,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2444900",
+        "parsed_html_sha256": "763757133c4cc1196fd573f343736595b9b8a5956d7cea4623f67107d5ff283d"
+      }
+    ],
+    "selection_note": "",
+    "start": "晉侯、秦伯圍鄭，以其無禮於晉，且貳於楚也。晉軍函陵，秦軍氾南。",
+    "end": "之力而敝之，不仁；失其所與，不知；以亂易整，不武。吾其還也。」亦去之。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "ji-shi-er-lang",
+    "sources": [
+      {
+        "page": "祭十二郎文",
+        "url": "https://zh.wikisource.org/wiki/%E7%A5%AD%E5%8D%81%E4%BA%8C%E9%83%8E%E6%96%87",
+        "revision": 2169882,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2169882",
+        "parsed_html_sha256": "54e6f66d2c845804302cdde0a7ed81eecb9e0212c0c321463eaadcf1bfb54652"
+      }
+    ],
+    "selection_note": "",
+    "start": "年月日，季父愈聞汝喪之七日，乃能銜哀致誠，使建中遠具時羞之奠，告汝十二",
+    "end": "而已。嗚呼！言有窮而情不可終，汝其知也邪？其不知也邪？嗚呼哀哉！尚饗。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "huang-zhou-kuai-zai",
+    "sources": [
+      {
+        "page": "黃州快哉亭記",
+        "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E5%B7%9E%E5%BF%AB%E5%93%89%E4%BA%AD%E8%A8%98",
+        "revision": 2438098,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2438098",
+        "parsed_html_sha256": "d2e90babcf4ac83f91f4264a42ee69269213ce2d8bf640948c0cf6cec611c56e"
+      }
+    ],
+    "selection_note": "",
+    "start": "江出西陵，始得平地，其流奔放肆大；南合湘、沅，北合漢、沔，其勢益張；至",
+    "end": "風，照之以明月，此皆騷人思士之所以悲傷憔悴而不能勝者。烏睹其為快也哉？",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "yu-zhu-yuan-si",
+    "sources": [
+      {
+        "page": "與宋元思書",
+        "url": "https://zh.wikisource.org/wiki/%E8%88%87%E5%AE%8B%E5%85%83%E6%80%9D%E6%9B%B8",
+        "revision": 2639101,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2639101",
+        "parsed_html_sha256": "b32a16b088229b46425c4d590051a6f4aba37c4e7e8e7101f5f83baccf1f95c4"
+      }
+    ],
+    "selection_note": "",
+    "start": "風煙俱淨，天山共色，從流飄蕩，任意東西。自富陽至桐廬，一百許里，奇山異",
+    "end": "峰息心；經綸世務者，窺谷忘返。橫柯上蔽，在晝猶昏；疏條交映，有時見日。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "gui-qu-lai-xi",
+    "sources": [
+      {
+        "page": "歸去來辭並序",
+        "url": "https://zh.wikisource.org/wiki/%E6%AD%B8%E5%8E%BB%E4%BE%86%E8%BE%AD%E4%B8%A6%E5%BA%8F",
+        "revision": 10486711,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=10486711",
+        "parsed_html_sha256": "4b287ee44be434bf061786e41f5b9020bf38b566f10eef6c359425140589fd05"
+      }
+    ],
+    "selection_note": "",
+    "start": "余家貧，耕植不足以自給。幼稚盈室，缾無儲粟。生生所資，未見其術。親故多",
+    "end": "植杖而耘耔。登東皋以舒嘯，臨清流而賦詩。聊乘化以歸盡，樂夫天命復奚疑！",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "mu-lan-shi",
+    "sources": [
+      {
+        "page": "木蘭詩",
+        "url": "https://zh.wikisource.org/wiki/%E6%9C%A8%E8%98%AD%E8%A9%A9",
+        "revision": 11126364,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=11126364",
+        "parsed_html_sha256": "822534e6069c3773569cd3dc2b188880f57619a15cc8872b9eb6fc5cac506acb"
+      }
+    ],
+    "selection_note": "",
+    "start": "唧唧復唧唧，木蘭當戶織。不聞機杼聲，惟聞女嘆息。問女何所思？問女何所憶",
+    "end": "不知木蘭是女郎」。雄兔腳撲朔，雌兔眼迷離。兩兔傍地走，安能辨我是雄雌？",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "chang-hen-ge",
+    "sources": [
+      {
+        "page": "長恨歌",
+        "url": "https://zh.wikisource.org/wiki/%E9%95%B7%E6%81%A8%E6%AD%8C",
+        "revision": 5438689,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=5438689",
+        "parsed_html_sha256": "c971139a9c06dc00290265e058bdf3bc491e12a371d7a7eb34849894da0a8b3b"
+      }
+    ],
+    "selection_note": "",
+    "start": "漢皇重色思傾國，御宇多年求不得。楊家有女初長成，養在深閨人未識。天生麗",
+    "end": "語時。在天願作比翼鳥，在地願為連理枝。天長地久有時盡，此恨緜緜無絕期。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "pi-pa-xing",
+    "sources": [
+      {
+        "page": "琵琶行",
+        "url": "https://zh.wikisource.org/wiki/%E7%90%B5%E7%90%B6%E8%A1%8C",
+        "revision": 9685214,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=9685214",
+        "parsed_html_sha256": "f6178330d32c9b1eecdcc3627088982388990eef29764dd3645279e476503307"
+      }
+    ],
+    "selection_note": "",
+    "start": "元和十年，予左遷九江郡司馬。明年秋，送客湓浦口，聞舟船中夜彈琵琶者，聽",
+    "end": "座中泣下誰最多，江州司馬青衫濕。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "bei-ying",
+    "sources": [
+      {
+        "page": "背影",
+        "url": "https://zh.wikisource.org/wiki/%E8%83%8C%E5%BD%B1",
+        "revision": 2570094,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2570094",
+        "parsed_html_sha256": "fc2570f013c45af93ed25a39ae15db2644b829a73fc3b4ca818f2db089599c49"
+      }
+    ],
+    "selection_note": "",
+    "start": "我與父親不相見已二年餘了，我最不能忘記的是他的背影。那年冬天，祖母死了",
+    "end": "十月在北京。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "cong-cong",
+    "sources": [
+      {
+        "page": "匆匆",
+        "url": "https://zh.wikisource.org/wiki/%E5%8C%86%E5%8C%86",
+        "revision": 2570968,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2570968",
+        "parsed_html_sha256": "f4eceb495e132a013e78bc1723cf40f0cae9b1ceb6367cca42f57203a90435c3"
+      }
+    ],
+    "selection_note": "",
+    "start": "燕子去了，有再來的時候；楊柳枯了，有再青的時候；桃花謝了，有再開的時候",
+    "end": "三二八",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "he-tang-yue-se",
+    "sources": [
+      {
+        "page": "荷塘月色",
+        "url": "https://zh.wikisource.org/wiki/%E8%8D%B7%E5%A1%98%E6%9C%88%E8%89%B2",
+        "revision": 2570152,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2570152",
+        "parsed_html_sha256": "0610b6ccd72ad227f512ccbd52e999abd693e92dc57958d5bf14f022d72bc5b8"
+      }
+    ],
+    "selection_note": "",
+    "start": "這幾天心裡頗不寧靜。今晚在院子裡坐著乘涼，忽然想起日日走過的荷塘，在這",
+    "end": "，不覺已是自己的門前；輕輕地推門進去，什麼聲息也沒有，妻已睡熟好久了。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "lv",
+    "sources": [
+      {
+        "page": "溫州的蹤跡",
+        "url": "https://zh.wikisource.org/wiki/%E6%BA%AB%E5%B7%9E%E7%9A%84%E8%B9%A4%E8%B7%A1",
+        "revision": 2588575,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2588575",
+        "parsed_html_sha256": "ef3aeb7f8148ea6c649a3c118f8d04bde7d3742d419e982b6c14743e78b16545"
+      }
+    ],
+    "selection_note": "取《溫州的蹤跡》第二篇〈綠〉全文，刪除日期；依香港教育局原文校正「花換換換」及兩處誤斷句。校對來源：https://cd.edb.gov.hk/chi/resource/ncs/download/js_list/JS_lu.pdf",
+    "start": "我第二次到仙岩的時候，我驚詫於梅雨潭的綠了。",
+    "end": "我第二次到仙岩的時候，我不禁驚詫於梅雨潭的綠了。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "kong-yi-ji",
+    "sources": [
+      {
+        "page": "孔乙己",
+        "url": "https://zh.wikisource.org/wiki/%E5%AD%94%E4%B9%99%E5%B7%B1",
+        "revision": 2605389,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2605389",
+        "parsed_html_sha256": "8584523c8c13dbdcaef28d148ea1d1db1d0b3c47c72ba2831ddd950971e362e2"
+      }
+    ],
+    "selection_note": "取篇首連續完整段落，至篇幅上限前的段落末。",
+    "start": "魯鎮的酒店的格局，是和別處不同的：都是當街一個曲尺形的大櫃臺，櫃裡面預",
+    "end": "之類，一些不懂了。在這時候，眾人也都哄笑起來：店內外充滿了快活的空氣。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "she-xi",
+    "sources": [
+      {
+        "page": "社戲",
+        "url": "https://zh.wikisource.org/wiki/%E7%A4%BE%E6%88%B2",
+        "revision": 10605419,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=10605419",
+        "parsed_html_sha256": "07b12393345aaa0550a703d662605450414900ed4fa0433dc388a31cb09a1373"
+      }
+    ],
+    "selection_note": "取童年平橋村段落，自「至於我看那好戲的時候」起，止於出發看戲之前；省略原作北京看戲部分。",
+    "start": "至於我看那好戲的時候，卻實在已經是『遠哉遙遙』的了，其時恐怕我還不過十",
+    "end": "外祖母和母親也相信，便不再駁回，都微笑了。我們立刻一鬨的出了門。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "shao-nian-zhong-guo",
+    "sources": [
+      {
+        "page": "少年中國說",
+        "url": "https://zh.wikisource.org/wiki/%E5%B0%91%E5%B9%B4%E4%B8%AD%E5%9C%8B%E8%AA%AA",
+        "revision": 10294249,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=10294249",
+        "parsed_html_sha256": "e86e6473d7f72002dbb01ca23f3b7c61815bafd876a4362aa3e4d74fb2b57138"
+      }
+    ],
+    "selection_note": "取文末「任公曰：造成今日之老大中國者」至「與國無疆」，不含作者附識。",
+    "start": "任公曰：造成今日之老大中國者，則中國老朽之冤業也；製出將來之少年中國者",
+    "end": "途似海，來日方長。美哉我少年中國，與天不老；壯哉我中國少年，與國無疆！",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "zui-ku-yu-zui-le",
+    "sources": [
+      {
+        "page": "最苦與最樂",
+        "url": "https://zh.wikisource.org/wiki/%E6%9C%80%E8%8B%A6%E8%88%87%E6%9C%80%E6%A8%82",
+        "revision": 2624882,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2624882",
+        "parsed_html_sha256": "cc02544db22d79c556c13ce2811068738e19b2da858619fd255daf6553403ed0"
+      }
+    ],
+    "selection_note": "",
+    "start": "人生甚麼事最苦呢？貧嗎？不是；失意嗎？不是；老嗎？死嗎？都不是。我說人",
+    "end": "；盡得小的責任，就得小快樂。你若是要躲；倒是自投苦海，永遠不能解除了。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "a-chang",
+    "sources": [
+      {
+        "page": "阿長與《山海經》",
+        "url": "https://zh.wikisource.org/wiki/%E9%98%BF%E9%95%B7%E8%88%87%E3%80%8A%E5%B1%B1%E6%B5%B7%E7%B6%93%E3%80%8B",
+        "revision": 2563428,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2563428",
+        "parsed_html_sha256": "fd669f5f1468ee7a0c2c261888dad2f80b3b8de2e178e1ba307630d323b7a256"
+      }
+    ],
+    "selection_note": "取篇首連續完整段落，至篇幅上限前的段落末。",
+    "start": "長媽媽，已經說過，是一個一向帶領著我的女工，說得闊氣一點，就是我的保姆",
+    "end": "儀式記得最清楚。總之：都是些煩瑣之至，至今想起來還覺得非常麻煩的事情。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "luo-hua-sheng",
+    "sources": [
+      {
+        "page": "落花生",
+        "url": "https://zh.wikisource.org/wiki/%E8%90%BD%E8%8A%B1%E7%94%9F",
+        "revision": 2110741,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2110741",
+        "parsed_html_sha256": "a30d87fd5289e8114d25151a53567f476fe9b2b3c8c47c9d77d2cefefcd71c95"
+      }
+    ],
+    "selection_note": "",
+    "start": "我們屋後有半畝隙地。母親說：「讓他荒蕪著怪可惜，既然你們那麼愛吃花生，",
+    "end": "談到夜闌才散。所有花生食品雖然沒有了，然而父親底話現在還印在我心版上。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "zai-bie-kang-qiao",
+    "sources": [
+      {
+        "page": "再別康橋",
+        "url": "https://zh.wikisource.org/wiki/%E5%86%8D%E5%88%A5%E5%BA%B7%E6%A9%8B",
+        "revision": 10034898,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=10034898",
+        "parsed_html_sha256": "164ef1d075d276c0175769a5fc7157f96db0555024d2f905f2eaf2620aa0e85b"
+      }
+    ],
+    "selection_note": "刪除重複題名與寫作日期；依原詩分節。",
+    "start": "輕輕的我走了，正如我輕輕的來；我輕輕的招手，作別西天的雲彩。",
+    "end": "悄悄的我走了，正如我悄悄的來；我揮一揮衣袖，不帶走一片雲彩。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "xiang-fei",
+    "sources": [
+      {
+        "page": "想飛",
+        "url": "https://zh.wikisource.org/wiki/%E6%83%B3%E9%A3%9B",
+        "revision": 2528758,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2528758",
+        "parsed_html_sha256": "d48e5be469f3cb8582ebf50915cbe79671f3cbb07b89d73512d0dc24ff9ed7e0"
+      }
+    ],
+    "selection_note": "取篇首連續完整段落，至篇幅上限前的段落末。",
+    "start": "假如這時候窗子外有雪——街上，城牆上，屋脊上，都是雪，胡同口一家屋簷下",
+    "end": "典錢使過了期再也贖不回……真的，我們一過了做孩子的日子就掉了飛的本領。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "yu-qi-shu",
+    "sources": [
+      {
+        "page": "與妻書",
+        "url": "https://zh.wikisource.org/wiki/%E8%88%87%E5%A6%BB%E6%9B%B8",
+        "revision": 2506754,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2506754",
+        "parsed_html_sha256": "72d4d33bf87d84108cd45fb03c80e3fbaa8c8c9fe72f09156408191cc25a7254"
+      }
+    ],
+    "selection_note": "",
+    "start": "意映卿卿如晤：吾今以此書與汝永別矣！吾作此書時，尚是世中一人；汝看此書",
+    "end": "家中諸母皆通文，有不解處，望請其指教，當盡吾意為幸。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "gu-xiang",
+    "sources": [
+      {
+        "page": "故鄉",
+        "url": "https://zh.wikisource.org/wiki/%E6%95%85%E9%84%89",
+        "revision": 2570945,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2570945",
+        "parsed_html_sha256": "4e4ec43a5f1371ac548f54c7a1b33151384704d5cc3f767d1e7b430650b6cc72"
+      }
+    ],
+    "selection_note": "取篇首連續完整段落，至篇幅上限前的段落末。",
+    "start": "我冒了嚴寒，回到相隔二千餘里，別了二十餘年的故鄉去。",
+    "end": "第二日，我便要他捕鳥。他說：",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "feng-zheng",
+    "sources": [
+      {
+        "page": "風箏",
+        "url": "https://zh.wikisource.org/wiki/%E9%A2%A8%E7%AE%8F",
+        "revision": 2629511,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2629511",
+        "parsed_html_sha256": "153850683ca8e1933749d372b90a107e84485104b71b5813f6dc2789e9ffa74a"
+      }
+    ],
+    "selection_note": "",
+    "start": "北京的冬季，地上還有積雪，灰黑色的禿樹枝丫叉於晴朗的天空中，而遠處有一",
+    "end": "肅殺的嚴冬中去罷，——但是，四面又明明是嚴冬，正給我非常的寒威和冷氣。",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "bai-cao-yuan",
+    "sources": [
+      {
+        "page": "從百草園到三味書屋",
+        "url": "https://zh.wikisource.org/wiki/%E5%BE%9E%E7%99%BE%E8%8D%89%E5%9C%92%E5%88%B0%E4%B8%89%E5%91%B3%E6%9B%B8%E5%B1%8B",
+        "revision": 7903272,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=7903272",
+        "parsed_html_sha256": "a1cd6b574046eaff2a2fde4931e6ca862a6e2eb048de225cf82dfa13ea09f7c1"
+      }
+    ],
+    "selection_note": "取篇首連續完整段落，至篇幅上限前的段落末。",
+    "start": "我家的後面有一個很大的園，相傳叫作百草園。現在是早已並屋子一起賣給朱文",
+    "end": "能常到百草園了。Ade，我的蟋蟀們！Ade，我的覆盆子們和木蓮們！……",
+    "normalization": "僅簡體專用字對應＋OpenCC t2tw＋校對異體字與全形標點；不改寫原文"
+  },
+  {
+    "id": "tang-shi-shan-shui",
+    "sources": [
+      {
+        "page": "山居秋暝",
+        "url": "https://zh.wikisource.org/wiki/%E5%B1%B1%E5%B1%85%E7%A7%8B%E6%9A%9D",
+        "revision": 12969969,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=12969969",
+        "parsed_html_sha256": "130ee30cfedcbae37531a70bafb2ca45c9431dbf7dbfc7c2d3dd45f9d3986801"
+      },
+      {
+        "page": "鹿柴 (王維)",
+        "url": "https://zh.wikisource.org/wiki/%E9%B9%BF%E6%9F%B4_%28%E7%8E%8B%E7%B6%AD%29",
+        "revision": 12232893,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=12232893",
+        "parsed_html_sha256": "bc5d04295785fa02f4a365ef21d25e8856623f41ca96b6e1862ce82b372b06e0"
+      },
+      {
+        "page": "輞川集 (王維)/竹里館",
+        "url": "https://zh.wikisource.org/wiki/%E8%BC%9E%E5%B7%9D%E9%9B%86_%28%E7%8E%8B%E7%B6%AD%29/%E7%AB%B9%E9%87%8C%E9%A4%A8",
+        "revision": 2328978,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2328978",
+        "parsed_html_sha256": "6c6b2e8284e9b476a19528ef67c2011286ddd77c9d9c27668afad9f12396f282"
+      },
+      {
+        "page": "皇甫嶽雲溪雜題五首/鳥鳴澗",
+        "url": "https://zh.wikisource.org/wiki/%E7%9A%87%E7%94%AB%E5%B6%BD%E9%9B%B2%E6%BA%AA%E9%9B%9C%E9%A1%8C%E4%BA%94%E9%A6%96/%E9%B3%A5%E9%B3%B4%E6%BE%97",
+        "revision": 2328994,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2328994",
+        "parsed_html_sha256": "765fa412eadd06b4e009ca3dc307e31c3ba66a2c49ee1d661fe522f048f92454"
+      },
+      {
+        "page": "宿建德江",
+        "url": "https://zh.wikisource.org/wiki/%E5%AE%BF%E5%BB%BA%E5%BE%B7%E6%B1%9F",
+        "revision": 1981947,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=1981947",
+        "parsed_html_sha256": "b0867dfb532eb4cfdb0b472e2dba00bf812eef9423c579e2f3e51ea7c8206daa"
+      },
+      {
+        "page": "春曉 (孟浩然)",
+        "url": "https://zh.wikisource.org/wiki/%E6%98%A5%E6%9B%89_%28%E5%AD%9F%E6%B5%A9%E7%84%B6%29",
+        "revision": 11123475,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=11123475",
+        "parsed_html_sha256": "78f59b5280d4f04b61490e6ac3d82b259439f4f0d81bfdc376ac475af52d5102"
+      },
+      {
+        "page": "江雪",
+        "url": "https://zh.wikisource.org/wiki/%E6%B1%9F%E9%9B%AA",
+        "revision": 2315191,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2315191",
+        "parsed_html_sha256": "7dbb38665df9e08986e03e4b94d11f4566c99bda8725ea0f69e03364e62c2ced"
+      }
+    ],
+    "selection_note": "完整短篇合選：山居秋暝、鹿柴 (王維)、竹里館 (王維)、鳥鳴澗、宿建德江、春曉 (孟浩然)、江雪。各篇之間以空白行分隔；篇名與作者對應見研究文件。",
+    "start": "空山新雨後，天氣晚來秋。明月松間照，清泉石上流。竹喧歸浣女，蓮動下漁舟",
+    "end": "千山鳥飛絕，萬徑人蹤滅。孤舟蓑笠翁，獨釣寒江雪。"
+  },
+  {
+    "id": "tang-shi-song-bie",
+    "sources": [
+      {
+        "page": "杜少府之任蜀州",
+        "url": "https://zh.wikisource.org/wiki/%E6%9D%9C%E5%B0%91%E5%BA%9C%E4%B9%8B%E4%BB%BB%E8%9C%80%E5%B7%9E",
+        "revision": 2439758,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2439758",
+        "parsed_html_sha256": "3e3568b2253a5fa913431ab9ea3d219f1473360799b48278c7e04bd1951a4ca5"
+      },
+      {
+        "page": "送元二使安西",
+        "url": "https://zh.wikisource.org/wiki/%E9%80%81%E5%85%83%E4%BA%8C%E4%BD%BF%E5%AE%89%E8%A5%BF",
+        "revision": 12232830,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=12232830",
+        "parsed_html_sha256": "104f0a1f77353eafc9fbe1cc1643be6236bda632c15d35633c97cfe5e063dfc1"
+      },
+      {
+        "page": "黃鶴樓送孟浩然之廣陵",
+        "url": "https://zh.wikisource.org/wiki/%E9%BB%83%E9%B6%B4%E6%A8%93%E9%80%81%E5%AD%9F%E6%B5%A9%E7%84%B6%E4%B9%8B%E5%BB%A3%E9%99%B5",
+        "revision": 12807811,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=12807811",
+        "parsed_html_sha256": "d597081dd3d00153b0f6ba91f3a625aef8a8db82d418596e1934e8096fffbb17"
+      },
+      {
+        "page": "贈汪倫",
+        "url": "https://zh.wikisource.org/wiki/%E8%B4%88%E6%B1%AA%E5%80%AB",
+        "revision": 12232816,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=12232816",
+        "parsed_html_sha256": "444a202989951efef6c3f3ad32423a2c330c9f8eab082270ce5e847bb9c4e9fa"
+      },
+      {
+        "page": "芙蓉樓送辛漸",
+        "url": "https://zh.wikisource.org/wiki/%E8%8A%99%E8%93%89%E6%A8%93%E9%80%81%E8%BE%9B%E6%BC%B8",
+        "revision": 1407795,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=1407795",
+        "parsed_html_sha256": "43a38eab1635e51bd44c056ebecbbaeeecfc20f4af1d3404856d7c71470c0d60"
+      },
+      {
+        "page": "九月九日憶山東兄弟",
+        "url": "https://zh.wikisource.org/wiki/%E4%B9%9D%E6%9C%88%E4%B9%9D%E6%97%A5%E6%86%B6%E5%B1%B1%E6%9D%B1%E5%85%84%E5%BC%9F",
+        "revision": 12232633,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=12232633",
+        "parsed_html_sha256": "7f17325e02297bd9c63e81dc2e214f2c87eb83a9143e6991e3a4e8838c4916d3"
+      }
+    ],
+    "selection_note": "完整短篇合選：送杜少府之任蜀州、送元二使安西、黃鶴樓送孟浩然之廣陵、贈汪倫、芙蓉樓送辛漸、九月九日憶山東兄弟。各篇之間以空白行分隔；篇名與作者對應見研究文件。",
+    "start": "城闕輔三秦，風煙望五津。與君離別意，同是宦遊人。海內存知己，天涯若比鄰",
+    "end": "獨在異鄉為異客，每逢佳節倍思親。遙知兄弟登高處，遍插茱萸少一人。"
+  },
+  {
+    "id": "song-ci-xuan",
+    "sources": [
+      {
+        "page": "水調歌頭 (明月幾時有)",
+        "url": "https://zh.wikisource.org/wiki/%E6%B0%B4%E8%AA%BF%E6%AD%8C%E9%A0%AD_%28%E6%98%8E%E6%9C%88%E5%B9%BE%E6%99%82%E6%9C%89%29",
+        "revision": 10670765,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=10670765",
+        "parsed_html_sha256": "ad185b11c38a97dc16d8833c15d2747db1cff2a276e2a6afac6bb97c92a0e6c7"
+      },
+      {
+        "page": "念奴嬌 (蘇軾)",
+        "url": "https://zh.wikisource.org/wiki/%E5%BF%B5%E5%A5%B4%E5%AC%8C_%28%E8%98%87%E8%BB%BE%29",
+        "revision": 12969972,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=12969972",
+        "parsed_html_sha256": "312701b16095435c6cd49b6c019e17813eb112da3c3e699b09007b2fd19c074a"
+      },
+      {
+        "page": "青玉案 (辛棄疾)",
+        "url": "https://zh.wikisource.org/wiki/%E9%9D%92%E7%8E%89%E6%A1%88_%28%E8%BE%9B%E6%A3%84%E7%96%BE%29",
+        "revision": 12969983,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=12969983",
+        "parsed_html_sha256": "93cea8e1e98260643041523ef311abb186429e27ee237e0ab77edd1cb4fd6980"
+      },
+      {
+        "page": "如夢令 (李清照)/如夢令 (常記溪亭日暮)",
+        "url": "https://zh.wikisource.org/wiki/%E5%A6%82%E5%A4%A2%E4%BB%A4_%28%E6%9D%8E%E6%B8%85%E7%85%A7%29/%E5%A6%82%E5%A4%A2%E4%BB%A4_%28%E5%B8%B8%E8%A8%98%E6%BA%AA%E4%BA%AD%E6%97%A5%E6%9A%AE%29",
+        "revision": 2288412,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2288412",
+        "parsed_html_sha256": "35e6f89c9f4ba9bbe3b1718ed4d59f635333a366867a22fbc90fc6c937f3e6a4"
+      }
+    ],
+    "selection_note": "完整短篇合選：水調歌頭 (明月幾時有)、念奴嬌 (蘇軾)、青玉案 (辛棄疾)、如夢令 (李清照)/如夢令 (常記溪亭日暮)。各篇之間以空白行分隔；篇名與作者對應見研究文件。",
+    "start": "明月幾時有，把酒問青天。不知天上宮闕，今夕是何年。我欲乘風歸去，惟恐瓊",
+    "end": "暮，沉醉不知歸路。興盡晚回舟，誤入藕花深處。爭渡，爭渡，驚起一灘鷗鷺。"
+  },
+  {
+    "id": "yuan-qu-xuan",
+    "sources": [
+      {
+        "page": "天淨沙·秋思",
+        "url": "https://zh.wikisource.org/wiki/%E5%A4%A9%E6%B7%A8%E6%B2%99%C2%B7%E7%A7%8B%E6%80%9D",
+        "revision": 1491130,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=1491130",
+        "parsed_html_sha256": "03d73cfd92abf07e5d9ac5df84a8dc1d9122d25e03e98541d31957fd5701dc0a"
+      },
+      {
+        "page": "山坡羊 (張養浩)",
+        "url": "https://zh.wikisource.org/wiki/%E5%B1%B1%E5%9D%A1%E7%BE%8A_%28%E5%BC%B5%E9%A4%8A%E6%B5%A9%29",
+        "revision": 799034,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=799034",
+        "parsed_html_sha256": "abb26d75afd5d116400e0d5c3d2bfde92802e14cb0d01090a96a9bf3e4907d07"
+      },
+      {
+        "page": "天淨沙 (白樸)",
+        "url": "https://zh.wikisource.org/wiki/%E5%A4%A9%E6%B7%A8%E6%B2%99_%28%E7%99%BD%E6%A8%B8%29",
+        "revision": 1491131,
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=1491131",
+        "parsed_html_sha256": "388dcd596083cd6f20cedae692f71b9fdbbf0b6f64f72a656ca10f7c91547dcb"
+      }
+    ],
+    "selection_note": "完整短篇合選：天淨沙·秋思、山坡羊 (張養浩)、天淨沙 (白樸)。各篇之間以空白行分隔；篇名與作者對應見研究文件。",
+    "start": "枯藤、老樹、昏鴉。小橋、流水、人家。古道、西風、瘦馬。夕陽西下，斷腸人",
+    "end": "一聲畫角樵門，半亭新月黃昏，雪裡山前水濱。竹籬茅舍，淡煙衰草孤村。"
+  },
+  {
+    "id": "roc-constitution",
+    "sources": [
+      {
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001",
+        "retrieved": "2026-11-22",
+        "html_sha256": "796a1602652f7e7f44d153ed62f46eae6bd5cac75db10d4d78e33fe15cfe0179"
+      }
+    ],
+    "selection_note": "取前言及第1條至第6條，省略條號；為憲法原典節選，非增修條文。",
+    "start": "中華民國國民大會受全體國民之付託，依據孫中山先生創立中華民國之遺教，為",
+    "end": "中華民國國旗定為紅地，左上角青天白日。"
+  },
+  {
+    "id": "udhr",
+    "sources": [
+      {
+        "url": "https://www.un.org/zh/about-us/universal-declaration-of-human-rights",
+        "retrieved": "2026-11-22",
+        "html_sha256": "69019da1798ceb728b89f96a095537da972fedd9af610247a0919508c476ce9d"
+      }
+    ],
+    "selection_note": "© 聯合國；取用日期2026-11-22。依聯合國版權政策手冊第5.33(b)段重用官方中文網頁節錄。以OpenCC s2tw轉為繁體並調整標點，非另採他人譯本；非聯合國官方繁體版本。未使用徽章、插圖或前言。授權政策：https://uncitral.un.org/sites/default/files/media-documents/uncitral/en/policy_manual_rev_sept_2020.pdf",
+    "start": "人人生而自由，在尊嚴和權利上一律平等。他們賦有理性和良心，並應以兄弟關",
+    "end": "公正的和公開的審訊，以確定他的權利和義務並判定對他提出的任何刑事指控。"
+  }
+]

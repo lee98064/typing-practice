@@ -1,0 +1,347 @@
+{
+  "data-raw/array/array30.cin": {
+    "sha256": "9231ba863cb7d499ee4b49981967fa6193e2c07d9087dee0b81c253b706167b6",
+    "rows": 117201,
+    "unique_code_output_pairs": 117201,
+    "unique_single_codepoint_outputs": 102965,
+    "unique_han": 101985,
+    "max_code_length": 5,
+    "code_length_counts": {
+      "1": 64,
+      "2": 1664,
+      "3": 9093,
+      "4": 33222,
+      "5": 73158
+    },
+    "longest_examples": [
+      [
+        "yk;si",
+        "说"
+      ],
+      [
+        "arjsi",
+        "现"
+      ],
+      [
+        "ylf;i",
+        "话"
+      ],
+      [
+        "pacmi",
+        "题"
+      ],
+      [
+        "ibami",
+        "领"
+      ],
+      [
+        "khbmi",
+        "领"
+      ],
+      [
+        "kjkmi",
+        "资"
+      ],
+      [
+        "xaaxi",
+        "线"
+      ]
+    ],
+    "punctuation": {
+      "，": [
+        ",",
+        "w1"
+      ],
+      "。": [
+        ".",
+        "w1"
+      ],
+      "、": [
+        "w1"
+      ],
+      "；": [
+        ";",
+        "w1"
+      ],
+      "：": [
+        ";",
+        "w1"
+      ],
+      "「": [
+        "w2"
+      ],
+      "」": [
+        "w2"
+      ],
+      "？": [
+        "w1"
+      ],
+      "！": [
+        "w1"
+      ],
+      "…": [
+        "w1"
+      ],
+      "『": [
+        "w2"
+      ],
+      "』": [
+        "w2"
+      ]
+    },
+    "example_checks": [
+      {
+        "char": "明",
+        "code": "pu",
+        "ok": true
+      },
+      {
+        "char": "林",
+        "code": "vv",
+        "ok": true
+      },
+      {
+        "char": "法",
+        "code": "crx",
+        "ok": true
+      }
+    ]
+  },
+  "data-raw/array/array-shortcode.cin": {
+    "sha256": "9ccac04ec93fdc511e32573c6a07c6c588a7b09903652da5ba39142be4e127bf",
+    "rows": 9300,
+    "unique_code_output_pairs": 4222,
+    "unique_single_codepoint_outputs": 3229,
+    "unique_han": 3208,
+    "max_code_length": 2,
+    "code_length_counts": {
+      "1": 300,
+      "2": 9000
+    },
+    "longest_examples": [
+      [
+        ",,",
+        "炎"
+      ],
+      [
+        ",,",
+        "⎔"
+      ],
+      [
+        ",,",
+        "⎔"
+      ],
+      [
+        ",,",
+        "⎔"
+      ],
+      [
+        ",,",
+        "⎔"
+      ],
+      [
+        ",,",
+        "⎔"
+      ],
+      [
+        ",,",
+        "榮"
+      ],
+      [
+        ",,",
+        "⎔"
+      ]
+    ],
+    "punctuation": {
+      "，": [
+        ","
+      ],
+      "。": [
+        "."
+      ],
+      "、": [
+        "d"
+      ],
+      "；": [
+        ";"
+      ],
+      "：": [
+        ";"
+      ],
+      "「": [
+        "d"
+      ],
+      "」": [
+        "d"
+      ],
+      "？": [
+        "/"
+      ],
+      "！": [
+        "d"
+      ],
+      "…": [
+        "/"
+      ],
+      "『": [
+        "/"
+      ],
+      "』": [
+        "/"
+      ]
+    }
+  },
+  "data-raw/array/array-special.cin": {
+    "sha256": "07da42f73be73ef3b6925fc96b093cfa35fc3f1931c34d3c4daa9893f1456835",
+    "rows": 398,
+    "unique_code_output_pairs": 398,
+    "unique_single_codepoint_outputs": 398,
+    "unique_han": 398,
+    "max_code_length": 2,
+    "code_length_counts": {
+      "2": 398
+    },
+    "longest_examples": [
+      [
+        "ak",
+        "大"
+      ],
+      [
+        "ah",
+        "不"
+      ],
+      [
+        "dk",
+        "小"
+      ],
+      [
+        "pc",
+        "是"
+      ],
+      [
+        "jj",
+        "再"
+      ],
+      [
+        ";;",
+        "個"
+      ],
+      [
+        "lo",
+        "我"
+      ],
+      [
+        "dr",
+        "在"
+      ]
+    ],
+    "punctuation": {
+      "，": [],
+      "。": [],
+      "、": [],
+      "；": [],
+      "：": [],
+      "「": [],
+      "」": [],
+      "？": [],
+      "！": [],
+      "…": [],
+      "『": [],
+      "』": []
+    }
+  },
+  "data-raw/dayi/dayi3.cin": {
+    "sha256": "45f56c2c9bab15fb4c9a35ea98670ea654a4d3bbe2daf03dc20d0fffd0078ff3",
+    "rows": 18638,
+    "unique_code_output_pairs": 18638,
+    "unique_single_codepoint_outputs": 13052,
+    "unique_han": 13052,
+    "max_code_length": 4,
+    "code_length_counts": {
+      "1": 87,
+      "2": 1696,
+      "3": 7218,
+      "4": 9637
+    },
+    "longest_examples": [
+      [
+        "1111",
+        "訓"
+      ],
+      [
+        "1118",
+        "順"
+      ],
+      [
+        "11rx",
+        "謏"
+      ],
+      [
+        "11wx",
+        "謏"
+      ],
+      [
+        "127.",
+        "誨"
+      ],
+      [
+        "12o2",
+        "諱"
+      ],
+      [
+        "12q8",
+        "讚"
+      ],
+      [
+        "12sy",
+        "譕"
+      ]
+    ],
+    "punctuation": {
+      "，": [],
+      "。": [],
+      "、": [],
+      "；": [],
+      "：": [],
+      "「": [],
+      "」": [],
+      "？": [],
+      "！": [],
+      "…": [],
+      "『": [],
+      "』": []
+    },
+    "example_checks": [
+      {
+        "char": "明",
+        "code": "dj",
+        "ok": true
+      },
+      {
+        "char": "林",
+        "code": "ii",
+        "ok": true
+      },
+      {
+        "char": "江",
+        "code": "xr",
+        "ok": true
+      },
+      {
+        "char": "支",
+        "code": "sx",
+        "ok": true
+      },
+      {
+        "char": "秋",
+        "code": "vy",
+        "ok": true
+      },
+      {
+        "char": "鑷",
+        "code": "0pp",
+        "ok": true
+      }
+    ]
+  }
+}

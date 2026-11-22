@@ -1,0 +1,44 @@
+{
+  "retrieved": "2026-11-22",
+  "source": "openvanilla/McBopomofo",
+  "commit": "592d5b7f3ac2d8ee39ddf01c9e806af45d9f21c5",
+  "libtabe_commit": "ea382a829c916f2cceda2022afdf8e8471e6e7b5",
+  "files": [
+    {
+      "file": "BPMFBase.txt",
+      "url": "https://raw.githubusercontent.com/openvanilla/McBopomofo/592d5b7f3ac2d8ee39ddf01c9e806af45d9f21c5/Source/Data/BPMFBase.txt",
+      "sha256": "0acea11158afb2d4bf6e81729b427c3807c377c9656f6438221ac510ccae29bd",
+      "bytes": 720858
+    },
+    {
+      "file": "BPMFMappings.txt",
+      "url": "https://raw.githubusercontent.com/openvanilla/McBopomofo/592d5b7f3ac2d8ee39ddf01c9e806af45d9f21c5/Source/Data/BPMFMappings.txt",
+      "sha256": "669fc54cba7d091986d9d58fa409ffe089a03f37b7b904a1827f674e2a8899ca",
+      "bytes": 5043356
+    },
+    {
+      "file": "BPMFPunctuations.txt",
+      "url": "https://raw.githubusercontent.com/openvanilla/McBopomofo/592d5b7f3ac2d8ee39ddf01c9e806af45d9f21c5/Source/Data/BPMFPunctuations.txt",
+      "sha256": "3058fd5fb933a5919900caa7332c2d1a95cd11a2a2ff56e51526a4daa4c95083",
+      "bytes": 56826
+    },
+    {
+      "file": "McBopomofo-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/openvanilla/McBopomofo/592d5b7f3ac2d8ee39ddf01c9e806af45d9f21c5/LICENSE.txt",
+      "sha256": "72ed32193b0c629def66df63791b2fb125946b593a3251380e6b949488f47b72",
+      "bytes": 1083
+    },
+    {
+      "file": "McBopomofo-data-README.md",
+      "url": "https://raw.githubusercontent.com/openvanilla/McBopomofo/592d5b7f3ac2d8ee39ddf01c9e806af45d9f21c5/Source/Data/README.md",
+      "sha256": "2cdf3094295c6e13e629b8bafb3e5f49398179189aed59e22a08976a8af153a2",
+      "bytes": 1114
+    },
+    {
+      "file": "libtabe-COPYING",
+      "url": "https://raw.githubusercontent.com/kcwu/libtabe/ea382a829c916f2cceda2022afdf8e8471e6e7b5/COPYING",
+      "sha256": "055d91064dfd275f7f098bd373cf04a2bf32ade93fc05b5dd3c3d7e798153c33",
+      "bytes": 3437
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "retrieved": "2026-11-22",
+  "repository_commit": "fe1905fe676adb4e5ac8a8cd2d6d7998735f5671",
+  "files": {
+    "wikipedia-frequencies-original.html": {
+      "source": "https://raw.githubusercontent.com/czielinski/hanzifreq/fe1905fe676adb4e5ac8a8cd2d6d7998735f5671/hanzifreq/output/frequencies.html",
+      "sha256": "72f7dca541418a4920ff335d3b51ba9cad3558f9422004f5bbe9f00f24fe4f75",
+      "bytes": 680271
+    },
+    "LICENSE-hanzifreq-MIT.txt": {
+      "source": "https://raw.githubusercontent.com/czielinski/hanzifreq/fe1905fe676adb4e5ac8a8cd2d6d7998735f5671/LICENSE.txt",
+      "sha256": "eb3df8bd66488e7f9f5e730e313300996edf04a13374e4093997e816b8d8638a",
+      "bytes": 1087
+    },
+    "upstream-README.md": {
+      "source": "https://raw.githubusercontent.com/czielinski/hanzifreq/fe1905fe676adb4e5ac8a8cd2d6d7998735f5671/README.md",
+      "sha256": "b3f19f888b8e552f8c35936548905d0851f7911afb096bb5930d6c5d6c491e32",
+      "bytes": 2581
+    },
+    "wikipedia-zh-tw-frequency.tsv": {
+      "sha256": "530ad756c308033798467f3586fa74e9e275ad131882783cbb897ae8ba25a6e3",
+      "rows": 7939,
+      "source_rows": 10000,
+      "sum_frequency_percent": "99.97519"
+    }
+  },
+  "conversion": "opencc-python-reimplemented 0.1.7 / s2tw；依單字轉換，合併來源百分比；非臺灣語料的實測字頻"
+}

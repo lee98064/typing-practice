@@ -1,0 +1,61 @@
+{
+  "retrieved": "2026-11-22",
+  "files": {
+    "probe-cangjie.json": {
+      "bytes": 9842,
+      "sha256": "2417dee2c8e9e15a7417058d1c40c6c244a4ce829e03c340601b513a6087d77a"
+    },
+    "GPL-2.0.txt": {
+      "bytes": 17981,
+      "sha256": "81d2e2140695d3a3c76c1fa48b8fc34abfee067f6197812c3e842612be5c3ff6"
+    },
+    "probe-boshiamy.json": {
+      "bytes": 10552,
+      "sha256": "b382cd2765969b4cc8cf434d87b3c2dfd09426d670922db360899c80635ec971"
+    },
+    "CNS_component.txt": {
+      "bytes": 2134887,
+      "sha256": "71f60f5b2cb4e545397f21d8a7ce6d6b801b36c9957c0bffbfad3da1c0abadc8"
+    },
+    "CNS_component_ref.txt": {
+      "bytes": 11925,
+      "sha256": "fbcda8a499d3b640cc53ea1c10c15715661e8551c7e96496cc9efb6d68c26deb"
+    },
+    "probe-chars.txt": {
+      "bytes": 151,
+      "sha256": "16d3079e4b4c56aa58dd6462b6e3220f67135998aa179536a31d518de42d413b"
+    },
+    "ids.txt": {
+      "bytes": 2161631,
+      "sha256": "bfc70a8c09f9f5616ebf0543bd6681e67314e9f7ae2307e5ae8c6f15bdc5c6a6"
+    },
+    "LICENSE-SOURCE.txt": {
+      "bytes": 3649,
+      "sha256": "b70518d91e9aca6de96494e340471cf741a08b7395d4db72fe26a98d51a404fc"
+    },
+    "README-upstream.md": {
+      "bytes": 3644,
+      "sha256": "810382e8b554a6adca612e915191cd031b9bb02121c12aa3387131af57ea46de"
+    },
+    "probe-array.json": {
+      "bytes": 9957,
+      "sha256": "b2a190d9f47813f832d773e325fb506bf905174c86c0245dac87c9a9f32193bb"
+    },
+    "CHISE-README.md": {
+      "bytes": 10218,
+      "sha256": "1a77ce743b5bd2814e748599587b7792992ec7413bcc824336bab14f07c9f741"
+    },
+    "probe-dayi.json": {
+      "bytes": 10269,
+      "sha256": "1af52b1e7c0a9c6434df773933b8bc463b46662246b4ecd3061695695a2bf723"
+    },
+    "OGDL-1.0.txt": {
+      "bytes": 4584,
+      "sha256": "1a1adaeb922b82493bab7ddaa9a87743f1edbbdafa805a72e51f71afe7c03694"
+    },
+    "probe_common.py": {
+      "bytes": 5968,
+      "sha256": "faebe856f61deb194d87f00ee16416abb3a660165ff35da6a57795f92920c1ae"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+墨打 T1a：使用者提供的嘸蝦米 liu57a_ersu 字表
+來源：本專案既有 data-raw/boshiamy/boshiamy.cin；本次未重新下載或替換。
+檔內列示社群來源： http://input.foruto.com/boshiamy/
+檔內列示商業權利人： http://www.liu.com.tw/ （現行官網 https://boshiamy.com/）
+SHA256：d5d2fb887e170e76db2df8cd5fde5f7934bbb6b51cb084cbabde5d6f189fae15
+
+完整原始授權／著作權標頭：
+#嘸蝦米 liu57a_ersu
+#社群網址: http://input.foruto.com/boshiamy/ 蝦米族樂園
+#商業公司: http://www.liu.com.tw/
+#copyright (c) 行易有限公司
+#格式轉換(無附加限制): 趙惟倫 <bluebat@member.fsf.org>, 2007
+#授權方式: Free for non-commercial use
+
+判讀：原檔明示 Free for non-commercial use；格式轉換者另標示無附加限制，並不消除行易的原始權利。可據此記為非商業使用允許，不能標成 MIT、BSD、public domain 或商用可自由利用。
+公開網站、離線PWA會向每位訪客分發整份資料；本標頭沒有更完整的 redistribution/修改/次授權條款或權利人授權函。本研究沒有發現可用現行官方EULA直接取代此2007年字表標頭的證據，也未對外聯絡。建議保留使用者指定表與此原文，但把公開再散布範圍的明確性列為上線前授權風險，不從『免費使用』推導無限制再散布。
+本次不更動也不替換既有的 index.js 及 bopomofo.cin。
+
+字根教學資料：官方根圖 https://boshiamy.com/image/root_all.jpg 與 https://boshiamy.com/images/table_speedroot.png 是研究核對來源，官網保留所有權利；本次只轉寫鍵根對應事實與自寫記憶說明，不分發其圖稿或Then.tw字型。字表的非商業聲明不能自動延伸到官網圖片。

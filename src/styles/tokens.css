@@ -1,0 +1,155 @@
+/* ─────────────────────────────────────────────────────────────
+   墨韻 design tokens
+   宣紙 paper · 墨 ink · 朱砂 cinnabar · 石青 azurite · 藤黃 gamboge
+   ───────────────────────────────────────────────────────────── */
+
+:root {
+  color-scheme: light;
+
+  /* surfaces */
+  --paper: #f6f1e7;
+  --paper-deep: #ede5d5;
+  --paper-card: #fbf8f2;
+  --paper-raised: #fffdf8;
+  --paper-sunk: #efe8da;
+
+  /* ink */
+  --ink: #1e1b18;
+  --ink-2: #4a443d;
+  --ink-3: #857e73; /* upcoming text — ≥3:1 on paper for large serif */
+  --ink-4: #b9b0a2;
+  --ink-5: #d9d1c3;
+  --line: rgb(30 27 24 / 0.1);
+  --line-strong: rgb(30 27 24 / 0.18);
+
+  /* pigments */
+  --cinnabar: #c8382e;
+  --cinnabar-ink: #a42a21;
+  --cinnabar-soft: rgb(200 56 46 / 0.1);
+  --cinnabar-glow: rgb(200 56 46 / 0.28);
+  --azurite: #2f5d73;
+  --azurite-soft: rgb(47 93 115 / 0.12);
+  --azurite-glow: rgb(47 93 115 / 0.35);
+  --gamboge: #c99332;
+  --gamboge-soft: rgb(217 164 65 / 0.18);
+  --jade: #3f7a55;
+  --jade-soft: rgb(63 122 85 / 0.12);
+
+  /* part colors (字根卡 color slots 0..5) */
+  --slot-0: #c8382e;
+  --slot-1: #2f5d73;
+  --slot-2: #b8862b;
+  --slot-3: #3f7a55;
+  --slot-4: #7b4f86;
+  --slot-5: #9a5a2c;
+
+  /* type */
+  --font-serif: 'Noto Serif TC', 'Songti TC', 'STSong', 'PMingLiU', serif;
+  --font-sans: 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', system-ui, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', 'JetBrains Mono', 'Cascadia Mono', Menlo, monospace;
+
+  /* shape & depth */
+  --r-xs: 6px;
+  --r-sm: 10px;
+  --r-md: 14px;
+  --r-lg: 20px;
+  --r-xl: 28px;
+  --shadow-1: 0 1px 2px rgb(60 40 20 / 0.06), 0 1px 0 rgb(255 255 255 / 0.7) inset;
+  --shadow-2: 0 2px 4px rgb(60 40 20 / 0.05), 0 12px 32px -14px rgb(60 40 20 / 0.28);
+  --shadow-3: 0 4px 10px rgb(60 40 20 / 0.06), 0 30px 60px -24px rgb(60 40 20 / 0.38);
+  --key-shadow: 0 1px 0 rgb(255 255 255 / 0.8) inset, 0 -2px 0 rgb(60 40 20 / 0.08) inset,
+    0 2px 0 rgb(60 40 20 / 0.12);
+
+  /* motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-ink: cubic-bezier(0.65, 0, 0.35, 1);
+  --t-fast: 120ms;
+  --t-med: 240ms;
+  --t-slow: 480ms;
+
+  /* paper grain: inline SVG noise */
+  --grain: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.35  0 0 0 0 0.27  0 0 0 0 0.18  0 0 0 0.09 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  --fiber: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='600'><filter id='f'><feTurbulence type='turbulence' baseFrequency='0.012 0.09' numOctaves='2' seed='7'/><feColorMatrix values='0 0 0 0 0.45  0 0 0 0 0.36  0 0 0 0 0.25  0 0 0 0.05 0'/></filter><rect width='100%' height='100%' filter='url(%23f)'/></svg>");
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --paper: #15130f;
+    --paper-deep: #100e0b;
+    --paper-card: #1c1915;
+    --paper-raised: #23201a;
+    --paper-sunk: #12100d;
+    --ink: #ede6d6;
+    --ink-2: #c6bdac;
+    --ink-3: #8a8173;
+    --ink-4: #5a5348;
+    --ink-5: #3a352d;
+    --line: rgb(237 230 214 / 0.09);
+    --line-strong: rgb(237 230 214 / 0.16);
+    --cinnabar: #e25a4d;
+    --cinnabar-ink: #f07a6e;
+    --cinnabar-soft: rgb(226 90 77 / 0.14);
+    --cinnabar-glow: rgb(226 90 77 / 0.35);
+    --azurite: #86b6cc;
+    --azurite-soft: rgb(134 182 204 / 0.14);
+    --azurite-glow: rgb(134 182 204 / 0.4);
+    --gamboge: #e2b65a;
+    --gamboge-soft: rgb(226 182 90 / 0.16);
+    --jade: #82b893;
+    --jade-soft: rgb(130 184 147 / 0.14);
+    --slot-0: #e8695d;
+    --slot-1: #86b6cc;
+    --slot-2: #e2b65a;
+    --slot-3: #82b893;
+    --slot-4: #c49ad0;
+    --slot-5: #d9905c;
+    --shadow-1: 0 1px 2px rgb(0 0 0 / 0.3);
+    --shadow-2: 0 2px 6px rgb(0 0 0 / 0.25), 0 16px 36px -16px rgb(0 0 0 / 0.6);
+    --shadow-3: 0 6px 14px rgb(0 0 0 / 0.3), 0 36px 70px -28px rgb(0 0 0 / 0.75);
+    --key-shadow: 0 1px 0 rgb(255 255 255 / 0.05) inset, 0 -2px 0 rgb(0 0 0 / 0.25) inset,
+      0 2px 0 rgb(0 0 0 / 0.45);
+    --grain: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.9  0 0 0 0 0.85  0 0 0 0 0.75  0 0 0 0.05 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+    --fiber: none;
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --paper: #15130f;
+  --paper-deep: #100e0b;
+  --paper-card: #1c1915;
+  --paper-raised: #23201a;
+  --paper-sunk: #12100d;
+  --ink: #ede6d6;
+  --ink-2: #c6bdac;
+  --ink-3: #8a8173;
+  --ink-4: #5a5348;
+  --ink-5: #3a352d;
+  --line: rgb(237 230 214 / 0.09);
+  --line-strong: rgb(237 230 214 / 0.16);
+  --cinnabar: #e25a4d;
+  --cinnabar-ink: #f07a6e;
+  --cinnabar-soft: rgb(226 90 77 / 0.14);
+  --cinnabar-glow: rgb(226 90 77 / 0.35);
+  --azurite: #86b6cc;
+  --azurite-soft: rgb(134 182 204 / 0.14);
+  --azurite-glow: rgb(134 182 204 / 0.4);
+  --gamboge: #e2b65a;
+  --gamboge-soft: rgb(226 182 90 / 0.16);
+  --jade: #82b893;
+  --jade-soft: rgb(130 184 147 / 0.14);
+  --slot-0: #e8695d;
+  --slot-1: #86b6cc;
+  --slot-2: #e2b65a;
+  --slot-3: #82b893;
+  --slot-4: #c49ad0;
+  --slot-5: #d9905c;
+  --shadow-1: 0 1px 2px rgb(0 0 0 / 0.3);
+  --shadow-2: 0 2px 6px rgb(0 0 0 / 0.25), 0 16px 36px -16px rgb(0 0 0 / 0.6);
+  --shadow-3: 0 6px 14px rgb(0 0 0 / 0.3), 0 36px 70px -28px rgb(0 0 0 / 0.75);
+  --key-shadow: 0 1px 0 rgb(255 255 255 / 0.05) inset, 0 -2px 0 rgb(0 0 0 / 0.25) inset,
+    0 2px 0 rgb(0 0 0 / 0.45);
+  --grain: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.9  0 0 0 0 0.85  0 0 0 0 0.75  0 0 0 0.05 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  --fiber: none;
+}

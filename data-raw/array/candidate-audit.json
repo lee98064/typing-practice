@@ -1,0 +1,36 @@
+[
+  {
+    "file": "OV-array30.cin",
+    "rows": 117201,
+    "distinct_outputs": 102968,
+    "distinct_outputs_code_max3": 10327,
+    "max_code_len": 5
+  },
+  {
+    "file": "COD-array30.cin",
+    "rows": 117248,
+    "distinct_outputs": 103015,
+    "distinct_outputs_code_max3": 10347,
+    "max_code_len": 5
+  },
+  {
+    "file": "chinese-opendesktop-dayi3.cin",
+    "rows": 18056,
+    "distinct_outputs": 14072,
+    "distinct_outputs_code_max3": 14072,
+    "max_code_len": 3
+  },
+  {
+    "file": "openvanilla-dayi3-patched.cin",
+    "rows": 18657,
+    "distinct_outputs": 13068,
+    "distinct_outputs_code_max3": 7632,
+    "max_code_len": 4
+  },
+  {
+    "file": "rime-array30_main.dict.yaml",
+    "rows": 109843,
+    "distinct_outputs": 92877,
+    "comments": "includes short/special marker suffixes; unique outputs include punctuation"
+  }
+]
