@@ -1,8 +1,8 @@
 name: Deploy to GitHub Pages
 
+# Manual only for now: the site is published from the gh-pages branch via `pnpm deploy`.
+# Switch back to `push: branches: [main]` (and Pages source "GitHub Actions") once Actions is available.
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
